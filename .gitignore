@@ -9,5 +9,6 @@ cache/
 .DS_Store
 .claude/settings.local.json
 
-first-task/second-task/*.zip
+first-task/
+second-task/*.zip
 .DS_Store
