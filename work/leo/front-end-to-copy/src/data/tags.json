@@ -1,0 +1,429 @@
+[
+ {
+  "id": "tag:adaptable",
+  "en": "Adaptable",
+  "pt": "Adaptável",
+  "dimension": "personality",
+  "line": "Arranjo sempre uma maneira!"
+ },
+ {
+  "id": "tag:clever",
+  "en": "Clever",
+  "pt": "Esperto",
+  "dimension": "personality",
+  "line": "O meu cérebro é maior que o teu!"
+ },
+ {
+  "id": "tag:competitive",
+  "en": "Competitive",
+  "pt": "Competitivo",
+  "dimension": "personality",
+  "line": "Vai uma corrida?"
+ },
+ {
+  "id": "tag:confident",
+  "en": "Confident",
+  "pt": "Confiante",
+  "dimension": "personality",
+  "line": "Sou, sim!"
+ },
+ {
+  "id": "tag:curious",
+  "en": "Curious",
+  "pt": "Curioso",
+  "dimension": "personality",
+  "line": "Deixa Ver!"
+ },
+ {
+  "id": "tag:extroverted",
+  "en": "Extroverted",
+  "pt": "Extrovertido",
+  "dimension": "personality",
+  "line": "Olá Malta!"
+ },
+ {
+  "id": "tag:humorous",
+  "en": "Humorous",
+  "pt": "Divertido",
+  "dimension": "personality",
+  "line": "Tem sempre Graça!"
+ },
+ {
+  "id": "tag:imaginative",
+  "en": "Imaginative",
+  "pt": "Imaginativo",
+  "dimension": "personality",
+  "line": "Tenho a cabeça cheia disto"
+ },
+ {
+  "id": "tag:intelligent",
+  "en": "Intelligent",
+  "pt": "Inteligente",
+  "dimension": "personality",
+  "line": "Pensa nisso…"
+ },
+ {
+  "id": "tag:intuitive",
+  "en": "Intuitive",
+  "pt": "Intuitivo",
+  "dimension": "personality",
+  "line": "Vejo com o meu olho interior"
+ },
+ {
+  "id": "tag:logic",
+  "en": "Logic",
+  "pt": "Lógico",
+  "dimension": "personality",
+  "line": "Esquerdo, Direito, Cima, Baixo...faz sentido!"
+ },
+ {
+  "id": "tag:objective",
+  "en": "Objective",
+  "pt": "Objectivo",
+  "dimension": "personality",
+  "line": "Focado e Centrado"
+ },
+ {
+  "id": "tag:optimistic",
+  "en": "Optimistic",
+  "pt": "Optimista",
+  "dimension": "personality",
+  "line": "Para a frente com um sorriso"
+ },
+ {
+  "id": "tag:passionate",
+  "en": "Passionate",
+  "pt": "Apaixonado",
+  "dimension": "personality",
+  "line": "Coração ardente"
+ },
+ {
+  "id": "tag:people-oriented",
+  "en": "People oriented",
+  "pt": "Empático",
+  "dimension": "personality",
+  "line": "Em casa com toda gente"
+ },
+ {
+  "id": "tag:persuasive",
+  "en": "Persuasive",
+  "pt": "Persuasivo",
+  "dimension": "personality",
+  "line": "Olha para mim. Agora faz à minha maneira"
+ },
+ {
+  "id": "tag:practical",
+  "en": "Practical",
+  "pt": "Prático",
+  "dimension": "personality",
+  "line": "A qualquer hora, em qualquer lugar!"
+ },
+ {
+  "id": "tag:sensitive",
+  "en": "Sensitive",
+  "pt": "Sensível",
+  "dimension": "personality",
+  "line": "Manusear com cuidado"
+ },
+ {
+  "id": "tag:wise",
+  "en": "Wise",
+  "pt": "Sábio",
+  "dimension": "personality",
+  "line": "Com a sabedoria da idade"
+ },
+ {
+  "id": "tag:achiever",
+  "en": "Achiever",
+  "pt": "Vencedor",
+  "dimension": "power",
+  "line": "O caminho foi duro, mas cá estou eu"
+ },
+ {
+  "id": "tag:advisor",
+  "en": "Advisor",
+  "pt": "Conselheiro",
+  "dimension": "power",
+  "line": "Segue os meus conselhos e realizarás"
+ },
+ {
+  "id": "tag:analyzer",
+  "en": "Analyzer",
+  "pt": "Analisador",
+  "dimension": "power",
+  "line": "Vejamos mais perto"
+ },
+ {
+  "id": "tag:communicator",
+  "en": "Communicator",
+  "pt": "Comunicador",
+  "dimension": "power",
+  "line": "Falo de modo a ouvirem"
+ },
+ {
+  "id": "tag:composer",
+  "en": "Composer",
+  "pt": "Compositor",
+  "dimension": "power",
+  "line": "Junto tudo com harmonia"
+ },
+ {
+  "id": "tag:conceptualizer",
+  "en": "Conceptualizer",
+  "pt": "Conceptualizador",
+  "dimension": "power",
+  "line": "Esboçarei um plano"
+ },
+ {
+  "id": "tag:connector",
+  "en": "Connector",
+  "pt": "Conector",
+  "dimension": "power",
+  "line": "Junto os pontos"
+ },
+ {
+  "id": "tag:creator",
+  "en": "Creator",
+  "pt": "Criador",
+  "dimension": "power",
+  "line": "O Ser superior do que está por fazer"
+ },
+ {
+  "id": "tag:developer",
+  "en": "Developer",
+  "pt": "Concretizador",
+  "dimension": "power",
+  "line": "Desenvolver, criar, ascender"
+ },
+ {
+  "id": "tag:encourager",
+  "en": "Encourager",
+  "pt": "Motivador",
+  "dimension": "power",
+  "line": "Gooo!!!"
+ },
+ {
+  "id": "tag:energizer",
+  "en": "Energizer",
+  "pt": "Energizador",
+  "dimension": "power",
+  "line": "Cheio de Poder Interior"
+ },
+ {
+  "id": "tag:entertainer",
+  "en": "Entertainer",
+  "pt": "Animador",
+  "dimension": "power",
+  "line": "Divertido, Fixe e Social"
+ },
+ {
+  "id": "tag:entrepreneur",
+  "en": "Entrepreneur",
+  "pt": "Empreendedor",
+  "dimension": "power",
+  "line": "“E” de Empreendedor"
+ },
+ {
+  "id": "tag:explorer",
+  "en": "Explorer",
+  "pt": "Explorador",
+  "dimension": "power",
+  "line": "Encontra-me em qualquer lugar"
+ },
+ {
+  "id": "tag:illustrator",
+  "en": "Illustrator",
+  "pt": "Ilustrador",
+  "dimension": "power",
+  "line": "Desenha, Cria, Pinta, “what else?!”"
+ },
+ {
+  "id": "tag:influencer",
+  "en": "Influencer",
+  "pt": "Influenciador",
+  "dimension": "power",
+  "line": "Ouve o que te digo…"
+ },
+ {
+  "id": "tag:innovator",
+  "en": "Innovator",
+  "pt": "Inovador",
+  "dimension": "power",
+  "line": "Acabo de pensar em algo Novo!"
+ },
+ {
+  "id": "tag:investigator",
+  "en": "Investigator",
+  "pt": "Investigador",
+  "dimension": "power",
+  "line": "Deixa-me verificar isso!"
+ },
+ {
+  "id": "tag:leader",
+  "en": "Leader",
+  "pt": "Líder",
+  "dimension": "power",
+  "line": "As pessoas seguem-me"
+ },
+ {
+  "id": "tag:learner",
+  "en": "Learner",
+  "pt": "Aprendiz",
+  "dimension": "power",
+  "line": "De volta à Escola!"
+ },
+ {
+  "id": "tag:moderator",
+  "en": "Moderator",
+  "pt": "Moderador",
+  "dimension": "power",
+  "line": "O quê…estará certo? O que tens a dizer?"
+ },
+ {
+  "id": "tag:organizer",
+  "en": "Organizer",
+  "pt": "Organizador",
+  "dimension": "power",
+  "line": "Tudo tem um lugar e é assim que deve ser!"
+ },
+ {
+  "id": "tag:planner",
+  "en": "Planner",
+  "pt": "Planeador",
+  "dimension": "power",
+  "line": "Isto vai para aqui, isso vai para aí!"
+ },
+ {
+  "id": "tag:solver",
+  "en": "Solver",
+  "pt": "Solucionador",
+  "dimension": "power",
+  "line": "Tantas Perguntas…mas ainda tenho mais respostas"
+ },
+ {
+  "id": "tag:strategizer",
+  "en": "Strategizer",
+  "pt": "Estratega",
+  "dimension": "power",
+  "line": "Desenhemos um plano"
+ },
+ {
+  "id": "tag:translator",
+  "en": "Translator",
+  "pt": "Tradutor",
+  "dimension": "power",
+  "line": "De “isto” para “aquilo”, é easy!"
+ },
+ {
+  "id": "tag:writer",
+  "en": "Writer",
+  "pt": "Escritor",
+  "dimension": "power",
+  "line": "A caneta é uma espada, E eu tenho muitas"
+ },
+ {
+  "id": "tag:altruism",
+  "en": "Altruism",
+  "pt": "Altruísmo",
+  "dimension": "character",
+  "line": "Tu, Eu, Todos nós"
+ },
+ {
+  "id": "tag:collaboration",
+  "en": "Collaboration",
+  "pt": "Colaboração",
+  "dimension": "character",
+  "line": "Bora Fazer Juntos?"
+ },
+ {
+  "id": "tag:compassion",
+  "en": "Compassion",
+  "pt": "Compaixão",
+  "dimension": "character",
+  "line": "Ofereço-te o meu coração"
+ },
+ {
+  "id": "tag:courage",
+  "en": "Courage",
+  "pt": "Coragem",
+  "dimension": "character",
+  "line": "Listas tribais, tal como um Apache"
+ },
+ {
+  "id": "tag:discipline",
+  "en": "Discipline",
+  "pt": "Disciplina",
+  "dimension": "character",
+  "line": "Tal como no exército"
+ },
+ {
+  "id": "tag:freedom",
+  "en": "Freedom",
+  "pt": "Liberdade",
+  "dimension": "character",
+  "line": "Tenho asas invisíveis"
+ },
+ {
+  "id": "tag:generosity",
+  "en": "Generosity",
+  "pt": "Generosidade",
+  "dimension": "character",
+  "line": "Tenho sempre a mão aberta para dar"
+ },
+ {
+  "id": "tag:humility",
+  "en": "Humility",
+  "pt": "Humildade",
+  "dimension": "character",
+  "line": "As minhas humildes vestes são a minha alma"
+ },
+ {
+  "id": "tag:integrity",
+  "en": "Integrity",
+  "pt": "Integridade",
+  "dimension": "character",
+  "line": "Como um Cavaleiro"
+ },
+ {
+  "id": "tag:maturity",
+  "en": "Maturity",
+  "pt": "Maturidade",
+  "dimension": "character",
+  "line": "Como as Árvores cresço devagar mas com firmeza"
+ },
+ {
+  "id": "tag:persistence",
+  "en": "Persistence",
+  "pt": "Persistência",
+  "dimension": "character",
+  "line": "Hei-de conseguir..conseguirei"
+ },
+ {
+  "id": "tag:responsibility",
+  "en": "Responsibility",
+  "pt": "Responsabilidade",
+  "dimension": "character",
+  "line": "Um fardo usado mas belo"
+ },
+ {
+  "id": "tag:sincerity",
+  "en": "Sincerity",
+  "pt": "Sinceridade",
+  "dimension": "character",
+  "line": "A Verdade…acima de tudo"
+ },
+ {
+  "id": "tag:solidarity",
+  "en": "Solidarity",
+  "pt": "Solidariedade",
+  "dimension": "character",
+  "line": "Abraçando e alcançando os outros"
+ },
+ {
+  "id": "tag:tolerance",
+  "en": "Tolerance",
+  "pt": "Tolerância",
+  "dimension": "character",
+  "line": "Um entre muitos"
+ }
+]

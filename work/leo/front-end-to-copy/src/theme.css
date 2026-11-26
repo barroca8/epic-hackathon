@@ -1,0 +1,24 @@
+/* Re-skin the whole app from here. */
+:root {
+  --page: #0e0f14;
+  --background: radial-gradient(circle at 50% 0, #2a3770, #0f1428 60%);
+  --text: #fff;
+  --muted: #b3bce0;
+  --panel: #1b2344;
+  --line: #34407a;
+  --primary: #c8f000;
+  --on-primary: #10121a;
+  --accent: #1fb5d4;
+  --alert: #e94b7a;
+  --personality: #e88f3d;
+  --power: #358ec0;
+  --character: #a4508f;
+  --radius: 20px;
+  --font: Mona, system-ui, sans-serif;
+}
+
+@font-face {
+  font-family: Mona;
+  src: url('/mona.ttf');
+  font-weight: 200 900;
+}
