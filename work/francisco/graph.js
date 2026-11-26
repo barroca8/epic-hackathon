@@ -89,3 +89,14 @@ export async function getProfile(id, circle = null) {
 // Call `cb(row)` on every new triple (live updates for the profile or the graph view).
 export const onChange = (cb) =>
   db.channel("triples").on("postgres_changes", { event: "INSERT", schema: "public", table: "triples" }, (p) => cb(p.new)).subscribe();
+
+// Avatar look for 3 tag ids (one per dimension), or for a person id (uses their self tags).
+// Returns { head:{tag,color,pattern}, body:{...}, arms:{...}, tagline, source }.
+// head = personality, body = power, arms = character. Colors are brand hex values.
+// Patterns: solid, stripes, dots, zigzag, grid, waves, checker, triangles.
+export const avatar = (tagsOrPerson) =>
+  fetch("https://pkabsodqwruyccphfkud.supabase.co/functions/v1/avatar", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(Array.isArray(tagsOrPerson) ? { tags: tagsOrPerson } : { person: tagsOrPerson }),
+  }).then((r) => r.json());

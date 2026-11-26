@@ -89,3 +89,20 @@ Base `https://pkabsodqwruyccphfkud.supabase.co/rest/v1/`, header `apikey: <publi
 
 Responses are capped at 1,000 rows unless `limit` is set. Excel copy of the two views:
 `graph/might-graph.xlsx`, refreshed by `python export_xlsx.py`.
+
+## Avatar endpoint
+
+`POST https://pkabsodqwruyccphfkud.supabase.co/functions/v1/avatar` with `{"tags": [3 tag ids]}` or
+`{"person": "<id>"}` (uses self tags). No key needed. In the app: `await graph.avatar(tags)`.
+
+```json
+{"head": {"tag": "tag:curious", "color": "#E88F3D", "pattern": "zigzag"},
+ "body": {"tag": "tag:leader", "color": "#753065", "pattern": "solid"},
+ "arms": {"tag": "tag:courage", "color": "#C87BCE", "pattern": "stripes"},
+ "tagline": "…", "source": "groq"}
+```
+
+head = personality, body = power, arms = character. Colors come from the 11 brand colors. Patterns the
+frontend must draw: `solid`, `stripes`, `dots`, `zigzag`, `grid`, `waves`, `checker`, `triangles`.
+Groq picks them and writes the tagline; the result is cached, so the same 3 tags always look the same.
+If Groq fails, a fixed rule answers (`source: "fallback"`).
