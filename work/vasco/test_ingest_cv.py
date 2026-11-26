@@ -3,7 +3,7 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from ingest_cv import extract_triples, parse_args, slug
+from ingest_cv import affinity_score, extract_triples, parse_args, slug
 
 
 class IngestCvTest(unittest.TestCase):
@@ -29,6 +29,19 @@ Python and leadership are used daily.
             "sys.argv", ["ingest_cv.py", folder, "--database", "seed.xlsx", "--html-template", "graph.html"]
         ):
             self.assertEqual(parse_args().cv, Path(folder))
+
+    def test_affinity_is_weighted_overlap_percentage(self):
+        left = {"all_might": {
+            "personality": {"tag:curious": 0.6, "tag:wise": 0.4},
+            "power": {"tag:solver": 1.0},
+            "character": {},
+        }}
+        right = {"all_might": {
+            "personality": {"tag:curious": 0.3, "tag:wise": 0.2, "tag:logic": 0.5},
+            "power": {"tag:solver": 0.4, "tag:leader": 0.6},
+            "character": {},
+        }}
+        self.assertEqual(affinity_score(left, right), 45.0)
 
 
 if __name__ == "__main__":
