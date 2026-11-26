@@ -37,7 +37,8 @@ Mapping to `work/francisco/graph.js` and `contract.md`:
 | `listLinks` | `GET ligacoes?limit=2000`: `remetente`, `destinatario`, `circulo`, `estado` aceite / recusado / pendente → accepted / refused / pending. Page past 1,000 rows |
 | `avatar(tags)` | `graph.avatar(tags)`; it ignores `signals` and returns no `art`, so the app draws the colors and patterns |
 | `requestMight` | no backend call: share `?give=<person id>` |
-| `parseCv`, `connectAccount` | not built yet; keep the mock versions |
+| `parseCv` | see `work/vasco/` (`ingest_cv.py`, writes CV triples); keep the mock until it has an endpoint |
+| `connectAccount` | not built yet; keep the mock version |
 
 - Keep the artwork figures with the live avatar: return `{ ...await graph.avatar(tags), art: pickAvatar(tags, signals).art }`.
 - The live table is public and rows cannot be deleted. Do not test with real personal data.
