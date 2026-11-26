@@ -1,0 +1,2 @@
+- Exportador e Excel enriquecido: `work/diogo/export_profiles.mjs`, `work/diogo/profiles.xlsx`; fonte: endpoints `participantes`, `ligacoes`, `triples` do contrato de Francisco. Actualizar com `node work/diogo/export_profiles.mjs`.
+- Perfis da demo publicados como triplos `PROFILE`, `source=diogo:profiles:v1`; publicar/verificar: `node work/diogo/publish_profiles.mjs`. O frontend deve fazer JSON.parse(object) e escolher a versão mais recente por subject.

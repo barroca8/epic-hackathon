@@ -1,0 +1,3915 @@
+{
+  "person:afonso-lobo-nogueira": {
+    "id": "person:afonso-lobo-nogueira",
+    "nome": "Afonso Lobo Nogueira",
+    "grupo": "Marca G",
+    "self_tags": [
+      "tag:persuasive",
+      "tag:advisor",
+      "tag:integrity"
+    ],
+    "mights_recebidos": 25,
+    "mights_enviados": 27,
+    "self_might": {
+      "personality": [
+        "tag:persuasive"
+      ],
+      "power": [
+        "tag:advisor"
+      ],
+      "character": [
+        "tag:integrity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Amigos",
+      "Família",
+      "Escola",
+      "Clientes",
+      "Comunidade"
+    ],
+    "mights_aceites": 25,
+    "all_might": {
+      "personality": {
+        "tag:persuasive": 0.32,
+        "tag:sensitive": 0.28,
+        "tag:curious": 0.2,
+        "tag:adaptable": 0.04,
+        "tag:confident": 0.04,
+        "tag:extroverted": 0.04,
+        "tag:humorous": 0.04,
+        "tag:intuitive": 0.04
+      },
+      "power": {
+        "tag:connector": 0.44,
+        "tag:advisor": 0.2,
+        "tag:encourager": 0.16,
+        "tag:illustrator": 0.08,
+        "tag:entertainer": 0.04,
+        "tag:investigator": 0.04,
+        "tag:leader": 0.04
+      },
+      "character": {
+        "tag:maturity": 0.56,
+        "tag:responsibility": 0.24,
+        "tag:integrity": 0.16,
+        "tag:collaboration": 0.04
+      }
+    }
+  },
+  "person:andre-reis": {
+    "id": "person:andre-reis",
+    "nome": "André Reis",
+    "grupo": "Marca A",
+    "self_tags": [
+      "tag:curious",
+      "tag:solver",
+      "tag:solidarity"
+    ],
+    "mights_recebidos": 27,
+    "mights_enviados": 16,
+    "self_might": {
+      "personality": [
+        "tag:curious"
+      ],
+      "power": [
+        "tag:solver"
+      ],
+      "character": [
+        "tag:solidarity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Escola",
+      "Comunidade",
+      "Família",
+      "Clientes"
+    ],
+    "mights_aceites": 27,
+    "all_might": {
+      "personality": {
+        "tag:curious": 0.4444444444444444,
+        "tag:imaginative": 0.25925925925925924,
+        "tag:intelligent": 0.1111111111111111,
+        "tag:persuasive": 0.07407407407407407,
+        "tag:adaptable": 0.037037037037037035,
+        "tag:logic": 0.037037037037037035,
+        "tag:wise": 0.037037037037037035
+      },
+      "power": {
+        "tag:solver": 0.37037037037037035,
+        "tag:explorer": 0.25925925925925924,
+        "tag:leader": 0.18518518518518517,
+        "tag:influencer": 0.1111111111111111,
+        "tag:advisor": 0.037037037037037035,
+        "tag:analyzer": 0.037037037037037035
+      },
+      "character": {
+        "tag:tolerance": 0.4074074074074074,
+        "tag:maturity": 0.2962962962962963,
+        "tag:generosity": 0.1111111111111111,
+        "tag:compassion": 0.07407407407407407,
+        "tag:courage": 0.037037037037037035,
+        "tag:discipline": 0.037037037037037035,
+        "tag:solidarity": 0.037037037037037035
+      }
+    }
+  },
+  "person:andreia-lacerda-serrano": {
+    "id": "person:andreia-lacerda-serrano",
+    "nome": "Andreia Lacerda Serrano",
+    "grupo": "Marca H",
+    "self_tags": [
+      "tag:intelligent",
+      "tag:developer",
+      "tag:persistence"
+    ],
+    "mights_recebidos": 9,
+    "mights_enviados": 13,
+    "self_might": {
+      "personality": [
+        "tag:intelligent"
+      ],
+      "power": [
+        "tag:developer"
+      ],
+      "character": [
+        "tag:persistence"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Colegas",
+      "Comunidade",
+      "Escola"
+    ],
+    "mights_aceites": 9,
+    "all_might": {
+      "personality": {
+        "tag:intelligent": 0.4444444444444444,
+        "tag:optimistic": 0.3333333333333333,
+        "tag:passionate": 0.2222222222222222
+      },
+      "power": {
+        "tag:analyzer": 0.2222222222222222,
+        "tag:developer": 0.2222222222222222,
+        "tag:writer": 0.2222222222222222,
+        "tag:illustrator": 0.1111111111111111,
+        "tag:solver": 0.1111111111111111,
+        "tag:translator": 0.1111111111111111
+      },
+      "character": {
+        "tag:humility": 0.5555555555555556,
+        "tag:responsibility": 0.2222222222222222,
+        "tag:altruism": 0.1111111111111111,
+        "tag:tolerance": 0.1111111111111111
+      }
+    }
+  },
+  "person:beatriz-machado-leal": {
+    "id": "person:beatriz-machado-leal",
+    "nome": "Beatriz Machado Leal",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:confident",
+      "tag:translator",
+      "tag:freedom"
+    ],
+    "mights_recebidos": 29,
+    "mights_enviados": 7,
+    "self_might": {
+      "personality": [
+        "tag:confident"
+      ],
+      "power": [
+        "tag:translator"
+      ],
+      "character": [
+        "tag:freedom"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Amigos",
+      "Comunidade",
+      "Família",
+      "Escola"
+    ],
+    "mights_aceites": 29,
+    "all_might": {
+      "personality": {
+        "tag:clever": 0.4482758620689655,
+        "tag:confident": 0.3103448275862069,
+        "tag:competitive": 0.06896551724137931,
+        "tag:imaginative": 0.034482758620689655,
+        "tag:optimistic": 0.034482758620689655,
+        "tag:passionate": 0.034482758620689655,
+        "tag:practical": 0.034482758620689655,
+        "tag:wise": 0.034482758620689655
+      },
+      "power": {
+        "tag:entertainer": 0.3793103448275862,
+        "tag:solver": 0.3448275862068966,
+        "tag:translator": 0.1724137931034483,
+        "tag:advisor": 0.034482758620689655,
+        "tag:composer": 0.034482758620689655,
+        "tag:leader": 0.034482758620689655
+      },
+      "character": {
+        "tag:freedom": 0.3793103448275862,
+        "tag:maturity": 0.3448275862068966,
+        "tag:generosity": 0.1724137931034483,
+        "tag:persistence": 0.06896551724137931,
+        "tag:courage": 0.034482758620689655
+      }
+    }
+  },
+  "person:bianca-gaspar-matos": {
+    "id": "person:bianca-gaspar-matos",
+    "nome": "Bianca Gaspar Matos",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:competitive",
+      "tag:innovator",
+      "tag:solidarity"
+    ],
+    "mights_recebidos": 26,
+    "mights_enviados": 23,
+    "self_might": {
+      "personality": [
+        "tag:competitive"
+      ],
+      "power": [
+        "tag:innovator"
+      ],
+      "character": [
+        "tag:solidarity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Amigos",
+      "Família",
+      "Comunidade",
+      "Escola"
+    ],
+    "mights_aceites": 26,
+    "all_might": {
+      "personality": {
+        "tag:competitive": 0.38461538461538464,
+        "tag:intelligent": 0.34615384615384615,
+        "tag:extroverted": 0.07692307692307693,
+        "tag:intuitive": 0.038461538461538464,
+        "tag:objective": 0.038461538461538464,
+        "tag:optimistic": 0.038461538461538464,
+        "tag:persuasive": 0.038461538461538464,
+        "tag:wise": 0.038461538461538464
+      },
+      "power": {
+        "tag:moderator": 0.4230769230769231,
+        "tag:entrepreneur": 0.2692307692307692,
+        "tag:innovator": 0.15384615384615385,
+        "tag:communicator": 0.038461538461538464,
+        "tag:learner": 0.038461538461538464,
+        "tag:solver": 0.038461538461538464,
+        "tag:strategizer": 0.038461538461538464
+      },
+      "character": {
+        "tag:persistence": 0.5384615384615384,
+        "tag:solidarity": 0.19230769230769232,
+        "tag:integrity": 0.11538461538461539,
+        "tag:courage": 0.07692307692307693,
+        "tag:altruism": 0.038461538461538464,
+        "tag:responsibility": 0.038461538461538464
+      }
+    }
+  },
+  "person:bruno-brandao": {
+    "id": "person:bruno-brandao",
+    "nome": "Bruno Brandão",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:imaginative",
+      "tag:writer",
+      "tag:solidarity"
+    ],
+    "mights_recebidos": 9,
+    "mights_enviados": 18,
+    "self_might": {
+      "personality": [
+        "tag:imaginative"
+      ],
+      "power": [
+        "tag:writer"
+      ],
+      "character": [
+        "tag:solidarity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes",
+      "Família",
+      "Comunidade"
+    ],
+    "mights_aceites": 9,
+    "all_might": {
+      "personality": {
+        "tag:persuasive": 0.4444444444444444,
+        "tag:humorous": 0.2222222222222222,
+        "tag:imaginative": 0.2222222222222222,
+        "tag:extroverted": 0.1111111111111111
+      },
+      "power": {
+        "tag:illustrator": 0.4444444444444444,
+        "tag:writer": 0.3333333333333333,
+        "tag:entertainer": 0.1111111111111111,
+        "tag:organizer": 0.1111111111111111
+      },
+      "character": {
+        "tag:solidarity": 0.5555555555555556,
+        "tag:discipline": 0.4444444444444444
+      }
+    }
+  },
+  "person:caio-nogueira-vilaca": {
+    "id": "person:caio-nogueira-vilaca",
+    "nome": "Caio Nogueira Vilaça",
+    "grupo": "Marca A",
+    "self_tags": [
+      "tag:confident",
+      "tag:solver",
+      "tag:generosity"
+    ],
+    "mights_recebidos": 23,
+    "mights_enviados": 20,
+    "self_might": {
+      "personality": [
+        "tag:confident"
+      ],
+      "power": [
+        "tag:solver"
+      ],
+      "character": [
+        "tag:generosity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família",
+      "Comunidade",
+      "Clientes",
+      "Escola",
+      "Amigos"
+    ],
+    "mights_aceites": 23,
+    "all_might": {
+      "personality": {
+        "tag:confident": 0.43478260869565216,
+        "tag:sensitive": 0.30434782608695654,
+        "tag:intelligent": 0.13043478260869565,
+        "tag:adaptable": 0.043478260869565216,
+        "tag:intuitive": 0.043478260869565216,
+        "tag:persuasive": 0.043478260869565216
+      },
+      "power": {
+        "tag:moderator": 0.30434782608695654,
+        "tag:energizer": 0.21739130434782608,
+        "tag:strategizer": 0.21739130434782608,
+        "tag:advisor": 0.043478260869565216,
+        "tag:composer": 0.043478260869565216,
+        "tag:creator": 0.043478260869565216,
+        "tag:influencer": 0.043478260869565216,
+        "tag:investigator": 0.043478260869565216,
+        "tag:solver": 0.043478260869565216
+      },
+      "character": {
+        "tag:collaboration": 0.391304347826087,
+        "tag:discipline": 0.391304347826087,
+        "tag:responsibility": 0.08695652173913043,
+        "tag:compassion": 0.043478260869565216,
+        "tag:generosity": 0.043478260869565216,
+        "tag:persistence": 0.043478260869565216
+      }
+    }
+  },
+  "person:catarina-neto-seixas": {
+    "id": "person:catarina-neto-seixas",
+    "nome": "Catarina Neto Seixas",
+    "grupo": "Marca G",
+    "self_tags": [
+      "tag:confident",
+      "tag:connector",
+      "tag:discipline"
+    ],
+    "mights_recebidos": 6,
+    "mights_enviados": 8,
+    "self_might": {
+      "personality": [
+        "tag:confident"
+      ],
+      "power": [
+        "tag:connector"
+      ],
+      "character": [
+        "tag:discipline"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Colegas"
+    ],
+    "mights_aceites": 6,
+    "all_might": {
+      "personality": {
+        "tag:optimistic": 0.5,
+        "tag:imaginative": 0.3333333333333333,
+        "tag:practical": 0.16666666666666666
+      },
+      "power": {
+        "tag:encourager": 0.3333333333333333,
+        "tag:illustrator": 0.3333333333333333,
+        "tag:developer": 0.16666666666666666,
+        "tag:leader": 0.16666666666666666
+      },
+      "character": {
+        "tag:discipline": 0.3333333333333333,
+        "tag:generosity": 0.3333333333333333,
+        "tag:freedom": 0.16666666666666666,
+        "tag:maturity": 0.16666666666666666
+      }
+    }
+  },
+  "person:clara-seixas": {
+    "id": "person:clara-seixas",
+    "nome": "Clara Seixas",
+    "grupo": "Marca F",
+    "self_tags": [
+      "tag:curious",
+      "tag:leader",
+      "tag:humility"
+    ],
+    "mights_recebidos": 17,
+    "mights_enviados": 22,
+    "self_might": {
+      "personality": [
+        "tag:curious"
+      ],
+      "power": [
+        "tag:leader"
+      ],
+      "character": [
+        "tag:humility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes",
+      "Comunidade"
+    ],
+    "mights_aceites": 17,
+    "all_might": {
+      "personality": {
+        "tag:curious": 0.29411764705882354,
+        "tag:persuasive": 0.29411764705882354,
+        "tag:competitive": 0.11764705882352941,
+        "tag:confident": 0.11764705882352941,
+        "tag:adaptable": 0.058823529411764705,
+        "tag:logic": 0.058823529411764705,
+        "tag:optimistic": 0.058823529411764705
+      },
+      "power": {
+        "tag:achiever": 0.35294117647058826,
+        "tag:encourager": 0.35294117647058826,
+        "tag:leader": 0.17647058823529413,
+        "tag:analyzer": 0.058823529411764705,
+        "tag:entrepreneur": 0.058823529411764705
+      },
+      "character": {
+        "tag:humility": 0.47058823529411764,
+        "tag:tolerance": 0.4117647058823529,
+        "tag:solidarity": 0.11764705882352941
+      }
+    }
+  },
+  "person:claudia-machado": {
+    "id": "person:claudia-machado",
+    "nome": "Cláudia Machado",
+    "grupo": "Marca D",
+    "self_tags": [
+      "tag:logic",
+      "tag:investigator",
+      "tag:compassion"
+    ],
+    "mights_recebidos": 11,
+    "mights_enviados": 15,
+    "self_might": {
+      "personality": [
+        "tag:logic"
+      ],
+      "power": [
+        "tag:investigator"
+      ],
+      "character": [
+        "tag:compassion"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Amigos",
+      "Escola"
+    ],
+    "mights_aceites": 11,
+    "all_might": {
+      "personality": {
+        "tag:confident": 0.2727272727272727,
+        "tag:humorous": 0.2727272727272727,
+        "tag:curious": 0.18181818181818182,
+        "tag:logic": 0.18181818181818182,
+        "tag:passionate": 0.09090909090909091
+      },
+      "power": {
+        "tag:communicator": 0.45454545454545453,
+        "tag:solver": 0.36363636363636365,
+        "tag:investigator": 0.18181818181818182
+      },
+      "character": {
+        "tag:sincerity": 0.6363636363636364,
+        "tag:compassion": 0.18181818181818182,
+        "tag:freedom": 0.09090909090909091,
+        "tag:solidarity": 0.09090909090909091
+      }
+    }
+  },
+  "person:constanca-pacheco-peixoto": {
+    "id": "person:constanca-pacheco-peixoto",
+    "nome": "Constança Pacheco Peixoto",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:people-oriented",
+      "tag:influencer",
+      "tag:humility"
+    ],
+    "mights_recebidos": 7,
+    "mights_enviados": 6,
+    "self_might": {
+      "personality": [
+        "tag:people-oriented"
+      ],
+      "power": [
+        "tag:influencer"
+      ],
+      "character": [
+        "tag:humility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas"
+    ],
+    "mights_aceites": 7,
+    "all_might": {
+      "personality": {
+        "tag:passionate": 0.42857142857142855,
+        "tag:practical": 0.2857142857142857,
+        "tag:optimistic": 0.14285714285714285,
+        "tag:people-oriented": 0.14285714285714285
+      },
+      "power": {
+        "tag:conceptualizer": 0.42857142857142855,
+        "tag:influencer": 0.2857142857142857,
+        "tag:solver": 0.2857142857142857
+      },
+      "character": {
+        "tag:humility": 0.5714285714285714,
+        "tag:discipline": 0.2857142857142857,
+        "tag:sincerity": 0.14285714285714285
+      }
+    }
+  },
+  "person:diana-vaz-seixas": {
+    "id": "person:diana-vaz-seixas",
+    "nome": "Diana Vaz Seixas",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:clever",
+      "tag:learner",
+      "tag:compassion"
+    ],
+    "mights_recebidos": 9,
+    "mights_enviados": 19,
+    "self_might": {
+      "personality": [
+        "tag:clever"
+      ],
+      "power": [
+        "tag:learner"
+      ],
+      "character": [
+        "tag:compassion"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Escola",
+      "Colegas",
+      "Amigos"
+    ],
+    "mights_aceites": 9,
+    "all_might": {
+      "personality": {
+        "tag:people-oriented": 0.5555555555555556,
+        "tag:practical": 0.3333333333333333,
+        "tag:sensitive": 0.1111111111111111
+      },
+      "power": {
+        "tag:investigator": 0.4444444444444444,
+        "tag:communicator": 0.3333333333333333,
+        "tag:creator": 0.2222222222222222
+      },
+      "character": {
+        "tag:compassion": 0.3333333333333333,
+        "tag:humility": 0.3333333333333333,
+        "tag:altruism": 0.1111111111111111,
+        "tag:courage": 0.1111111111111111,
+        "tag:sincerity": 0.1111111111111111
+      }
+    }
+  },
+  "person:dinis-serrano-pestana": {
+    "id": "person:dinis-serrano-pestana",
+    "nome": "Dinis Serrano Pestana",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:objective",
+      "tag:organizer",
+      "tag:maturity"
+    ],
+    "mights_recebidos": 32,
+    "mights_enviados": 47,
+    "self_might": {
+      "personality": [
+        "tag:objective"
+      ],
+      "power": [
+        "tag:organizer"
+      ],
+      "character": [
+        "tag:maturity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Amigos",
+      "Escola",
+      "Comunidade",
+      "Família",
+      "Clientes"
+    ],
+    "mights_aceites": 32,
+    "all_might": {
+      "personality": {
+        "tag:passionate": 0.4375,
+        "tag:practical": 0.21875,
+        "tag:adaptable": 0.15625,
+        "tag:curious": 0.03125,
+        "tag:logic": 0.03125,
+        "tag:objective": 0.03125,
+        "tag:people-oriented": 0.03125,
+        "tag:persuasive": 0.03125,
+        "tag:sensitive": 0.03125
+      },
+      "power": {
+        "tag:translator": 0.53125,
+        "tag:investigator": 0.15625,
+        "tag:organizer": 0.125,
+        "tag:conceptualizer": 0.03125,
+        "tag:encourager": 0.03125,
+        "tag:energizer": 0.03125,
+        "tag:entertainer": 0.03125,
+        "tag:explorer": 0.03125,
+        "tag:innovator": 0.03125
+      },
+      "character": {
+        "tag:tolerance": 0.4375,
+        "tag:responsibility": 0.3125,
+        "tag:discipline": 0.09375,
+        "tag:solidarity": 0.09375,
+        "tag:compassion": 0.03125,
+        "tag:maturity": 0.03125
+      }
+    }
+  },
+  "person:diogo-valente": {
+    "id": "person:diogo-valente",
+    "nome": "Diogo Valente",
+    "grupo": "Facilitação",
+    "self_tags": [
+      "tag:logic",
+      "tag:learner",
+      "tag:freedom"
+    ],
+    "mights_recebidos": 2,
+    "mights_enviados": 1,
+    "self_might": {
+      "personality": [
+        "tag:logic"
+      ],
+      "power": [
+        "tag:learner"
+      ],
+      "character": [
+        "tag:freedom"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas"
+    ],
+    "mights_aceites": 2,
+    "all_might": {
+      "personality": {
+        "tag:logic": 0.5,
+        "tag:optimistic": 0.5
+      },
+      "power": {
+        "tag:composer": 1
+      },
+      "character": {
+        "tag:collaboration": 0.5,
+        "tag:freedom": 0.5
+      }
+    }
+  },
+  "person:duarte-vaz-godinho": {
+    "id": "person:duarte-vaz-godinho",
+    "nome": "Duarte Vaz Godinho",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:imaginative",
+      "tag:conceptualizer",
+      "tag:discipline"
+    ],
+    "mights_recebidos": 41,
+    "mights_enviados": 56,
+    "self_might": {
+      "personality": [
+        "tag:imaginative"
+      ],
+      "power": [
+        "tag:conceptualizer"
+      ],
+      "character": [
+        "tag:discipline"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Escola",
+      "Colegas",
+      "Família",
+      "Clientes",
+      "Amigos"
+    ],
+    "mights_aceites": 41,
+    "all_might": {
+      "personality": {
+        "tag:competitive": 0.43902439024390244,
+        "tag:extroverted": 0.3902439024390244,
+        "tag:imaginative": 0.07317073170731707,
+        "tag:adaptable": 0.024390243902439025,
+        "tag:intelligent": 0.024390243902439025,
+        "tag:intuitive": 0.024390243902439025,
+        "tag:people-oriented": 0.024390243902439025
+      },
+      "power": {
+        "tag:conceptualizer": 0.34146341463414637,
+        "tag:illustrator": 0.2926829268292683,
+        "tag:entrepreneur": 0.21951219512195122,
+        "tag:investigator": 0.04878048780487805,
+        "tag:achiever": 0.024390243902439025,
+        "tag:composer": 0.024390243902439025,
+        "tag:influencer": 0.024390243902439025,
+        "tag:learner": 0.024390243902439025
+      },
+      "character": {
+        "tag:discipline": 0.4146341463414634,
+        "tag:persistence": 0.3170731707317073,
+        "tag:responsibility": 0.14634146341463414,
+        "tag:courage": 0.04878048780487805,
+        "tag:humility": 0.024390243902439025,
+        "tag:maturity": 0.024390243902439025,
+        "tag:solidarity": 0.024390243902439025
+      }
+    }
+  },
+  "person:fabio-freitas-teles": {
+    "id": "person:fabio-freitas-teles",
+    "nome": "Fábio Freitas Teles",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:practical",
+      "tag:investigator",
+      "tag:tolerance"
+    ],
+    "mights_recebidos": 14,
+    "mights_enviados": 15,
+    "self_might": {
+      "personality": [
+        "tag:practical"
+      ],
+      "power": [
+        "tag:investigator"
+      ],
+      "character": [
+        "tag:tolerance"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Escola",
+      "Clientes",
+      "Colegas",
+      "Amigos",
+      "Família"
+    ],
+    "mights_aceites": 14,
+    "all_might": {
+      "personality": {
+        "tag:extroverted": 0.7142857142857143,
+        "tag:confident": 0.14285714285714285,
+        "tag:practical": 0.14285714285714285
+      },
+      "power": {
+        "tag:encourager": 0.5,
+        "tag:writer": 0.21428571428571427,
+        "tag:moderator": 0.14285714285714285,
+        "tag:explorer": 0.07142857142857142,
+        "tag:solver": 0.07142857142857142
+      },
+      "character": {
+        "tag:integrity": 0.35714285714285715,
+        "tag:persistence": 0.2857142857142857,
+        "tag:maturity": 0.21428571428571427,
+        "tag:altruism": 0.07142857142857142,
+        "tag:courage": 0.07142857142857142
+      }
+    }
+  },
+  "person:fernando-morais": {
+    "id": "person:fernando-morais",
+    "nome": "Fernando Morais",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:intuitive",
+      "tag:advisor",
+      "tag:tolerance"
+    ],
+    "mights_recebidos": 23,
+    "mights_enviados": 12,
+    "self_might": {
+      "personality": [
+        "tag:intuitive"
+      ],
+      "power": [
+        "tag:advisor"
+      ],
+      "character": [
+        "tag:tolerance"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Amigos",
+      "Clientes",
+      "Família",
+      "Escola"
+    ],
+    "mights_aceites": 23,
+    "all_might": {
+      "personality": {
+        "tag:intelligent": 0.34782608695652173,
+        "tag:intuitive": 0.21739130434782608,
+        "tag:practical": 0.17391304347826086,
+        "tag:clever": 0.043478260869565216,
+        "tag:confident": 0.043478260869565216,
+        "tag:humorous": 0.043478260869565216,
+        "tag:imaginative": 0.043478260869565216,
+        "tag:objective": 0.043478260869565216,
+        "tag:optimistic": 0.043478260869565216
+      },
+      "power": {
+        "tag:energizer": 0.43478260869565216,
+        "tag:planner": 0.391304347826087,
+        "tag:connector": 0.08695652173913043,
+        "tag:explorer": 0.043478260869565216,
+        "tag:learner": 0.043478260869565216
+      },
+      "character": {
+        "tag:persistence": 0.43478260869565216,
+        "tag:discipline": 0.2608695652173913,
+        "tag:tolerance": 0.21739130434782608,
+        "tag:generosity": 0.043478260869565216,
+        "tag:sincerity": 0.043478260869565216
+      }
+    }
+  },
+  "person:filipa-pacheco": {
+    "id": "person:filipa-pacheco",
+    "nome": "Filipa Pacheco",
+    "grupo": "Marca D",
+    "self_tags": [
+      "tag:intuitive",
+      "tag:developer",
+      "tag:freedom"
+    ],
+    "mights_recebidos": 22,
+    "mights_enviados": 1,
+    "self_might": {
+      "personality": [
+        "tag:intuitive"
+      ],
+      "power": [
+        "tag:developer"
+      ],
+      "character": [
+        "tag:freedom"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Escola",
+      "Comunidade",
+      "Amigos",
+      "Família"
+    ],
+    "mights_aceites": 22,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.5,
+        "tag:intuitive": 0.22727272727272727,
+        "tag:objective": 0.13636363636363635,
+        "tag:persuasive": 0.09090909090909091,
+        "tag:extroverted": 0.045454545454545456
+      },
+      "power": {
+        "tag:influencer": 0.36363636363636365,
+        "tag:innovator": 0.2727272727272727,
+        "tag:investigator": 0.13636363636363635,
+        "tag:learner": 0.09090909090909091,
+        "tag:creator": 0.045454545454545456,
+        "tag:entertainer": 0.045454545454545456,
+        "tag:organizer": 0.045454545454545456
+      },
+      "character": {
+        "tag:freedom": 0.3181818181818182,
+        "tag:generosity": 0.2727272727272727,
+        "tag:responsibility": 0.13636363636363635,
+        "tag:persistence": 0.09090909090909091,
+        "tag:collaboration": 0.045454545454545456,
+        "tag:courage": 0.045454545454545456,
+        "tag:humility": 0.045454545454545456,
+        "tag:integrity": 0.045454545454545456
+      }
+    }
+  },
+  "person:goncalo-brandao-medeiros": {
+    "id": "person:goncalo-brandao-medeiros",
+    "nome": "Gonçalo Brandão Medeiros",
+    "grupo": "Marca F",
+    "self_tags": [
+      "tag:logic",
+      "tag:analyzer",
+      "tag:courage"
+    ],
+    "mights_recebidos": 18,
+    "mights_enviados": 16,
+    "self_might": {
+      "personality": [
+        "tag:logic"
+      ],
+      "power": [
+        "tag:analyzer"
+      ],
+      "character": [
+        "tag:courage"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família",
+      "Comunidade",
+      "Amigos",
+      "Clientes",
+      "Escola"
+    ],
+    "mights_aceites": 18,
+    "all_might": {
+      "personality": {
+        "tag:wise": 0.3333333333333333,
+        "tag:imaginative": 0.2777777777777778,
+        "tag:adaptable": 0.2222222222222222,
+        "tag:confident": 0.05555555555555555,
+        "tag:intuitive": 0.05555555555555555,
+        "tag:people-oriented": 0.05555555555555555
+      },
+      "power": {
+        "tag:analyzer": 0.4444444444444444,
+        "tag:planner": 0.2222222222222222,
+        "tag:moderator": 0.16666666666666666,
+        "tag:communicator": 0.05555555555555555,
+        "tag:entrepreneur": 0.05555555555555555,
+        "tag:innovator": 0.05555555555555555
+      },
+      "character": {
+        "tag:altruism": 0.5,
+        "tag:collaboration": 0.16666666666666666,
+        "tag:courage": 0.16666666666666666,
+        "tag:compassion": 0.05555555555555555,
+        "tag:freedom": 0.05555555555555555,
+        "tag:tolerance": 0.05555555555555555
+      }
+    }
+  },
+  "person:gustavo-campos-pacheco": {
+    "id": "person:gustavo-campos-pacheco",
+    "nome": "Gustavo Campos Pacheco",
+    "grupo": "Marca E",
+    "self_tags": [
+      "tag:extroverted",
+      "tag:writer",
+      "tag:maturity"
+    ],
+    "mights_recebidos": 8,
+    "mights_enviados": 14,
+    "self_might": {
+      "personality": [
+        "tag:extroverted"
+      ],
+      "power": [
+        "tag:writer"
+      ],
+      "character": [
+        "tag:maturity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Amigos",
+      "Colegas",
+      "Família"
+    ],
+    "mights_aceites": 8,
+    "all_might": {
+      "personality": {
+        "tag:objective": 0.5,
+        "tag:extroverted": 0.25,
+        "tag:humorous": 0.125,
+        "tag:logic": 0.125
+      },
+      "power": {
+        "tag:strategizer": 0.5,
+        "tag:conceptualizer": 0.25,
+        "tag:writer": 0.25
+      },
+      "character": {
+        "tag:collaboration": 0.375,
+        "tag:maturity": 0.25,
+        "tag:discipline": 0.125,
+        "tag:integrity": 0.125,
+        "tag:responsibility": 0.125
+      }
+    }
+  },
+  "person:henrique-couto-barros": {
+    "id": "person:henrique-couto-barros",
+    "nome": "Henrique Couto Barros",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:imaginative",
+      "tag:translator",
+      "tag:tolerance"
+    ],
+    "mights_recebidos": 27,
+    "mights_enviados": 18,
+    "self_might": {
+      "personality": [
+        "tag:imaginative"
+      ],
+      "power": [
+        "tag:translator"
+      ],
+      "character": [
+        "tag:tolerance"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes",
+      "Família",
+      "Amigos",
+      "Escola"
+    ],
+    "mights_aceites": 27,
+    "all_might": {
+      "personality": {
+        "tag:passionate": 0.5185185185185185,
+        "tag:adaptable": 0.18518518518518517,
+        "tag:extroverted": 0.1111111111111111,
+        "tag:intuitive": 0.037037037037037035,
+        "tag:logic": 0.037037037037037035,
+        "tag:objective": 0.037037037037037035,
+        "tag:persuasive": 0.037037037037037035,
+        "tag:practical": 0.037037037037037035
+      },
+      "power": {
+        "tag:solver": 0.5185185185185185,
+        "tag:energizer": 0.25925925925925924,
+        "tag:translator": 0.14814814814814814,
+        "tag:investigator": 0.037037037037037035,
+        "tag:planner": 0.037037037037037035
+      },
+      "character": {
+        "tag:tolerance": 0.4444444444444444,
+        "tag:generosity": 0.4074074074074074,
+        "tag:sincerity": 0.07407407407407407,
+        "tag:collaboration": 0.037037037037037035,
+        "tag:humility": 0.037037037037037035
+      }
+    }
+  },
+  "person:hugo-carvalhal": {
+    "id": "person:hugo-carvalhal",
+    "nome": "Hugo Carvalhal",
+    "grupo": "Marca F",
+    "self_tags": [
+      "tag:intuitive",
+      "tag:leader",
+      "tag:compassion"
+    ],
+    "mights_recebidos": 7,
+    "mights_enviados": 7,
+    "self_might": {
+      "personality": [
+        "tag:intuitive"
+      ],
+      "power": [
+        "tag:leader"
+      ],
+      "character": [
+        "tag:compassion"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Amigos",
+      "Colegas"
+    ],
+    "mights_aceites": 7,
+    "all_might": {
+      "personality": {
+        "tag:optimistic": 0.5714285714285714,
+        "tag:persuasive": 0.2857142857142857,
+        "tag:competitive": 0.14285714285714285
+      },
+      "power": {
+        "tag:leader": 0.5714285714285714,
+        "tag:analyzer": 0.14285714285714285,
+        "tag:organizer": 0.14285714285714285,
+        "tag:strategizer": 0.14285714285714285
+      },
+      "character": {
+        "tag:solidarity": 0.42857142857142855,
+        "tag:compassion": 0.2857142857142857,
+        "tag:persistence": 0.14285714285714285,
+        "tag:sincerity": 0.14285714285714285
+      }
+    }
+  },
+  "person:ines-esteves": {
+    "id": "person:ines-esteves",
+    "nome": "Inês Esteves",
+    "grupo": "Marca E",
+    "self_tags": [
+      "tag:humorous",
+      "tag:influencer",
+      "tag:sincerity"
+    ],
+    "mights_recebidos": 24,
+    "mights_enviados": 27,
+    "self_might": {
+      "personality": [
+        "tag:humorous"
+      ],
+      "power": [
+        "tag:influencer"
+      ],
+      "character": [
+        "tag:sincerity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Escola",
+      "Colegas",
+      "Amigos",
+      "Família",
+      "Comunidade",
+      "Clientes"
+    ],
+    "mights_aceites": 24,
+    "all_might": {
+      "personality": {
+        "tag:humorous": 0.3333333333333333,
+        "tag:sensitive": 0.25,
+        "tag:curious": 0.20833333333333334,
+        "tag:logic": 0.08333333333333333,
+        "tag:extroverted": 0.041666666666666664,
+        "tag:objective": 0.041666666666666664,
+        "tag:people-oriented": 0.041666666666666664
+      },
+      "power": {
+        "tag:solver": 0.4583333333333333,
+        "tag:leader": 0.3333333333333333,
+        "tag:explorer": 0.08333333333333333,
+        "tag:influencer": 0.041666666666666664,
+        "tag:planner": 0.041666666666666664,
+        "tag:writer": 0.041666666666666664
+      },
+      "character": {
+        "tag:courage": 0.4166666666666667,
+        "tag:humility": 0.20833333333333334,
+        "tag:sincerity": 0.20833333333333334,
+        "tag:discipline": 0.041666666666666664,
+        "tag:freedom": 0.041666666666666664,
+        "tag:responsibility": 0.041666666666666664,
+        "tag:solidarity": 0.041666666666666664
+      }
+    }
+  },
+  "person:isabel-medeiros-rebelo": {
+    "id": "person:isabel-medeiros-rebelo",
+    "nome": "Isabel Medeiros Rebelo",
+    "grupo": "Marca B",
+    "self_tags": [
+      "tag:passionate",
+      "tag:organizer",
+      "tag:altruism"
+    ],
+    "mights_recebidos": 29,
+    "mights_enviados": 45,
+    "self_might": {
+      "personality": [
+        "tag:passionate"
+      ],
+      "power": [
+        "tag:organizer"
+      ],
+      "character": [
+        "tag:altruism"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes",
+      "Família",
+      "Escola"
+    ],
+    "mights_aceites": 29,
+    "all_might": {
+      "personality": {
+        "tag:passionate": 0.4827586206896552,
+        "tag:people-oriented": 0.2413793103448276,
+        "tag:clever": 0.13793103448275862,
+        "tag:imaginative": 0.034482758620689655,
+        "tag:intuitive": 0.034482758620689655,
+        "tag:optimistic": 0.034482758620689655,
+        "tag:wise": 0.034482758620689655
+      },
+      "power": {
+        "tag:organizer": 0.3448275862068966,
+        "tag:moderator": 0.27586206896551724,
+        "tag:communicator": 0.1724137931034483,
+        "tag:solver": 0.06896551724137931,
+        "tag:conceptualizer": 0.034482758620689655,
+        "tag:developer": 0.034482758620689655,
+        "tag:energizer": 0.034482758620689655,
+        "tag:translator": 0.034482758620689655
+      },
+      "character": {
+        "tag:altruism": 0.4827586206896552,
+        "tag:generosity": 0.20689655172413793,
+        "tag:humility": 0.06896551724137931,
+        "tag:persistence": 0.06896551724137931,
+        "tag:responsibility": 0.06896551724137931,
+        "tag:discipline": 0.034482758620689655,
+        "tag:freedom": 0.034482758620689655,
+        "tag:integrity": 0.034482758620689655
+      }
+    }
+  },
+  "person:joana-peixoto": {
+    "id": "person:joana-peixoto",
+    "nome": "Joana Peixoto",
+    "grupo": "Facilitação",
+    "self_tags": [
+      "tag:practical",
+      "tag:investigator",
+      "tag:compassion"
+    ],
+    "mights_recebidos": 3,
+    "mights_enviados": 3,
+    "self_might": {
+      "personality": [
+        "tag:practical"
+      ],
+      "power": [
+        "tag:investigator"
+      ],
+      "character": [
+        "tag:compassion"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas"
+    ],
+    "mights_aceites": 3,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.6666666666666666,
+        "tag:practical": 0.3333333333333333
+      },
+      "power": {
+        "tag:connector": 0.3333333333333333,
+        "tag:investigator": 0.3333333333333333,
+        "tag:planner": 0.3333333333333333
+      },
+      "character": {
+        "tag:responsibility": 0.6666666666666666,
+        "tag:integrity": 0.3333333333333333
+      }
+    }
+  },
+  "person:jorge-valadares-monteiro": {
+    "id": "person:jorge-valadares-monteiro",
+    "nome": "Jorge Valadares Monteiro",
+    "grupo": "Marca B",
+    "self_tags": [
+      "tag:confident",
+      "tag:innovator",
+      "tag:solidarity"
+    ],
+    "mights_recebidos": 8,
+    "mights_enviados": 10,
+    "self_might": {
+      "personality": [
+        "tag:confident"
+      ],
+      "power": [
+        "tag:innovator"
+      ],
+      "character": [
+        "tag:solidarity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes"
+    ],
+    "mights_aceites": 8,
+    "all_might": {
+      "personality": {
+        "tag:objective": 0.625,
+        "tag:sensitive": 0.25,
+        "tag:passionate": 0.125
+      },
+      "power": {
+        "tag:innovator": 0.5,
+        "tag:analyzer": 0.25,
+        "tag:moderator": 0.125,
+        "tag:planner": 0.125
+      },
+      "character": {
+        "tag:freedom": 0.5,
+        "tag:altruism": 0.25,
+        "tag:generosity": 0.125,
+        "tag:humility": 0.125
+      }
+    }
+  },
+  "person:leandro-xavier": {
+    "id": "person:leandro-xavier",
+    "nome": "Leandro Xavier",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:extroverted",
+      "tag:creator",
+      "tag:responsibility"
+    ],
+    "mights_recebidos": 34,
+    "mights_enviados": 34,
+    "self_might": {
+      "personality": [
+        "tag:extroverted"
+      ],
+      "power": [
+        "tag:creator"
+      ],
+      "character": [
+        "tag:responsibility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Comunidade",
+      "Colegas",
+      "Família",
+      "Amigos",
+      "Escola",
+      "Clientes"
+    ],
+    "mights_aceites": 34,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.35294117647058826,
+        "tag:intuitive": 0.23529411764705882,
+        "tag:competitive": 0.11764705882352941,
+        "tag:confident": 0.058823529411764705,
+        "tag:people-oriented": 0.058823529411764705,
+        "tag:sensitive": 0.058823529411764705,
+        "tag:adaptable": 0.029411764705882353,
+        "tag:humorous": 0.029411764705882353,
+        "tag:objective": 0.029411764705882353,
+        "tag:optimistic": 0.029411764705882353
+      },
+      "power": {
+        "tag:creator": 0.5,
+        "tag:communicator": 0.29411764705882354,
+        "tag:entrepreneur": 0.08823529411764706,
+        "tag:connector": 0.029411764705882353,
+        "tag:developer": 0.029411764705882353,
+        "tag:illustrator": 0.029411764705882353,
+        "tag:innovator": 0.029411764705882353
+      },
+      "character": {
+        "tag:discipline": 0.35294117647058826,
+        "tag:humility": 0.2647058823529412,
+        "tag:persistence": 0.20588235294117646,
+        "tag:freedom": 0.058823529411764705,
+        "tag:collaboration": 0.029411764705882353,
+        "tag:compassion": 0.029411764705882353,
+        "tag:responsibility": 0.029411764705882353,
+        "tag:sincerity": 0.029411764705882353
+      }
+    }
+  },
+  "person:leonor-campos": {
+    "id": "person:leonor-campos",
+    "nome": "Leonor Campos",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:sensitive",
+      "tag:encourager",
+      "tag:generosity"
+    ],
+    "mights_recebidos": 23,
+    "mights_enviados": 17,
+    "self_might": {
+      "personality": [
+        "tag:sensitive"
+      ],
+      "power": [
+        "tag:encourager"
+      ],
+      "character": [
+        "tag:generosity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família"
+    ],
+    "mights_aceites": 23,
+    "all_might": {
+      "personality": {
+        "tag:confident": 0.34782608695652173,
+        "tag:logic": 0.34782608695652173,
+        "tag:intuitive": 0.13043478260869565,
+        "tag:extroverted": 0.043478260869565216,
+        "tag:humorous": 0.043478260869565216,
+        "tag:intelligent": 0.043478260869565216,
+        "tag:people-oriented": 0.043478260869565216
+      },
+      "power": {
+        "tag:innovator": 0.34782608695652173,
+        "tag:encourager": 0.30434782608695654,
+        "tag:organizer": 0.17391304347826086,
+        "tag:composer": 0.043478260869565216,
+        "tag:energizer": 0.043478260869565216,
+        "tag:influencer": 0.043478260869565216,
+        "tag:moderator": 0.043478260869565216
+      },
+      "character": {
+        "tag:generosity": 0.391304347826087,
+        "tag:freedom": 0.34782608695652173,
+        "tag:tolerance": 0.17391304347826086,
+        "tag:courage": 0.043478260869565216,
+        "tag:humility": 0.043478260869565216
+      }
+    }
+  },
+  "person:lourenco-serrano": {
+    "id": "person:lourenco-serrano",
+    "nome": "Lourenço Serrano",
+    "grupo": "Marca G",
+    "self_tags": [
+      "tag:curious",
+      "tag:encourager",
+      "tag:altruism"
+    ],
+    "mights_recebidos": 9,
+    "mights_enviados": 11,
+    "self_might": {
+      "personality": [
+        "tag:curious"
+      ],
+      "power": [
+        "tag:encourager"
+      ],
+      "character": [
+        "tag:altruism"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família",
+      "Amigos",
+      "Escola",
+      "Clientes"
+    ],
+    "mights_aceites": 9,
+    "all_might": {
+      "personality": {
+        "tag:confident": 0.4444444444444444,
+        "tag:intuitive": 0.4444444444444444,
+        "tag:logic": 0.1111111111111111
+      },
+      "power": {
+        "tag:entertainer": 0.4444444444444444,
+        "tag:creator": 0.2222222222222222,
+        "tag:encourager": 0.2222222222222222,
+        "tag:innovator": 0.1111111111111111
+      },
+      "character": {
+        "tag:compassion": 0.6666666666666666,
+        "tag:altruism": 0.1111111111111111,
+        "tag:discipline": 0.1111111111111111,
+        "tag:sincerity": 0.1111111111111111
+      }
+    }
+  },
+  "person:lucia-lobo": {
+    "id": "person:lucia-lobo",
+    "nome": "Lúcia Lobo",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:imaginative",
+      "tag:conceptualizer",
+      "tag:generosity"
+    ],
+    "mights_recebidos": 43,
+    "mights_enviados": 60,
+    "self_might": {
+      "personality": [
+        "tag:imaginative"
+      ],
+      "power": [
+        "tag:conceptualizer"
+      ],
+      "character": [
+        "tag:generosity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Colegas",
+      "Família",
+      "Amigos",
+      "Escola",
+      "Comunidade"
+    ],
+    "mights_aceites": 43,
+    "all_might": {
+      "personality": {
+        "tag:competitive": 0.4883720930232558,
+        "tag:imaginative": 0.2558139534883721,
+        "tag:extroverted": 0.20930232558139536,
+        "tag:intuitive": 0.023255813953488372,
+        "tag:logic": 0.023255813953488372
+      },
+      "power": {
+        "tag:conceptualizer": 0.46511627906976744,
+        "tag:investigator": 0.23255813953488372,
+        "tag:analyzer": 0.18604651162790697,
+        "tag:writer": 0.046511627906976744,
+        "tag:communicator": 0.023255813953488372,
+        "tag:composer": 0.023255813953488372,
+        "tag:connector": 0.023255813953488372
+      },
+      "character": {
+        "tag:compassion": 0.46511627906976744,
+        "tag:altruism": 0.18604651162790697,
+        "tag:generosity": 0.18604651162790697,
+        "tag:collaboration": 0.046511627906976744,
+        "tag:maturity": 0.046511627906976744,
+        "tag:solidarity": 0.046511627906976744,
+        "tag:integrity": 0.023255813953488372
+      }
+    }
+  },
+  "person:luisa-godinho-seixas": {
+    "id": "person:luisa-godinho-seixas",
+    "nome": "Luísa Godinho Seixas",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:optimistic",
+      "tag:energizer",
+      "tag:tolerance"
+    ],
+    "mights_recebidos": 6,
+    "mights_enviados": 5,
+    "self_might": {
+      "personality": [
+        "tag:optimistic"
+      ],
+      "power": [
+        "tag:energizer"
+      ],
+      "character": [
+        "tag:tolerance"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas"
+    ],
+    "mights_aceites": 6,
+    "all_might": {
+      "personality": {
+        "tag:extroverted": 0.6666666666666666,
+        "tag:confident": 0.16666666666666666,
+        "tag:intuitive": 0.16666666666666666
+      },
+      "power": {
+        "tag:achiever": 0.3333333333333333,
+        "tag:connector": 0.16666666666666666,
+        "tag:illustrator": 0.16666666666666666,
+        "tag:investigator": 0.16666666666666666,
+        "tag:writer": 0.16666666666666666
+      },
+      "character": {
+        "tag:discipline": 0.5,
+        "tag:altruism": 0.16666666666666666,
+        "tag:persistence": 0.16666666666666666,
+        "tag:tolerance": 0.16666666666666666
+      }
+    }
+  },
+  "person:madalena-monteiro-meireles": {
+    "id": "person:madalena-monteiro-meireles",
+    "nome": "Madalena Monteiro Meireles",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:optimistic",
+      "tag:leader",
+      "tag:responsibility"
+    ],
+    "mights_recebidos": 9,
+    "mights_enviados": 14,
+    "self_might": {
+      "personality": [
+        "tag:optimistic"
+      ],
+      "power": [
+        "tag:leader"
+      ],
+      "character": [
+        "tag:responsibility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família"
+    ],
+    "mights_aceites": 9,
+    "all_might": {
+      "personality": {
+        "tag:optimistic": 0.3333333333333333,
+        "tag:logic": 0.2222222222222222,
+        "tag:intelligent": 0.1111111111111111,
+        "tag:people-oriented": 0.1111111111111111,
+        "tag:persuasive": 0.1111111111111111,
+        "tag:wise": 0.1111111111111111
+      },
+      "power": {
+        "tag:leader": 0.2222222222222222,
+        "tag:analyzer": 0.1111111111111111,
+        "tag:conceptualizer": 0.1111111111111111,
+        "tag:connector": 0.1111111111111111,
+        "tag:explorer": 0.1111111111111111,
+        "tag:influencer": 0.1111111111111111,
+        "tag:organizer": 0.1111111111111111,
+        "tag:writer": 0.1111111111111111
+      },
+      "character": {
+        "tag:freedom": 0.2222222222222222,
+        "tag:integrity": 0.2222222222222222,
+        "tag:tolerance": 0.2222222222222222,
+        "tag:collaboration": 0.1111111111111111,
+        "tag:discipline": 0.1111111111111111,
+        "tag:responsibility": 0.1111111111111111
+      }
+    }
+  },
+  "person:mafalda-pestana": {
+    "id": "person:mafalda-pestana",
+    "nome": "Mafalda Pestana",
+    "grupo": "Marca B",
+    "self_tags": [
+      "tag:passionate",
+      "tag:encourager",
+      "tag:responsibility"
+    ],
+    "mights_recebidos": 22,
+    "mights_enviados": 28,
+    "self_might": {
+      "personality": [
+        "tag:passionate"
+      ],
+      "power": [
+        "tag:encourager"
+      ],
+      "character": [
+        "tag:responsibility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família",
+      "Amigos",
+      "Escola"
+    ],
+    "mights_aceites": 22,
+    "all_might": {
+      "personality": {
+        "tag:passionate": 0.45454545454545453,
+        "tag:practical": 0.3181818181818182,
+        "tag:logic": 0.18181818181818182,
+        "tag:sensitive": 0.045454545454545456
+      },
+      "power": {
+        "tag:developer": 0.4090909090909091,
+        "tag:connector": 0.18181818181818182,
+        "tag:leader": 0.09090909090909091,
+        "tag:organizer": 0.09090909090909091,
+        "tag:communicator": 0.045454545454545456,
+        "tag:encourager": 0.045454545454545456,
+        "tag:illustrator": 0.045454545454545456,
+        "tag:influencer": 0.045454545454545456,
+        "tag:planner": 0.045454545454545456
+      },
+      "character": {
+        "tag:freedom": 0.36363636363636365,
+        "tag:responsibility": 0.2727272727272727,
+        "tag:courage": 0.18181818181818182,
+        "tag:altruism": 0.045454545454545456,
+        "tag:persistence": 0.045454545454545456,
+        "tag:solidarity": 0.045454545454545456,
+        "tag:tolerance": 0.045454545454545456
+      }
+    }
+  },
+  "person:manuel-damasceno-peixoto": {
+    "id": "person:manuel-damasceno-peixoto",
+    "nome": "Manuel Damasceno Peixoto",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:competitive",
+      "tag:composer",
+      "tag:courage"
+    ],
+    "mights_recebidos": 16,
+    "mights_enviados": 6,
+    "self_might": {
+      "personality": [
+        "tag:competitive"
+      ],
+      "power": [
+        "tag:composer"
+      ],
+      "character": [
+        "tag:courage"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Amigos",
+      "Família",
+      "Clientes"
+    ],
+    "mights_aceites": 16,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.4375,
+        "tag:intuitive": 0.25,
+        "tag:wise": 0.1875,
+        "tag:logic": 0.0625,
+        "tag:objective": 0.0625
+      },
+      "power": {
+        "tag:translator": 0.5625,
+        "tag:connector": 0.1875,
+        "tag:composer": 0.125,
+        "tag:advisor": 0.0625,
+        "tag:leader": 0.0625
+      },
+      "character": {
+        "tag:altruism": 0.5,
+        "tag:tolerance": 0.25,
+        "tag:humility": 0.125,
+        "tag:discipline": 0.0625,
+        "tag:maturity": 0.0625
+      }
+    }
+  },
+  "person:margarida-barros-couto": {
+    "id": "person:margarida-barros-couto",
+    "nome": "Margarida Barros Couto",
+    "grupo": "Marca E",
+    "self_tags": [
+      "tag:competitive",
+      "tag:entertainer",
+      "tag:discipline"
+    ],
+    "mights_recebidos": 19,
+    "mights_enviados": 24,
+    "self_might": {
+      "personality": [
+        "tag:competitive"
+      ],
+      "power": [
+        "tag:entertainer"
+      ],
+      "character": [
+        "tag:discipline"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família",
+      "Amigos",
+      "Escola",
+      "Clientes"
+    ],
+    "mights_aceites": 19,
+    "all_might": {
+      "personality": {
+        "tag:people-oriented": 0.3684210526315789,
+        "tag:adaptable": 0.3157894736842105,
+        "tag:confident": 0.15789473684210525,
+        "tag:sensitive": 0.10526315789473684,
+        "tag:competitive": 0.05263157894736842
+      },
+      "power": {
+        "tag:investigator": 0.3157894736842105,
+        "tag:analyzer": 0.2631578947368421,
+        "tag:connector": 0.15789473684210525,
+        "tag:composer": 0.05263157894736842,
+        "tag:encourager": 0.05263157894736842,
+        "tag:entrepreneur": 0.05263157894736842,
+        "tag:explorer": 0.05263157894736842,
+        "tag:planner": 0.05263157894736842
+      },
+      "character": {
+        "tag:integrity": 0.6842105263157895,
+        "tag:discipline": 0.21052631578947367,
+        "tag:compassion": 0.10526315789473684
+      }
+    }
+  },
+  "person:mariana-campos-neto": {
+    "id": "person:mariana-campos-neto",
+    "nome": "Mariana Campos Neto",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:curious",
+      "tag:composer",
+      "tag:sincerity"
+    ],
+    "mights_recebidos": 32,
+    "mights_enviados": 29,
+    "self_might": {
+      "personality": [
+        "tag:curious"
+      ],
+      "power": [
+        "tag:composer"
+      ],
+      "character": [
+        "tag:sincerity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Amigos",
+      "Colegas",
+      "Família",
+      "Comunidade",
+      "Escola"
+    ],
+    "mights_aceites": 32,
+    "all_might": {
+      "personality": {
+        "tag:persuasive": 0.40625,
+        "tag:competitive": 0.28125,
+        "tag:curious": 0.21875,
+        "tag:clever": 0.03125,
+        "tag:intuitive": 0.03125,
+        "tag:passionate": 0.03125
+      },
+      "power": {
+        "tag:composer": 0.46875,
+        "tag:organizer": 0.21875,
+        "tag:influencer": 0.15625,
+        "tag:connector": 0.03125,
+        "tag:illustrator": 0.03125,
+        "tag:learner": 0.03125,
+        "tag:planner": 0.03125,
+        "tag:solver": 0.03125
+      },
+      "character": {
+        "tag:integrity": 0.375,
+        "tag:compassion": 0.28125,
+        "tag:discipline": 0.125,
+        "tag:courage": 0.0625,
+        "tag:sincerity": 0.0625,
+        "tag:generosity": 0.03125,
+        "tag:humility": 0.03125,
+        "tag:tolerance": 0.03125
+      }
+    }
+  },
+  "person:martim-reis-magalhaes": {
+    "id": "person:martim-reis-magalhaes",
+    "nome": "Martim Reis Magalhães",
+    "grupo": "Marca D",
+    "self_tags": [
+      "tag:humorous",
+      "tag:organizer",
+      "tag:humility"
+    ],
+    "mights_recebidos": 23,
+    "mights_enviados": 31,
+    "self_might": {
+      "personality": [
+        "tag:humorous"
+      ],
+      "power": [
+        "tag:organizer"
+      ],
+      "character": [
+        "tag:humility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Comunidade",
+      "Amigos",
+      "Colegas",
+      "Escola",
+      "Família",
+      "Clientes"
+    ],
+    "mights_aceites": 23,
+    "all_might": {
+      "personality": {
+        "tag:humorous": 0.4782608695652174,
+        "tag:intuitive": 0.21739130434782608,
+        "tag:optimistic": 0.17391304347826086,
+        "tag:clever": 0.043478260869565216,
+        "tag:people-oriented": 0.043478260869565216,
+        "tag:persuasive": 0.043478260869565216
+      },
+      "power": {
+        "tag:organizer": 0.43478260869565216,
+        "tag:entertainer": 0.21739130434782608,
+        "tag:moderator": 0.21739130434782608,
+        "tag:conceptualizer": 0.043478260869565216,
+        "tag:developer": 0.043478260869565216,
+        "tag:entrepreneur": 0.043478260869565216
+      },
+      "character": {
+        "tag:humility": 0.5652173913043478,
+        "tag:integrity": 0.2608695652173913,
+        "tag:tolerance": 0.13043478260869565,
+        "tag:solidarity": 0.043478260869565216
+      }
+    }
+  },
+  "person:matilde-tavares": {
+    "id": "person:matilde-tavares",
+    "nome": "Matilde Tavares",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:competitive",
+      "tag:planner",
+      "tag:discipline"
+    ],
+    "mights_recebidos": 18,
+    "mights_enviados": 34,
+    "self_might": {
+      "personality": [
+        "tag:competitive"
+      ],
+      "power": [
+        "tag:planner"
+      ],
+      "character": [
+        "tag:discipline"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Colegas",
+      "Amigos",
+      "Comunidade",
+      "Escola"
+    ],
+    "mights_aceites": 18,
+    "all_might": {
+      "personality": {
+        "tag:intelligent": 0.5,
+        "tag:people-oriented": 0.2222222222222222,
+        "tag:clever": 0.05555555555555555,
+        "tag:competitive": 0.05555555555555555,
+        "tag:extroverted": 0.05555555555555555,
+        "tag:imaginative": 0.05555555555555555,
+        "tag:intuitive": 0.05555555555555555
+      },
+      "power": {
+        "tag:creator": 0.3333333333333333,
+        "tag:planner": 0.3333333333333333,
+        "tag:encourager": 0.1111111111111111,
+        "tag:communicator": 0.05555555555555555,
+        "tag:connector": 0.05555555555555555,
+        "tag:energizer": 0.05555555555555555,
+        "tag:learner": 0.05555555555555555
+      },
+      "character": {
+        "tag:discipline": 0.3888888888888889,
+        "tag:freedom": 0.3333333333333333,
+        "tag:solidarity": 0.16666666666666666,
+        "tag:collaboration": 0.05555555555555555,
+        "tag:persistence": 0.05555555555555555
+      }
+    }
+  },
+  "person:oscar-brandao-serrano": {
+    "id": "person:oscar-brandao-serrano",
+    "nome": "Óscar Brandão Serrano",
+    "grupo": "Marca D",
+    "self_tags": [
+      "tag:extroverted",
+      "tag:connector",
+      "tag:compassion"
+    ],
+    "mights_recebidos": 18,
+    "mights_enviados": 21,
+    "self_might": {
+      "personality": [
+        "tag:extroverted"
+      ],
+      "power": [
+        "tag:connector"
+      ],
+      "character": [
+        "tag:compassion"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Escola",
+      "Amigos",
+      "Clientes",
+      "Família",
+      "Comunidade"
+    ],
+    "mights_aceites": 18,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.3333333333333333,
+        "tag:passionate": 0.3333333333333333,
+        "tag:extroverted": 0.1111111111111111,
+        "tag:competitive": 0.05555555555555555,
+        "tag:confident": 0.05555555555555555,
+        "tag:curious": 0.05555555555555555,
+        "tag:logic": 0.05555555555555555
+      },
+      "power": {
+        "tag:influencer": 0.5,
+        "tag:connector": 0.16666666666666666,
+        "tag:entrepreneur": 0.16666666666666666,
+        "tag:analyzer": 0.05555555555555555,
+        "tag:communicator": 0.05555555555555555,
+        "tag:strategizer": 0.05555555555555555
+      },
+      "character": {
+        "tag:tolerance": 0.6666666666666666,
+        "tag:compassion": 0.1111111111111111,
+        "tag:altruism": 0.05555555555555555,
+        "tag:collaboration": 0.05555555555555555,
+        "tag:courage": 0.05555555555555555,
+        "tag:freedom": 0.05555555555555555
+      }
+    }
+  },
+  "person:patricia-neto-sampaio": {
+    "id": "person:patricia-neto-sampaio",
+    "nome": "Patrícia Neto Sampaio",
+    "grupo": "Marca E",
+    "self_tags": [
+      "tag:imaginative",
+      "tag:connector",
+      "tag:compassion"
+    ],
+    "mights_recebidos": 6,
+    "mights_enviados": 10,
+    "self_might": {
+      "personality": [
+        "tag:imaginative"
+      ],
+      "power": [
+        "tag:connector"
+      ],
+      "character": [
+        "tag:compassion"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Escola"
+    ],
+    "mights_aceites": 6,
+    "all_might": {
+      "personality": {
+        "tag:clever": 0.5,
+        "tag:curious": 0.16666666666666666,
+        "tag:imaginative": 0.16666666666666666,
+        "tag:persuasive": 0.16666666666666666
+      },
+      "power": {
+        "tag:connector": 0.8333333333333334,
+        "tag:leader": 0.16666666666666666
+      },
+      "character": {
+        "tag:maturity": 0.5,
+        "tag:compassion": 0.3333333333333333,
+        "tag:courage": 0.16666666666666666
+      }
+    }
+  },
+  "person:paulo-valadares": {
+    "id": "person:paulo-valadares",
+    "nome": "Paulo Valadares",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:extroverted",
+      "tag:composer",
+      "tag:integrity"
+    ],
+    "mights_recebidos": 13,
+    "mights_enviados": 18,
+    "self_might": {
+      "personality": [
+        "tag:extroverted"
+      ],
+      "power": [
+        "tag:composer"
+      ],
+      "character": [
+        "tag:integrity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Colegas",
+      "Família",
+      "Escola",
+      "Comunidade"
+    ],
+    "mights_aceites": 13,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.5384615384615384,
+        "tag:intelligent": 0.23076923076923078,
+        "tag:passionate": 0.15384615384615385,
+        "tag:logic": 0.07692307692307693
+      },
+      "power": {
+        "tag:influencer": 0.6153846153846154,
+        "tag:achiever": 0.3076923076923077,
+        "tag:entrepreneur": 0.07692307692307693
+      },
+      "character": {
+        "tag:freedom": 0.38461538461538464,
+        "tag:solidarity": 0.23076923076923078,
+        "tag:altruism": 0.07692307692307693,
+        "tag:compassion": 0.07692307692307693,
+        "tag:integrity": 0.07692307692307693,
+        "tag:persistence": 0.07692307692307693,
+        "tag:tolerance": 0.07692307692307693
+      }
+    }
+  },
+  "person:programa-aurora-2025": {
+    "id": "person:programa-aurora-2025",
+    "nome": "Programa Aurora 2025",
+    "grupo": "Programa",
+    "self_tags": [
+      "tag:objective",
+      "tag:investigator",
+      "tag:persistence"
+    ],
+    "mights_recebidos": 40,
+    "mights_enviados": 0,
+    "self_might": {
+      "personality": [
+        "tag:objective"
+      ],
+      "power": [
+        "tag:investigator"
+      ],
+      "character": [
+        "tag:persistence"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Família",
+      "Colegas",
+      "Comunidade",
+      "Clientes",
+      "Amigos",
+      "Escola"
+    ],
+    "mights_aceites": 40,
+    "all_might": {
+      "personality": {
+        "tag:people-oriented": 0.575,
+        "tag:confident": 0.15,
+        "tag:sensitive": 0.15,
+        "tag:adaptable": 0.05,
+        "tag:objective": 0.05,
+        "tag:passionate": 0.025
+      },
+      "power": {
+        "tag:entrepreneur": 0.625,
+        "tag:analyzer": 0.15,
+        "tag:innovator": 0.05,
+        "tag:investigator": 0.05,
+        "tag:achiever": 0.025,
+        "tag:energizer": 0.025,
+        "tag:moderator": 0.025,
+        "tag:organizer": 0.025,
+        "tag:translator": 0.025
+      },
+      "character": {
+        "tag:discipline": 0.5,
+        "tag:solidarity": 0.2,
+        "tag:persistence": 0.175,
+        "tag:humility": 0.05,
+        "tag:freedom": 0.025,
+        "tag:maturity": 0.025,
+        "tag:tolerance": 0.025
+      }
+    }
+  },
+  "person:rafael-seixas": {
+    "id": "person:rafael-seixas",
+    "nome": "Rafael Seixas",
+    "grupo": "Marca A",
+    "self_tags": [
+      "tag:wise",
+      "tag:entrepreneur",
+      "tag:humility"
+    ],
+    "mights_recebidos": 7,
+    "mights_enviados": 13,
+    "self_might": {
+      "personality": [
+        "tag:wise"
+      ],
+      "power": [
+        "tag:entrepreneur"
+      ],
+      "character": [
+        "tag:humility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Comunidade",
+      "Colegas",
+      "Família",
+      "Escola"
+    ],
+    "mights_aceites": 7,
+    "all_might": {
+      "personality": {
+        "tag:wise": 0.42857142857142855,
+        "tag:logic": 0.2857142857142857,
+        "tag:clever": 0.14285714285714285,
+        "tag:intelligent": 0.14285714285714285
+      },
+      "power": {
+        "tag:creator": 0.42857142857142855,
+        "tag:analyzer": 0.14285714285714285,
+        "tag:learner": 0.14285714285714285,
+        "tag:planner": 0.14285714285714285,
+        "tag:writer": 0.14285714285714285
+      },
+      "character": {
+        "tag:humility": 0.42857142857142855,
+        "tag:discipline": 0.2857142857142857,
+        "tag:courage": 0.14285714285714285,
+        "tag:integrity": 0.14285714285714285
+      }
+    }
+  },
+  "person:raquel-damasceno": {
+    "id": "person:raquel-damasceno",
+    "nome": "Raquel Damasceno",
+    "grupo": "Marca A",
+    "self_tags": [
+      "tag:people-oriented",
+      "tag:analyzer",
+      "tag:humility"
+    ],
+    "mights_recebidos": 8,
+    "mights_enviados": 14,
+    "self_might": {
+      "personality": [
+        "tag:people-oriented"
+      ],
+      "power": [
+        "tag:analyzer"
+      ],
+      "character": [
+        "tag:humility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Comunidade",
+      "Colegas",
+      "Clientes"
+    ],
+    "mights_aceites": 8,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.25,
+        "tag:persuasive": 0.25,
+        "tag:adaptable": 0.125,
+        "tag:intuitive": 0.125,
+        "tag:passionate": 0.125,
+        "tag:practical": 0.125
+      },
+      "power": {
+        "tag:creator": 0.25,
+        "tag:investigator": 0.25,
+        "tag:strategizer": 0.25,
+        "tag:encourager": 0.125,
+        "tag:influencer": 0.125
+      },
+      "character": {
+        "tag:humility": 0.375,
+        "tag:responsibility": 0.375,
+        "tag:courage": 0.125,
+        "tag:persistence": 0.125
+      }
+    }
+  },
+  "person:ricardo-vaz-gaspar": {
+    "id": "person:ricardo-vaz-gaspar",
+    "nome": "Ricardo Vaz Gaspar",
+    "grupo": "Facilitação",
+    "self_tags": [
+      "tag:competitive",
+      "tag:creator",
+      "tag:collaboration"
+    ],
+    "mights_recebidos": 5,
+    "mights_enviados": 4,
+    "self_might": {
+      "personality": [
+        "tag:competitive"
+      ],
+      "power": [
+        "tag:creator"
+      ],
+      "character": [
+        "tag:collaboration"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família"
+    ],
+    "mights_aceites": 5,
+    "all_might": {
+      "personality": {
+        "tag:adaptable": 0.4,
+        "tag:confident": 0.4,
+        "tag:intelligent": 0.2
+      },
+      "power": {
+        "tag:composer": 0.4,
+        "tag:creator": 0.2,
+        "tag:illustrator": 0.2,
+        "tag:solver": 0.2
+      },
+      "character": {
+        "tag:collaboration": 0.8,
+        "tag:persistence": 0.2
+      }
+    }
+  },
+  "person:rita-carvalhal": {
+    "id": "person:rita-carvalhal",
+    "nome": "Rita Carvalhal",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:practical",
+      "tag:learner",
+      "tag:collaboration"
+    ],
+    "mights_recebidos": 22,
+    "mights_enviados": 20,
+    "self_might": {
+      "personality": [
+        "tag:practical"
+      ],
+      "power": [
+        "tag:learner"
+      ],
+      "character": [
+        "tag:collaboration"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes",
+      "Comunidade",
+      "Escola",
+      "Família"
+    ],
+    "mights_aceites": 22,
+    "all_might": {
+      "personality": {
+        "tag:extroverted": 0.5,
+        "tag:clever": 0.22727272727272727,
+        "tag:passionate": 0.09090909090909091,
+        "tag:confident": 0.045454545454545456,
+        "tag:imaginative": 0.045454545454545456,
+        "tag:practical": 0.045454545454545456,
+        "tag:wise": 0.045454545454545456
+      },
+      "power": {
+        "tag:analyzer": 0.5,
+        "tag:learner": 0.22727272727272727,
+        "tag:conceptualizer": 0.18181818181818182,
+        "tag:creator": 0.045454545454545456,
+        "tag:developer": 0.045454545454545456
+      },
+      "character": {
+        "tag:collaboration": 0.3181818181818182,
+        "tag:persistence": 0.3181818181818182,
+        "tag:courage": 0.18181818181818182,
+        "tag:compassion": 0.045454545454545456,
+        "tag:integrity": 0.045454545454545456,
+        "tag:responsibility": 0.045454545454545456,
+        "tag:solidarity": 0.045454545454545456
+      }
+    }
+  },
+  "person:rodrigo-barros-faria": {
+    "id": "person:rodrigo-barros-faria",
+    "nome": "Rodrigo Barros Faria",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:sensitive",
+      "tag:investigator",
+      "tag:persistence"
+    ],
+    "mights_recebidos": 26,
+    "mights_enviados": 23,
+    "self_might": {
+      "personality": [
+        "tag:sensitive"
+      ],
+      "power": [
+        "tag:investigator"
+      ],
+      "character": [
+        "tag:persistence"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Escola",
+      "Amigos",
+      "Clientes",
+      "Comunidade"
+    ],
+    "mights_aceites": 26,
+    "all_might": {
+      "personality": {
+        "tag:intelligent": 0.46153846153846156,
+        "tag:adaptable": 0.23076923076923078,
+        "tag:clever": 0.15384615384615385,
+        "tag:competitive": 0.038461538461538464,
+        "tag:optimistic": 0.038461538461538464,
+        "tag:passionate": 0.038461538461538464,
+        "tag:people-oriented": 0.038461538461538464
+      },
+      "power": {
+        "tag:energizer": 0.3076923076923077,
+        "tag:strategizer": 0.2692307692307692,
+        "tag:composer": 0.19230769230769232,
+        "tag:developer": 0.038461538461538464,
+        "tag:entrepreneur": 0.038461538461538464,
+        "tag:influencer": 0.038461538461538464,
+        "tag:leader": 0.038461538461538464,
+        "tag:organizer": 0.038461538461538464,
+        "tag:translator": 0.038461538461538464
+      },
+      "character": {
+        "tag:persistence": 0.38461538461538464,
+        "tag:compassion": 0.2692307692307692,
+        "tag:discipline": 0.19230769230769232,
+        "tag:courage": 0.038461538461538464,
+        "tag:humility": 0.038461538461538464,
+        "tag:responsibility": 0.038461538461538464,
+        "tag:tolerance": 0.038461538461538464
+      }
+    }
+  },
+  "person:rodrigo-tavares-magalhaes": {
+    "id": "person:rodrigo-tavares-magalhaes",
+    "nome": "Rodrigo Tavares Magalhães",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:intuitive",
+      "tag:developer",
+      "tag:sincerity"
+    ],
+    "mights_recebidos": 34,
+    "mights_enviados": 6,
+    "self_might": {
+      "personality": [
+        "tag:intuitive"
+      ],
+      "power": [
+        "tag:developer"
+      ],
+      "character": [
+        "tag:sincerity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família",
+      "Clientes",
+      "Comunidade",
+      "Escola",
+      "Amigos"
+    ],
+    "mights_aceites": 34,
+    "all_might": {
+      "personality": {
+        "tag:intuitive": 0.47058823529411764,
+        "tag:people-oriented": 0.23529411764705882,
+        "tag:competitive": 0.08823529411764706,
+        "tag:intelligent": 0.058823529411764705,
+        "tag:adaptable": 0.029411764705882353,
+        "tag:humorous": 0.029411764705882353,
+        "tag:optimistic": 0.029411764705882353,
+        "tag:passionate": 0.029411764705882353,
+        "tag:sensitive": 0.029411764705882353
+      },
+      "power": {
+        "tag:organizer": 0.38235294117647056,
+        "tag:creator": 0.35294117647058826,
+        "tag:developer": 0.11764705882352941,
+        "tag:writer": 0.058823529411764705,
+        "tag:composer": 0.029411764705882353,
+        "tag:illustrator": 0.029411764705882353,
+        "tag:learner": 0.029411764705882353
+      },
+      "character": {
+        "tag:sincerity": 0.35294117647058826,
+        "tag:persistence": 0.3235294117647059,
+        "tag:tolerance": 0.14705882352941177,
+        "tag:altruism": 0.029411764705882353,
+        "tag:courage": 0.029411764705882353,
+        "tag:generosity": 0.029411764705882353,
+        "tag:humility": 0.029411764705882353,
+        "tag:integrity": 0.029411764705882353,
+        "tag:maturity": 0.029411764705882353
+      }
+    }
+  },
+  "person:rui-fontes": {
+    "id": "person:rui-fontes",
+    "nome": "Rui Fontes",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:competitive",
+      "tag:investigator",
+      "tag:altruism"
+    ],
+    "mights_recebidos": 17,
+    "mights_enviados": 8,
+    "self_might": {
+      "personality": [
+        "tag:competitive"
+      ],
+      "power": [
+        "tag:investigator"
+      ],
+      "character": [
+        "tag:altruism"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Família",
+      "Amigos",
+      "Clientes"
+    ],
+    "mights_aceites": 17,
+    "all_might": {
+      "personality": {
+        "tag:competitive": 0.35294117647058826,
+        "tag:humorous": 0.29411764705882354,
+        "tag:passionate": 0.11764705882352941,
+        "tag:optimistic": 0.058823529411764705,
+        "tag:people-oriented": 0.058823529411764705,
+        "tag:practical": 0.058823529411764705,
+        "tag:wise": 0.058823529411764705
+      },
+      "power": {
+        "tag:investigator": 0.4117647058823529,
+        "tag:energizer": 0.35294117647058826,
+        "tag:explorer": 0.23529411764705882
+      },
+      "character": {
+        "tag:humility": 0.5882352941176471,
+        "tag:altruism": 0.17647058823529413,
+        "tag:generosity": 0.11764705882352941,
+        "tag:compassion": 0.058823529411764705,
+        "tag:persistence": 0.058823529411764705
+      }
+    }
+  },
+  "person:salvador-gaspar-paiva": {
+    "id": "person:salvador-gaspar-paiva",
+    "nome": "Salvador Gaspar Paiva",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:persuasive",
+      "tag:analyzer",
+      "tag:sincerity"
+    ],
+    "mights_recebidos": 7,
+    "mights_enviados": 0,
+    "self_might": {
+      "personality": [
+        "tag:persuasive"
+      ],
+      "power": [
+        "tag:analyzer"
+      ],
+      "character": [
+        "tag:sincerity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes",
+      "Escola"
+    ],
+    "mights_aceites": 7,
+    "all_might": {
+      "personality": {
+        "tag:practical": 0.5714285714285714,
+        "tag:persuasive": 0.2857142857142857,
+        "tag:humorous": 0.14285714285714285
+      },
+      "power": {
+        "tag:translator": 0.5714285714285714,
+        "tag:conceptualizer": 0.2857142857142857,
+        "tag:solver": 0.14285714285714285
+      },
+      "character": {
+        "tag:persistence": 0.42857142857142855,
+        "tag:discipline": 0.2857142857142857,
+        "tag:generosity": 0.2857142857142857
+      }
+    }
+  },
+  "person:sergio-peixoto-pestana": {
+    "id": "person:sergio-peixoto-pestana",
+    "nome": "Sérgio Peixoto Pestana",
+    "grupo": "Marca B",
+    "self_tags": [
+      "tag:sensitive",
+      "tag:illustrator",
+      "tag:maturity"
+    ],
+    "mights_recebidos": 6,
+    "mights_enviados": 9,
+    "self_might": {
+      "personality": [
+        "tag:sensitive"
+      ],
+      "power": [
+        "tag:illustrator"
+      ],
+      "character": [
+        "tag:maturity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes"
+    ],
+    "mights_aceites": 6,
+    "all_might": {
+      "personality": {
+        "tag:curious": 0.5,
+        "tag:people-oriented": 0.3333333333333333,
+        "tag:persuasive": 0.16666666666666666
+      },
+      "power": {
+        "tag:conceptualizer": 0.8333333333333334,
+        "tag:innovator": 0.16666666666666666
+      },
+      "character": {
+        "tag:persistence": 0.6666666666666666,
+        "tag:discipline": 0.16666666666666666,
+        "tag:maturity": 0.16666666666666666
+      }
+    }
+  },
+  "person:simao-faria": {
+    "id": "person:simao-faria",
+    "nome": "Simão Faria",
+    "grupo": "Marca B",
+    "self_tags": [
+      "tag:confident",
+      "tag:leader",
+      "tag:freedom"
+    ],
+    "mights_recebidos": 11,
+    "mights_enviados": 12,
+    "self_might": {
+      "personality": [
+        "tag:confident"
+      ],
+      "power": [
+        "tag:leader"
+      ],
+      "character": [
+        "tag:freedom"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Comunidade",
+      "Amigos",
+      "Colegas"
+    ],
+    "mights_aceites": 11,
+    "all_might": {
+      "personality": {
+        "tag:humorous": 0.36363636363636365,
+        "tag:imaginative": 0.2727272727272727,
+        "tag:competitive": 0.18181818181818182,
+        "tag:optimistic": 0.09090909090909091,
+        "tag:people-oriented": 0.09090909090909091
+      },
+      "power": {
+        "tag:communicator": 0.36363636363636365,
+        "tag:strategizer": 0.2727272727272727,
+        "tag:planner": 0.18181818181818182,
+        "tag:analyzer": 0.09090909090909091,
+        "tag:explorer": 0.09090909090909091
+      },
+      "character": {
+        "tag:discipline": 0.45454545454545453,
+        "tag:solidarity": 0.36363636363636365,
+        "tag:collaboration": 0.09090909090909091,
+        "tag:persistence": 0.09090909090909091
+      }
+    }
+  },
+  "person:sofia-campos-couto": {
+    "id": "person:sofia-campos-couto",
+    "nome": "Sofia Campos Couto",
+    "grupo": "Marca H",
+    "self_tags": [
+      "tag:practical",
+      "tag:communicator",
+      "tag:collaboration"
+    ],
+    "mights_recebidos": 28,
+    "mights_enviados": 32,
+    "self_might": {
+      "personality": [
+        "tag:practical"
+      ],
+      "power": [
+        "tag:communicator"
+      ],
+      "character": [
+        "tag:collaboration"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Comunidade",
+      "Colegas",
+      "Amigos",
+      "Escola",
+      "Família",
+      "Clientes"
+    ],
+    "mights_aceites": 28,
+    "all_might": {
+      "personality": {
+        "tag:adaptable": 0.32142857142857145,
+        "tag:practical": 0.2857142857142857,
+        "tag:logic": 0.17857142857142858,
+        "tag:sensitive": 0.07142857142857142,
+        "tag:curious": 0.03571428571428571,
+        "tag:intelligent": 0.03571428571428571,
+        "tag:optimistic": 0.03571428571428571,
+        "tag:wise": 0.03571428571428571
+      },
+      "power": {
+        "tag:achiever": 0.35714285714285715,
+        "tag:influencer": 0.35714285714285715,
+        "tag:communicator": 0.14285714285714285,
+        "tag:entrepreneur": 0.03571428571428571,
+        "tag:innovator": 0.03571428571428571,
+        "tag:leader": 0.03571428571428571,
+        "tag:organizer": 0.03571428571428571
+      },
+      "character": {
+        "tag:tolerance": 0.35714285714285715,
+        "tag:freedom": 0.25,
+        "tag:sincerity": 0.21428571428571427,
+        "tag:altruism": 0.03571428571428571,
+        "tag:compassion": 0.03571428571428571,
+        "tag:generosity": 0.03571428571428571,
+        "tag:humility": 0.03571428571428571,
+        "tag:persistence": 0.03571428571428571
+      }
+    }
+  },
+  "person:sonia-campos": {
+    "id": "person:sonia-campos",
+    "nome": "Sónia Campos",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:intuitive",
+      "tag:conceptualizer",
+      "tag:responsibility"
+    ],
+    "mights_recebidos": 17,
+    "mights_enviados": 4,
+    "self_might": {
+      "personality": [
+        "tag:intuitive"
+      ],
+      "power": [
+        "tag:conceptualizer"
+      ],
+      "character": [
+        "tag:responsibility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Comunidade",
+      "Escola",
+      "Amigos"
+    ],
+    "mights_aceites": 17,
+    "all_might": {
+      "personality": {
+        "tag:intelligent": 0.47058823529411764,
+        "tag:curious": 0.23529411764705882,
+        "tag:competitive": 0.17647058823529413,
+        "tag:logic": 0.058823529411764705,
+        "tag:passionate": 0.058823529411764705
+      },
+      "power": {
+        "tag:advisor": 0.4117647058823529,
+        "tag:conceptualizer": 0.23529411764705882,
+        "tag:translator": 0.11764705882352941,
+        "tag:analyzer": 0.058823529411764705,
+        "tag:communicator": 0.058823529411764705,
+        "tag:composer": 0.058823529411764705,
+        "tag:strategizer": 0.058823529411764705
+      },
+      "character": {
+        "tag:discipline": 0.5294117647058824,
+        "tag:maturity": 0.23529411764705882,
+        "tag:responsibility": 0.17647058823529413,
+        "tag:freedom": 0.058823529411764705
+      }
+    }
+  },
+  "person:sonia-medeiros": {
+    "id": "person:sonia-medeiros",
+    "nome": "Sónia Medeiros",
+    "grupo": "Marca A",
+    "self_tags": [
+      "tag:intelligent",
+      "tag:translator",
+      "tag:collaboration"
+    ],
+    "mights_recebidos": 23,
+    "mights_enviados": 31,
+    "self_might": {
+      "personality": [
+        "tag:intelligent"
+      ],
+      "power": [
+        "tag:translator"
+      ],
+      "character": [
+        "tag:collaboration"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Colegas",
+      "Família",
+      "Comunidade",
+      "Amigos",
+      "Escola"
+    ],
+    "mights_aceites": 23,
+    "all_might": {
+      "personality": {
+        "tag:logic": 0.43478260869565216,
+        "tag:extroverted": 0.30434782608695654,
+        "tag:imaginative": 0.13043478260869565,
+        "tag:persuasive": 0.08695652173913043,
+        "tag:passionate": 0.043478260869565216
+      },
+      "power": {
+        "tag:connector": 0.34782608695652173,
+        "tag:entertainer": 0.2608695652173913,
+        "tag:translator": 0.2608695652173913,
+        "tag:conceptualizer": 0.043478260869565216,
+        "tag:illustrator": 0.043478260869565216,
+        "tag:learner": 0.043478260869565216
+      },
+      "character": {
+        "tag:discipline": 0.391304347826087,
+        "tag:freedom": 0.21739130434782608,
+        "tag:courage": 0.08695652173913043,
+        "tag:tolerance": 0.08695652173913043,
+        "tag:collaboration": 0.043478260869565216,
+        "tag:generosity": 0.043478260869565216,
+        "tag:humility": 0.043478260869565216,
+        "tag:responsibility": 0.043478260869565216,
+        "tag:solidarity": 0.043478260869565216
+      }
+    }
+  },
+  "person:telmo-valadares-carvalhal": {
+    "id": "person:telmo-valadares-carvalhal",
+    "nome": "Telmo Valadares Carvalhal",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:confident",
+      "tag:creator",
+      "tag:sincerity"
+    ],
+    "mights_recebidos": 14,
+    "mights_enviados": 12,
+    "self_might": {
+      "personality": [
+        "tag:confident"
+      ],
+      "power": [
+        "tag:creator"
+      ],
+      "character": [
+        "tag:sincerity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Comunidade",
+      "Escola"
+    ],
+    "mights_aceites": 14,
+    "all_might": {
+      "personality": {
+        "tag:optimistic": 0.5,
+        "tag:persuasive": 0.14285714285714285,
+        "tag:wise": 0.14285714285714285,
+        "tag:clever": 0.07142857142857142,
+        "tag:imaginative": 0.07142857142857142,
+        "tag:passionate": 0.07142857142857142
+      },
+      "power": {
+        "tag:creator": 0.5,
+        "tag:composer": 0.2857142857142857,
+        "tag:moderator": 0.21428571428571427
+      },
+      "character": {
+        "tag:responsibility": 0.5,
+        "tag:altruism": 0.2857142857142857,
+        "tag:sincerity": 0.14285714285714285,
+        "tag:maturity": 0.07142857142857142
+      }
+    }
+  },
+  "person:teresa-lima-magalhaes": {
+    "id": "person:teresa-lima-magalhaes",
+    "nome": "Teresa Lima Magalhães",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:sensitive",
+      "tag:writer",
+      "tag:courage"
+    ],
+    "mights_recebidos": 8,
+    "mights_enviados": 11,
+    "self_might": {
+      "personality": [
+        "tag:sensitive"
+      ],
+      "power": [
+        "tag:writer"
+      ],
+      "character": [
+        "tag:courage"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas"
+    ],
+    "mights_aceites": 8,
+    "all_might": {
+      "personality": {
+        "tag:curious": 0.5,
+        "tag:sensitive": 0.25,
+        "tag:clever": 0.125,
+        "tag:imaginative": 0.125
+      },
+      "power": {
+        "tag:entertainer": 0.375,
+        "tag:writer": 0.375,
+        "tag:leader": 0.25
+      },
+      "character": {
+        "tag:altruism": 0.25,
+        "tag:compassion": 0.25,
+        "tag:generosity": 0.125,
+        "tag:integrity": 0.125,
+        "tag:responsibility": 0.125,
+        "tag:tolerance": 0.125
+      }
+    }
+  },
+  "person:tomas-meireles": {
+    "id": "person:tomas-meireles",
+    "nome": "Tomás Meireles",
+    "grupo": "Marca H",
+    "self_tags": [
+      "tag:optimistic",
+      "tag:analyzer",
+      "tag:solidarity"
+    ],
+    "mights_recebidos": 12,
+    "mights_enviados": 18,
+    "self_might": {
+      "personality": [
+        "tag:optimistic"
+      ],
+      "power": [
+        "tag:analyzer"
+      ],
+      "character": [
+        "tag:solidarity"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Comunidade",
+      "Colegas",
+      "Clientes",
+      "Amigos",
+      "Escola",
+      "Família"
+    ],
+    "mights_aceites": 12,
+    "all_might": {
+      "personality": {
+        "tag:adaptable": 0.25,
+        "tag:optimistic": 0.25,
+        "tag:wise": 0.25,
+        "tag:extroverted": 0.08333333333333333,
+        "tag:practical": 0.08333333333333333,
+        "tag:sensitive": 0.08333333333333333
+      },
+      "power": {
+        "tag:explorer": 0.3333333333333333,
+        "tag:moderator": 0.3333333333333333,
+        "tag:analyzer": 0.25,
+        "tag:influencer": 0.08333333333333333
+      },
+      "character": {
+        "tag:humility": 0.3333333333333333,
+        "tag:compassion": 0.25,
+        "tag:persistence": 0.16666666666666666,
+        "tag:integrity": 0.08333333333333333,
+        "tag:maturity": 0.08333333333333333,
+        "tag:solidarity": 0.08333333333333333
+      }
+    }
+  },
+  "person:vasco-seixas": {
+    "id": "person:vasco-seixas",
+    "nome": "Vasco Seixas",
+    "grupo": "Marca H",
+    "self_tags": [
+      "tag:intelligent",
+      "tag:writer",
+      "tag:humility"
+    ],
+    "mights_recebidos": 25,
+    "mights_enviados": 30,
+    "self_might": {
+      "personality": [
+        "tag:intelligent"
+      ],
+      "power": [
+        "tag:writer"
+      ],
+      "character": [
+        "tag:humility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Clientes",
+      "Colegas",
+      "Comunidade",
+      "Amigos",
+      "Família",
+      "Escola"
+    ],
+    "mights_aceites": 25,
+    "all_might": {
+      "personality": {
+        "tag:passionate": 0.4,
+        "tag:extroverted": 0.32,
+        "tag:intelligent": 0.12,
+        "tag:curious": 0.04,
+        "tag:humorous": 0.04,
+        "tag:intuitive": 0.04,
+        "tag:objective": 0.04
+      },
+      "power": {
+        "tag:creator": 0.32,
+        "tag:illustrator": 0.32,
+        "tag:analyzer": 0.16,
+        "tag:advisor": 0.12,
+        "tag:innovator": 0.04,
+        "tag:strategizer": 0.04
+      },
+      "character": {
+        "tag:humility": 0.44,
+        "tag:sincerity": 0.28,
+        "tag:integrity": 0.2,
+        "tag:altruism": 0.04,
+        "tag:generosity": 0.04
+      }
+    }
+  },
+  "person:vera-machado-godinho": {
+    "id": "person:vera-machado-godinho",
+    "nome": "Vera Machado Godinho",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:sensitive",
+      "tag:achiever",
+      "tag:compassion"
+    ],
+    "mights_recebidos": 11,
+    "mights_enviados": 16,
+    "self_might": {
+      "personality": [
+        "tag:sensitive"
+      ],
+      "power": [
+        "tag:achiever"
+      ],
+      "character": [
+        "tag:compassion"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Clientes",
+      "Amigos"
+    ],
+    "mights_aceites": 11,
+    "all_might": {
+      "personality": {
+        "tag:sensitive": 0.45454545454545453,
+        "tag:passionate": 0.18181818181818182,
+        "tag:competitive": 0.09090909090909091,
+        "tag:intelligent": 0.09090909090909091,
+        "tag:intuitive": 0.09090909090909091,
+        "tag:practical": 0.09090909090909091
+      },
+      "power": {
+        "tag:writer": 0.36363636363636365,
+        "tag:achiever": 0.2727272727272727,
+        "tag:translator": 0.18181818181818182,
+        "tag:influencer": 0.09090909090909091,
+        "tag:solver": 0.09090909090909091
+      },
+      "character": {
+        "tag:integrity": 0.45454545454545453,
+        "tag:discipline": 0.2727272727272727,
+        "tag:altruism": 0.09090909090909091,
+        "tag:maturity": 0.09090909090909091,
+        "tag:persistence": 0.09090909090909091
+      }
+    }
+  },
+  "person:vicente-pestana": {
+    "id": "person:vicente-pestana",
+    "nome": "Vicente Pestana",
+    "grupo": "Marca C",
+    "self_tags": [
+      "tag:persuasive",
+      "tag:encourager",
+      "tag:humility"
+    ],
+    "mights_recebidos": 10,
+    "mights_enviados": 6,
+    "self_might": {
+      "personality": [
+        "tag:persuasive"
+      ],
+      "power": [
+        "tag:encourager"
+      ],
+      "character": [
+        "tag:humility"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas",
+      "Escola"
+    ],
+    "mights_aceites": 10,
+    "all_might": {
+      "personality": {
+        "tag:optimistic": 0.4,
+        "tag:persuasive": 0.2,
+        "tag:wise": 0.2,
+        "tag:clever": 0.1,
+        "tag:people-oriented": 0.1
+      },
+      "power": {
+        "tag:entertainer": 0.4,
+        "tag:achiever": 0.3,
+        "tag:encourager": 0.1,
+        "tag:solver": 0.1,
+        "tag:translator": 0.1
+      },
+      "character": {
+        "tag:sincerity": 0.5,
+        "tag:generosity": 0.4,
+        "tag:courage": 0.1
+      }
+    }
+  },
+  "person:xavier-tavares": {
+    "id": "person:xavier-tavares",
+    "nome": "Xavier Tavares",
+    "grupo": "Marca B",
+    "self_tags": [
+      "tag:curious",
+      "tag:explorer",
+      "tag:altruism"
+    ],
+    "mights_recebidos": 28,
+    "mights_enviados": 23,
+    "self_might": {
+      "personality": [
+        "tag:curious"
+      ],
+      "power": [
+        "tag:explorer"
+      ],
+      "character": [
+        "tag:altruism"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Escola",
+      "Colegas",
+      "Família",
+      "Clientes",
+      "Comunidade"
+    ],
+    "mights_aceites": 28,
+    "all_might": {
+      "personality": {
+        "tag:curious": 0.32142857142857145,
+        "tag:confident": 0.2857142857142857,
+        "tag:extroverted": 0.14285714285714285,
+        "tag:adaptable": 0.03571428571428571,
+        "tag:intelligent": 0.03571428571428571,
+        "tag:logic": 0.03571428571428571,
+        "tag:optimistic": 0.03571428571428571,
+        "tag:passionate": 0.03571428571428571,
+        "tag:people-oriented": 0.03571428571428571,
+        "tag:sensitive": 0.03571428571428571
+      },
+      "power": {
+        "tag:translator": 0.42857142857142855,
+        "tag:organizer": 0.39285714285714285,
+        "tag:communicator": 0.03571428571428571,
+        "tag:entrepreneur": 0.03571428571428571,
+        "tag:explorer": 0.03571428571428571,
+        "tag:influencer": 0.03571428571428571,
+        "tag:learner": 0.03571428571428571
+      },
+      "character": {
+        "tag:collaboration": 0.35714285714285715,
+        "tag:generosity": 0.35714285714285715,
+        "tag:maturity": 0.14285714285714285,
+        "tag:humility": 0.07142857142857142,
+        "tag:discipline": 0.03571428571428571,
+        "tag:solidarity": 0.03571428571428571
+      }
+    }
+  },
+  "person:yara-lacerda": {
+    "id": "person:yara-lacerda",
+    "nome": "Yara Lacerda",
+    "grupo": "Corporativo",
+    "self_tags": [
+      "tag:imaginative",
+      "tag:translator",
+      "tag:tolerance"
+    ],
+    "mights_recebidos": 4,
+    "mights_enviados": 10,
+    "self_might": {
+      "personality": [
+        "tag:imaginative"
+      ],
+      "power": [
+        "tag:translator"
+      ],
+      "character": [
+        "tag:tolerance"
+      ]
+    },
+    "curso": [],
+    "instituicao": [],
+    "interesses": [],
+    "competencias": [],
+    "objetivos": [],
+    "funcoes": [],
+    "empresas": [],
+    "linkedin_url": [],
+    "circulos": [
+      "Colegas"
+    ],
+    "mights_aceites": 4,
+    "all_might": {
+      "personality": {
+        "tag:imaginative": 0.5,
+        "tag:objective": 0.25,
+        "tag:people-oriented": 0.25
+      },
+      "power": {
+        "tag:strategizer": 0.5,
+        "tag:entertainer": 0.25,
+        "tag:explorer": 0.25
+      },
+      "character": {
+        "tag:compassion": 0.5,
+        "tag:maturity": 0.25,
+        "tag:responsibility": 0.25
+      }
+    }
+  }
+}
