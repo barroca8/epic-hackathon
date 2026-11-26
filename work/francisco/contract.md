@@ -75,3 +75,17 @@ const { data } = await db.from("triples").select("*").eq("subject", "person:ana"
 
 The key above is the public (anon) key and is safe in the app. New people and MighTs created in the
 app are written here, not to the JSON files.
+
+## Endpoints (plain HTTP, any language)
+
+Base `https://pkabsodqwruyccphfkud.supabase.co/rest/v1/`, header `apikey: <public key from graph.js>`.
+
+| Endpoint | Returns |
+|---|---|
+| `GET participantes?select=*` | Nodes: id, nome, grupo, self_tags, mights_recebidos, mights_enviados |
+| `GET ligacoes?select=*&limit=2000` | Links: remetente, destinatario, circulo, tags, estado (aceite / recusado / pendente) |
+| `GET triples?select=*&predicate=eq.AFINIDADE` | Raw triples, any filter (`subject=eq.…`) |
+| `POST triples` (JSON body, add header `Content-Type: application/json`) | Insert one triple or an array |
+
+Responses are capped at 1,000 rows unless `limit` is set. Excel copy of the two views:
+`graph/might-graph.xlsx`, refreshed by `python export_xlsx.py`.
