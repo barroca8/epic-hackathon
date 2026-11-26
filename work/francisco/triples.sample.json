@@ -1,0 +1,13 @@
+[
+  {"subject": "tag:curiosa", "predicate": "TAG_DIMENSION", "object": "personality", "weight": 1, "circle": null, "source": "seed"},
+  {"subject": "tag:organizar", "predicate": "TAG_DIMENSION", "object": "power", "weight": 1, "circle": null, "source": "seed"},
+  {"subject": "tag:integra", "predicate": "TAG_DIMENSION", "object": "character", "weight": 1, "circle": null, "source": "seed"},
+  {"subject": "person:ana", "predicate": "SELF_TAG", "object": "tag:curiosa", "weight": 1, "circle": null, "source": "self"},
+  {"subject": "person:rui", "predicate": "GAVE_MIGHT", "object": "person:ana", "weight": 1, "circle": "colegas", "source": "might"},
+  {"subject": "person:ana", "predicate": "RECEIVED_TAG", "object": "tag:organizar", "weight": 2, "circle": "colegas", "source": "might"},
+  {"subject": "person:ana", "predicate": "HAS_SKILL", "object": "skill:python", "weight": 1, "circle": null, "source": "cv"},
+  {"subject": "person:ana", "predicate": "HELD_ROLE", "object": "role:data-analyst", "weight": 1, "circle": null, "source": "cv"},
+  {"subject": "person:ana", "predicate": "WORKED_AT", "object": "company:acme", "weight": 1, "circle": null, "source": "cv"},
+  {"subject": "tag:organizar", "predicate": "TAG_SUGGESTS_ROLE", "object": "role:project-manager", "weight": 1, "circle": null, "source": "seed"},
+  {"subject": "person:ana", "predicate": "SIMILAR_TO", "object": "person:rui", "weight": 62, "circle": null, "source": "seed"}
+]
