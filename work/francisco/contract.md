@@ -34,7 +34,7 @@ Everyone writes and reads triples in this one shape. Change requests go to Franc
 | `HELD_ROLE` | person → role | Vasco (CV) |
 | `WORKED_AT` | person → company | Vasco (CV) |
 | `TAG_SUGGESTS_ROLE` | tag → role | Seed |
-| `SIMILAR_TO` | person → person (`weight` = % overlap) | Diogo, derived from the rows above |
+| `AFINIDADE` | person → person (`weight` = % of overlapping tag weight) | Vasco, derived from the rows above |
 
 ## Storage
 
@@ -53,6 +53,19 @@ JSON files in git are the source of truth; everything else is derived and can be
 Real from Epic: people, groups, who sent to whom, the tag words. Simulated (seed 42): which tags each
 MighT carries, circles, self tags, the tag-to-role table.
 
-CV triples (Vasco): append to `work/vasco/triples.json` in the shape above. Similarity (Diogo): read
-`profiles.json`, write `SIMILAR_TO`. A Supabase `triples` table with the same columns is only needed
-if phones in the room must write live.
+Afinidade (Vasco): read `profiles.json` or the table, write `AFINIDADE` triples.
+
+## Live table (Supabase)
+
+Table `triples`, same columns as the triple shape, loaded with `triples.json` (2,427 rows).
+Anyone can read and insert; nobody can update or delete. Realtime is on.
+
+```js
+import { createClient } from "https://esm.sh/@supabase/supabase-js@2";
+const db = createClient("https://pkabsodqwruyccphfkud.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBrYWJzb2Rxd3J1eWNjcGhma3VkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTU2OTk2NjksImV4cCI6MjExMTI3NTY2OX0.bWNWAAkvEKvFO_ljnnOojdNjGOCZiu89z8Z3sabFwhk");
+await db.from("triples").insert({ subject: "person:ana", predicate: "SELF_TAG", object: "tag:curious", source: "self" });
+const { data } = await db.from("triples").select("*").eq("subject", "person:ana");
+```
+
+The key above is the public (anon) key and is safe in the app. New people and MighTs created in the
+app are written here, not to the JSON files.
