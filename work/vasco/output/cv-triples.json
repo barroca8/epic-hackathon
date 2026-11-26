@@ -1,0 +1,272 @@
+[
+  {
+    "subject": "person:diogo-ferreira",
+    "predicate": "HAS_SKILL",
+    "object": "skill:ux-design",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Ux Design"
+  },
+  {
+    "subject": "person:diogo-ferreira",
+    "predicate": "HAS_SKILL",
+    "object": "skill:communication",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Communication"
+  },
+  {
+    "subject": "person:diogo-ferreira",
+    "predicate": "HAS_SKILL",
+    "object": "skill:user-research",
+    "weight": 0.8,
+    "circle": null,
+    "source": "cv",
+    "label": "User Research"
+  },
+  {
+    "subject": "person:diogo-ferreira",
+    "predicate": "HELD_ROLE",
+    "object": "role:product-designer",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "Product Designer"
+  },
+  {
+    "subject": "person:francisco-barroca",
+    "predicate": "HAS_SKILL",
+    "object": "skill:python",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Python"
+  },
+  {
+    "subject": "person:francisco-barroca",
+    "predicate": "HAS_SKILL",
+    "object": "skill:sql",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Sql"
+  },
+  {
+    "subject": "person:francisco-barroca",
+    "predicate": "HAS_SKILL",
+    "object": "skill:data-analysis",
+    "weight": 0.7,
+    "circle": null,
+    "source": "cv",
+    "label": "Data Analysis"
+  },
+  {
+    "subject": "person:francisco-barroca",
+    "predicate": "HAS_SKILL",
+    "object": "skill:sales",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Sales"
+  },
+  {
+    "subject": "person:francisco-barroca",
+    "predicate": "HAS_SKILL",
+    "object": "skill:communication",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Communication"
+  },
+  {
+    "subject": "person:francisco-barroca",
+    "predicate": "HELD_ROLE",
+    "object": "role:data-analyst",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "Data Analyst"
+  },
+  {
+    "subject": "person:guilherme-caldeira",
+    "predicate": "HAS_SKILL",
+    "object": "skill:javascript",
+    "weight": 0.8,
+    "circle": null,
+    "source": "cv",
+    "label": "Javascript"
+  },
+  {
+    "subject": "person:guilherme-caldeira",
+    "predicate": "HELD_ROLE",
+    "object": "role:software-engineer",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "Software Engineer"
+  },
+  {
+    "subject": "person:guilherme-caldeira",
+    "predicate": "HELD_ROLE",
+    "object": "role:engenheiro-de-software",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "Engenheiro De Software"
+  },
+  {
+    "subject": "person:leonardo-reche",
+    "predicate": "HAS_SKILL",
+    "object": "skill:marketing",
+    "weight": 0.7,
+    "circle": null,
+    "source": "cv",
+    "label": "Marketing"
+  },
+  {
+    "subject": "person:leonardo-reche",
+    "predicate": "HAS_SKILL",
+    "object": "skill:community-management",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Community Management"
+  },
+  {
+    "subject": "person:leonardo-reche",
+    "predicate": "HAS_SKILL",
+    "object": "skill:copywriting",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Copywriting"
+  },
+  {
+    "subject": "person:leonardo-reche",
+    "predicate": "HAS_SKILL",
+    "object": "skill:experimentation",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Experimentation"
+  },
+  {
+    "subject": "person:leonardo-reche",
+    "predicate": "HELD_ROLE",
+    "object": "role:growth-specialist",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "Growth Specialist"
+  },
+  {
+    "subject": "person:leonardo-reche",
+    "predicate": "HELD_ROLE",
+    "object": "role:community-specialist",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "Community Specialist"
+  },
+  {
+    "subject": "person:mariana-avillez",
+    "predicate": "HAS_SKILL",
+    "object": "skill:communication",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Communication"
+  },
+  {
+    "subject": "person:mariana-avillez",
+    "predicate": "HAS_SKILL",
+    "object": "skill:facilitation",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Facilitation"
+  },
+  {
+    "subject": "person:mariana-avillez",
+    "predicate": "HAS_SKILL",
+    "object": "skill:recruitment",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Recruitment"
+  },
+  {
+    "subject": "person:mariana-avillez",
+    "predicate": "HAS_SKILL",
+    "object": "skill:talent-development",
+    "weight": 0.7,
+    "circle": null,
+    "source": "cv",
+    "label": "Talent Development"
+  },
+  {
+    "subject": "person:mariana-avillez",
+    "predicate": "HELD_ROLE",
+    "object": "role:people-talent-specialist",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "People & Talent Specialist"
+  },
+  {
+    "subject": "person:vasco-prudente",
+    "predicate": "HAS_SKILL",
+    "object": "skill:python",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Python"
+  },
+  {
+    "subject": "person:vasco-prudente",
+    "predicate": "HAS_SKILL",
+    "object": "skill:machine-learning",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Machine Learning"
+  },
+  {
+    "subject": "person:vasco-prudente",
+    "predicate": "HAS_SKILL",
+    "object": "skill:leadership",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Leadership"
+  },
+  {
+    "subject": "person:vasco-prudente",
+    "predicate": "HAS_SKILL",
+    "object": "skill:communication",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Communication"
+  },
+  {
+    "subject": "person:vasco-prudente",
+    "predicate": "HAS_SKILL",
+    "object": "skill:medical-imaging",
+    "weight": 0.6,
+    "circle": null,
+    "source": "cv",
+    "label": "Medical Imaging"
+  },
+  {
+    "subject": "person:vasco-prudente",
+    "predicate": "HELD_ROLE",
+    "object": "role:ai-research-scientist",
+    "weight": 1,
+    "circle": null,
+    "source": "cv",
+    "label": "Ai Research Scientist"
+  }
+]
