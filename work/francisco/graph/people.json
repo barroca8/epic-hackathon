@@ -1,0 +1,695 @@
+[
+ {
+  "id": "person:ricardo-vaz-gaspar",
+  "name": "Ricardo Vaz Gaspar",
+  "group": "Facilitação",
+  "kind": "person",
+  "self_tags": [
+   "tag:competitive",
+   "tag:creator",
+   "tag:collaboration"
+  ]
+ },
+ {
+  "id": "person:joana-peixoto",
+  "name": "Joana Peixoto",
+  "group": "Facilitação",
+  "kind": "person",
+  "self_tags": [
+   "tag:practical",
+   "tag:investigator",
+   "tag:compassion"
+  ]
+ },
+ {
+  "id": "person:diogo-valente",
+  "name": "Diogo Valente",
+  "group": "Facilitação",
+  "kind": "person",
+  "self_tags": [
+   "tag:logic",
+   "tag:learner",
+   "tag:freedom"
+  ]
+ },
+ {
+  "id": "person:programa-aurora-2025",
+  "name": "Programa Aurora 2025",
+  "group": "Programa",
+  "kind": "account",
+  "self_tags": [
+   "tag:objective",
+   "tag:investigator",
+   "tag:persistence"
+  ]
+ },
+ {
+  "id": "person:leandro-xavier",
+  "name": "Leandro Xavier",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:extroverted",
+   "tag:creator",
+   "tag:responsibility"
+  ]
+ },
+ {
+  "id": "person:duarte-vaz-godinho",
+  "name": "Duarte Vaz Godinho",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:imaginative",
+   "tag:conceptualizer",
+   "tag:discipline"
+  ]
+ },
+ {
+  "id": "person:madalena-monteiro-meireles",
+  "name": "Madalena Monteiro Meireles",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:optimistic",
+   "tag:leader",
+   "tag:responsibility"
+  ]
+ },
+ {
+  "id": "person:andre-reis",
+  "name": "André Reis",
+  "group": "Marca A",
+  "kind": "person",
+  "self_tags": [
+   "tag:curious",
+   "tag:solver",
+   "tag:solidarity"
+  ]
+ },
+ {
+  "id": "person:xavier-tavares",
+  "name": "Xavier Tavares",
+  "group": "Marca B",
+  "kind": "person",
+  "self_tags": [
+   "tag:curious",
+   "tag:explorer",
+   "tag:altruism"
+  ]
+ },
+ {
+  "id": "person:caio-nogueira-vilaca",
+  "name": "Caio Nogueira Vilaça",
+  "group": "Marca A",
+  "kind": "person",
+  "self_tags": [
+   "tag:confident",
+   "tag:solver",
+   "tag:generosity"
+  ]
+ },
+ {
+  "id": "person:fabio-freitas-teles",
+  "name": "Fábio Freitas Teles",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:practical",
+   "tag:investigator",
+   "tag:tolerance"
+  ]
+ },
+ {
+  "id": "person:sofia-campos-couto",
+  "name": "Sofia Campos Couto",
+  "group": "Marca H",
+  "kind": "person",
+  "self_tags": [
+   "tag:practical",
+   "tag:communicator",
+   "tag:collaboration"
+  ]
+ },
+ {
+  "id": "person:mariana-campos-neto",
+  "name": "Mariana Campos Neto",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:curious",
+   "tag:composer",
+   "tag:sincerity"
+  ]
+ },
+ {
+  "id": "person:martim-reis-magalhaes",
+  "name": "Martim Reis Magalhães",
+  "group": "Marca D",
+  "kind": "person",
+  "self_tags": [
+   "tag:humorous",
+   "tag:organizer",
+   "tag:humility"
+  ]
+ },
+ {
+  "id": "person:goncalo-brandao-medeiros",
+  "name": "Gonçalo Brandão Medeiros",
+  "group": "Marca F",
+  "kind": "person",
+  "self_tags": [
+   "tag:logic",
+   "tag:analyzer",
+   "tag:courage"
+  ]
+ },
+ {
+  "id": "person:ines-esteves",
+  "name": "Inês Esteves",
+  "group": "Marca E",
+  "kind": "person",
+  "self_tags": [
+   "tag:humorous",
+   "tag:influencer",
+   "tag:sincerity"
+  ]
+ },
+ {
+  "id": "person:isabel-medeiros-rebelo",
+  "name": "Isabel Medeiros Rebelo",
+  "group": "Marca B",
+  "kind": "person",
+  "self_tags": [
+   "tag:passionate",
+   "tag:organizer",
+   "tag:altruism"
+  ]
+ },
+ {
+  "id": "person:vasco-seixas",
+  "name": "Vasco Seixas",
+  "group": "Marca H",
+  "kind": "person",
+  "self_tags": [
+   "tag:intelligent",
+   "tag:writer",
+   "tag:humility"
+  ]
+ },
+ {
+  "id": "person:oscar-brandao-serrano",
+  "name": "Óscar Brandão Serrano",
+  "group": "Marca D",
+  "kind": "person",
+  "self_tags": [
+   "tag:extroverted",
+   "tag:connector",
+   "tag:compassion"
+  ]
+ },
+ {
+  "id": "person:afonso-lobo-nogueira",
+  "name": "Afonso Lobo Nogueira",
+  "group": "Marca G",
+  "kind": "person",
+  "self_tags": [
+   "tag:persuasive",
+   "tag:advisor",
+   "tag:integrity"
+  ]
+ },
+ {
+  "id": "person:rita-carvalhal",
+  "name": "Rita Carvalhal",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:practical",
+   "tag:learner",
+   "tag:collaboration"
+  ]
+ },
+ {
+  "id": "person:mafalda-pestana",
+  "name": "Mafalda Pestana",
+  "group": "Marca B",
+  "kind": "person",
+  "self_tags": [
+   "tag:passionate",
+   "tag:encourager",
+   "tag:responsibility"
+  ]
+ },
+ {
+  "id": "person:margarida-barros-couto",
+  "name": "Margarida Barros Couto",
+  "group": "Marca E",
+  "kind": "person",
+  "self_tags": [
+   "tag:competitive",
+   "tag:entertainer",
+   "tag:discipline"
+  ]
+ },
+ {
+  "id": "person:vera-machado-godinho",
+  "name": "Vera Machado Godinho",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:sensitive",
+   "tag:achiever",
+   "tag:compassion"
+  ]
+ },
+ {
+  "id": "person:fernando-morais",
+  "name": "Fernando Morais",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:intuitive",
+   "tag:advisor",
+   "tag:tolerance"
+  ]
+ },
+ {
+  "id": "person:rodrigo-barros-faria",
+  "name": "Rodrigo Barros Faria",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:sensitive",
+   "tag:investigator",
+   "tag:persistence"
+  ]
+ },
+ {
+  "id": "person:teresa-lima-magalhaes",
+  "name": "Teresa Lima Magalhães",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:sensitive",
+   "tag:writer",
+   "tag:courage"
+  ]
+ },
+ {
+  "id": "person:yara-lacerda",
+  "name": "Yara Lacerda",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:imaginative",
+   "tag:translator",
+   "tag:tolerance"
+  ]
+ },
+ {
+  "id": "person:henrique-couto-barros",
+  "name": "Henrique Couto Barros",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:imaginative",
+   "tag:translator",
+   "tag:tolerance"
+  ]
+ },
+ {
+  "id": "person:bruno-brandao",
+  "name": "Bruno Brandão",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:imaginative",
+   "tag:writer",
+   "tag:solidarity"
+  ]
+ },
+ {
+  "id": "person:bianca-gaspar-matos",
+  "name": "Bianca Gaspar Matos",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:competitive",
+   "tag:innovator",
+   "tag:solidarity"
+  ]
+ },
+ {
+  "id": "person:beatriz-machado-leal",
+  "name": "Beatriz Machado Leal",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:confident",
+   "tag:translator",
+   "tag:freedom"
+  ]
+ },
+ {
+  "id": "person:dinis-serrano-pestana",
+  "name": "Dinis Serrano Pestana",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:objective",
+   "tag:organizer",
+   "tag:maturity"
+  ]
+ },
+ {
+  "id": "person:leonor-campos",
+  "name": "Leonor Campos",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:sensitive",
+   "tag:encourager",
+   "tag:generosity"
+  ]
+ },
+ {
+  "id": "person:luisa-godinho-seixas",
+  "name": "Luísa Godinho Seixas",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:optimistic",
+   "tag:energizer",
+   "tag:tolerance"
+  ]
+ },
+ {
+  "id": "person:salvador-gaspar-paiva",
+  "name": "Salvador Gaspar Paiva",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:persuasive",
+   "tag:analyzer",
+   "tag:sincerity"
+  ]
+ },
+ {
+  "id": "person:manuel-damasceno-peixoto",
+  "name": "Manuel Damasceno Peixoto",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:competitive",
+   "tag:composer",
+   "tag:courage"
+  ]
+ },
+ {
+  "id": "person:telmo-valadares-carvalhal",
+  "name": "Telmo Valadares Carvalhal",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:confident",
+   "tag:creator",
+   "tag:sincerity"
+  ]
+ },
+ {
+  "id": "person:diana-vaz-seixas",
+  "name": "Diana Vaz Seixas",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:clever",
+   "tag:learner",
+   "tag:compassion"
+  ]
+ },
+ {
+  "id": "person:constanca-pacheco-peixoto",
+  "name": "Constança Pacheco Peixoto",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:people-oriented",
+   "tag:influencer",
+   "tag:humility"
+  ]
+ },
+ {
+  "id": "person:matilde-tavares",
+  "name": "Matilde Tavares",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:competitive",
+   "tag:planner",
+   "tag:discipline"
+  ]
+ },
+ {
+  "id": "person:rui-fontes",
+  "name": "Rui Fontes",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:competitive",
+   "tag:investigator",
+   "tag:altruism"
+  ]
+ },
+ {
+  "id": "person:vicente-pestana",
+  "name": "Vicente Pestana",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:persuasive",
+   "tag:encourager",
+   "tag:humility"
+  ]
+ },
+ {
+  "id": "person:paulo-valadares",
+  "name": "Paulo Valadares",
+  "group": "Marca C",
+  "kind": "person",
+  "self_tags": [
+   "tag:extroverted",
+   "tag:composer",
+   "tag:integrity"
+  ]
+ },
+ {
+  "id": "person:tomas-meireles",
+  "name": "Tomás Meireles",
+  "group": "Marca H",
+  "kind": "person",
+  "self_tags": [
+   "tag:optimistic",
+   "tag:analyzer",
+   "tag:solidarity"
+  ]
+ },
+ {
+  "id": "person:andreia-lacerda-serrano",
+  "name": "Andreia Lacerda Serrano",
+  "group": "Marca H",
+  "kind": "person",
+  "self_tags": [
+   "tag:intelligent",
+   "tag:developer",
+   "tag:persistence"
+  ]
+ },
+ {
+  "id": "person:patricia-neto-sampaio",
+  "name": "Patrícia Neto Sampaio",
+  "group": "Marca E",
+  "kind": "person",
+  "self_tags": [
+   "tag:imaginative",
+   "tag:connector",
+   "tag:compassion"
+  ]
+ },
+ {
+  "id": "person:gustavo-campos-pacheco",
+  "name": "Gustavo Campos Pacheco",
+  "group": "Marca E",
+  "kind": "person",
+  "self_tags": [
+   "tag:extroverted",
+   "tag:writer",
+   "tag:maturity"
+  ]
+ },
+ {
+  "id": "person:simao-faria",
+  "name": "Simão Faria",
+  "group": "Marca B",
+  "kind": "person",
+  "self_tags": [
+   "tag:confident",
+   "tag:leader",
+   "tag:freedom"
+  ]
+ },
+ {
+  "id": "person:jorge-valadares-monteiro",
+  "name": "Jorge Valadares Monteiro",
+  "group": "Marca B",
+  "kind": "person",
+  "self_tags": [
+   "tag:confident",
+   "tag:innovator",
+   "tag:solidarity"
+  ]
+ },
+ {
+  "id": "person:sergio-peixoto-pestana",
+  "name": "Sérgio Peixoto Pestana",
+  "group": "Marca B",
+  "kind": "person",
+  "self_tags": [
+   "tag:sensitive",
+   "tag:illustrator",
+   "tag:maturity"
+  ]
+ },
+ {
+  "id": "person:rafael-seixas",
+  "name": "Rafael Seixas",
+  "group": "Marca A",
+  "kind": "person",
+  "self_tags": [
+   "tag:wise",
+   "tag:entrepreneur",
+   "tag:humility"
+  ]
+ },
+ {
+  "id": "person:sonia-medeiros",
+  "name": "Sónia Medeiros",
+  "group": "Marca A",
+  "kind": "person",
+  "self_tags": [
+   "tag:intelligent",
+   "tag:translator",
+   "tag:collaboration"
+  ]
+ },
+ {
+  "id": "person:raquel-damasceno",
+  "name": "Raquel Damasceno",
+  "group": "Marca A",
+  "kind": "person",
+  "self_tags": [
+   "tag:people-oriented",
+   "tag:analyzer",
+   "tag:humility"
+  ]
+ },
+ {
+  "id": "person:filipa-pacheco",
+  "name": "Filipa Pacheco",
+  "group": "Marca D",
+  "kind": "person",
+  "self_tags": [
+   "tag:intuitive",
+   "tag:developer",
+   "tag:freedom"
+  ]
+ },
+ {
+  "id": "person:claudia-machado",
+  "name": "Cláudia Machado",
+  "group": "Marca D",
+  "kind": "person",
+  "self_tags": [
+   "tag:logic",
+   "tag:investigator",
+   "tag:compassion"
+  ]
+ },
+ {
+  "id": "person:lourenco-serrano",
+  "name": "Lourenço Serrano",
+  "group": "Marca G",
+  "kind": "person",
+  "self_tags": [
+   "tag:curious",
+   "tag:encourager",
+   "tag:altruism"
+  ]
+ },
+ {
+  "id": "person:clara-seixas",
+  "name": "Clara Seixas",
+  "group": "Marca F",
+  "kind": "person",
+  "self_tags": [
+   "tag:curious",
+   "tag:leader",
+   "tag:humility"
+  ]
+ },
+ {
+  "id": "person:hugo-carvalhal",
+  "name": "Hugo Carvalhal",
+  "group": "Marca F",
+  "kind": "person",
+  "self_tags": [
+   "tag:intuitive",
+   "tag:leader",
+   "tag:compassion"
+  ]
+ },
+ {
+  "id": "person:catarina-neto-seixas",
+  "name": "Catarina Neto Seixas",
+  "group": "Marca G",
+  "kind": "person",
+  "self_tags": [
+   "tag:confident",
+   "tag:connector",
+   "tag:discipline"
+  ]
+ },
+ {
+  "id": "person:lucia-lobo",
+  "name": "Lúcia Lobo",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:imaginative",
+   "tag:conceptualizer",
+   "tag:generosity"
+  ]
+ },
+ {
+  "id": "person:rodrigo-tavares-magalhaes",
+  "name": "Rodrigo Tavares Magalhães",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:intuitive",
+   "tag:developer",
+   "tag:sincerity"
+  ]
+ },
+ {
+  "id": "person:sonia-campos",
+  "name": "Sónia Campos",
+  "group": "Corporativo",
+  "kind": "person",
+  "self_tags": [
+   "tag:intuitive",
+   "tag:conceptualizer",
+   "tag:responsibility"
+  ]
+ }
+]

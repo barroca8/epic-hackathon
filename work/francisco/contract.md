@@ -38,21 +38,21 @@ Everyone writes and reads triples in this one shape. Change requests go to Franc
 
 ## Storage
 
-One Supabase table, read and written straight from the app with the JS client. No server.
+JSON files in git are the source of truth; everything else is derived and can be rebuilt.
+`work/francisco/graph/`, built by `build_graph.py` from Epic's social graph (63 people, 1,110 MighTs):
 
-```sql
-create table triples (
-  id bigint generated always as identity primary key,
-  subject text not null,
-  predicate text not null,
-  object text not null,
-  weight numeric default 1,
-  circle text,
-  source text,
-  created_at timestamptz default now()
-);
-create index on triples (subject, predicate);
-create index on triples (object, predicate);
-```
+| File | Holds |
+|---|---|
+| `tags.json` | 61 tags from Epic's word library: id, EN, PT, dimension |
+| `people.json` | id, name, group, self tags |
+| `mights.json` | from, to, circle, 3 tags, status |
+| `profiles.json` | per person: MighTs received and All MighT weights per dimension (count / total) |
+| `roles.json` | power tag -> role now, role next (hypotheses) |
+| `triples.json` | all of the above as triples |
 
-Until the table exists, work against `work/francisco/triples.sample.json` (same shape, an array).
+Real from Epic: people, groups, who sent to whom, the tag words. Simulated (seed 42): which tags each
+MighT carries, circles, self tags, the tag-to-role table.
+
+CV triples (Vasco): append to `work/vasco/triples.json` in the shape above. Similarity (Diogo): read
+`profiles.json`, write `SIMILAR_TO`. A Supabase `triples` table with the same columns is only needed
+if phones in the room must write live.

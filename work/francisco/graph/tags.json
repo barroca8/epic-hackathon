@@ -1,0 +1,368 @@
+[
+ {
+  "id": "tag:adaptable",
+  "en": "Adaptable",
+  "pt": "Adaptável",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:clever",
+  "en": "Clever",
+  "pt": "Esperto",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:competitive",
+  "en": "Competitive",
+  "pt": "Competitivo",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:confident",
+  "en": "Confident",
+  "pt": "Confiante",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:curious",
+  "en": "Curious",
+  "pt": "Curioso",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:extroverted",
+  "en": "Extroverted",
+  "pt": "Extrovertido",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:humorous",
+  "en": "Humorous",
+  "pt": "Divertido",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:imaginative",
+  "en": "Imaginative",
+  "pt": "Imaginativo",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:intelligent",
+  "en": "Intelligent",
+  "pt": "Inteligente",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:intuitive",
+  "en": "Intuitive",
+  "pt": "Intuitivo",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:logic",
+  "en": "Logic",
+  "pt": "Lógico",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:objective",
+  "en": "Objective",
+  "pt": "Objectivo",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:optimistic",
+  "en": "Optimistic",
+  "pt": "Optimista",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:passionate",
+  "en": "Passionate",
+  "pt": "Apaixonado",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:people-oriented",
+  "en": "People oriented",
+  "pt": "Empático",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:persuasive",
+  "en": "Persuasive",
+  "pt": "Persuasivo",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:practical",
+  "en": "Practical",
+  "pt": "Prático",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:sensitive",
+  "en": "Sensitive",
+  "pt": "Sensível",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:wise",
+  "en": "Wise",
+  "pt": "Sábio",
+  "dimension": "personality"
+ },
+ {
+  "id": "tag:achiever",
+  "en": "Achiever",
+  "pt": "Vencedor",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:advisor",
+  "en": "Advisor",
+  "pt": "Conselheiro",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:analyzer",
+  "en": "Analyzer",
+  "pt": "Analisador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:communicator",
+  "en": "Communicator",
+  "pt": "Comunicador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:composer",
+  "en": "Composer",
+  "pt": "Compositor",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:conceptualizer",
+  "en": "Conceptualizer",
+  "pt": "Conceptualizador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:connector",
+  "en": "Connector",
+  "pt": "Conector",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:creator",
+  "en": "Creator",
+  "pt": "Criador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:developer",
+  "en": "Developer",
+  "pt": "Concretizador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:encourager",
+  "en": "Encourager",
+  "pt": "Motivador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:energizer",
+  "en": "Energizer",
+  "pt": "Energizador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:entertainer",
+  "en": "Entertainer",
+  "pt": "Animador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:entrepreneur",
+  "en": "Entrepreneur",
+  "pt": "Empreendedor",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:explorer",
+  "en": "Explorer",
+  "pt": "Explorador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:illustrator",
+  "en": "Illustrator",
+  "pt": "Ilustrador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:influencer",
+  "en": "Influencer",
+  "pt": "Influenciador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:innovator",
+  "en": "Innovator",
+  "pt": "Inovador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:investigator",
+  "en": "Investigator",
+  "pt": "Investigador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:leader",
+  "en": "Leader",
+  "pt": "Líder",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:learner",
+  "en": "Learner",
+  "pt": "Aprendiz",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:moderator",
+  "en": "Moderator",
+  "pt": "Moderador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:organizer",
+  "en": "Organizer",
+  "pt": "Organizador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:planner",
+  "en": "Planner",
+  "pt": "Planeador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:solver",
+  "en": "Solver",
+  "pt": "Solucionador",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:strategizer",
+  "en": "Strategizer",
+  "pt": "Estratega",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:translator",
+  "en": "Translator",
+  "pt": "Tradutor",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:writer",
+  "en": "Writer",
+  "pt": "Escritor",
+  "dimension": "power"
+ },
+ {
+  "id": "tag:altruism",
+  "en": "Altruism",
+  "pt": "Altruísmo",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:collaboration",
+  "en": "Collaboration",
+  "pt": "Colaboração",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:compassion",
+  "en": "Compassion",
+  "pt": "Compaixão",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:courage",
+  "en": "Courage",
+  "pt": "Coragem",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:discipline",
+  "en": "Discipline",
+  "pt": "Disciplina",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:freedom",
+  "en": "Freedom",
+  "pt": "Liberdade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:generosity",
+  "en": "Generosity",
+  "pt": "Generosidade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:humility",
+  "en": "Humility",
+  "pt": "Humildade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:integrity",
+  "en": "Integrity",
+  "pt": "Integridade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:maturity",
+  "en": "Maturity",
+  "pt": "Maturidade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:persistence",
+  "en": "Persistence",
+  "pt": "Persistência",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:responsibility",
+  "en": "Responsibility",
+  "pt": "Responsabilidade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:sincerity",
+  "en": "Sincerity",
+  "pt": "Sinceridade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:solidarity",
+  "en": "Solidarity",
+  "pt": "Solidariedade",
+  "dimension": "character"
+ },
+ {
+  "id": "tag:tolerance",
+  "en": "Tolerance",
+  "pt": "Tolerância",
+  "dimension": "character"
+ }
+]

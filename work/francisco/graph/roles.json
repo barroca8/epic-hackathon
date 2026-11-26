@@ -1,0 +1,137 @@
+[
+ {
+  "tag": "tag:achiever",
+  "now": "Account Executive",
+  "next": "Head of Sales"
+ },
+ {
+  "tag": "tag:advisor",
+  "now": "Consultor",
+  "next": "Mentor / Coach"
+ },
+ {
+  "tag": "tag:analyzer",
+  "now": "Data Analyst",
+  "next": "Analytics Lead"
+ },
+ {
+  "tag": "tag:communicator",
+  "now": "Comunicação",
+  "next": "Head of Communications"
+ },
+ {
+  "tag": "tag:composer",
+  "now": "Produtor de Conteúdo",
+  "next": "Creative Director"
+ },
+ {
+  "tag": "tag:conceptualizer",
+  "now": "Service Designer",
+  "next": "Head of Strategy"
+ },
+ {
+  "tag": "tag:connector",
+  "now": "Partnerships",
+  "next": "Community Lead"
+ },
+ {
+  "tag": "tag:creator",
+  "now": "Product Designer",
+  "next": "Founder"
+ },
+ {
+  "tag": "tag:developer",
+  "now": "Software Engineer",
+  "next": "Tech Lead"
+ },
+ {
+  "tag": "tag:encourager",
+  "now": "People Partner",
+  "next": "Team Coach"
+ },
+ {
+  "tag": "tag:energizer",
+  "now": "Event Manager",
+  "next": "Culture Lead"
+ },
+ {
+  "tag": "tag:entertainer",
+  "now": "Brand Activation",
+  "next": "Host / Speaker"
+ },
+ {
+  "tag": "tag:entrepreneur",
+  "now": "Business Developer",
+  "next": "Founder"
+ },
+ {
+  "tag": "tag:explorer",
+  "now": "Researcher",
+  "next": "Innovation Scout"
+ },
+ {
+  "tag": "tag:illustrator",
+  "now": "Visual Designer",
+  "next": "Art Director"
+ },
+ {
+  "tag": "tag:influencer",
+  "now": "Marketing",
+  "next": "Brand Lead"
+ },
+ {
+  "tag": "tag:innovator",
+  "now": "Product Manager",
+  "next": "Head of Innovation"
+ },
+ {
+  "tag": "tag:investigator",
+  "now": "UX Researcher",
+  "next": "Insights Lead"
+ },
+ {
+  "tag": "tag:leader",
+  "now": "Team Lead",
+  "next": "General Manager"
+ },
+ {
+  "tag": "tag:learner",
+  "now": "Trainee / Rotational",
+  "next": "Learning Designer"
+ },
+ {
+  "tag": "tag:moderator",
+  "now": "Facilitador",
+  "next": "Agile Coach"
+ },
+ {
+  "tag": "tag:organizer",
+  "now": "Operations",
+  "next": "Chief of Staff"
+ },
+ {
+  "tag": "tag:planner",
+  "now": "Project Manager",
+  "next": "Program Director"
+ },
+ {
+  "tag": "tag:solver",
+  "now": "Customer Success",
+  "next": "Solutions Architect"
+ },
+ {
+  "tag": "tag:strategizer",
+  "now": "Strategy Analyst",
+  "next": "Head of Strategy"
+ },
+ {
+  "tag": "tag:translator",
+  "now": "Technical Writer",
+  "next": "Product Marketing"
+ },
+ {
+  "tag": "tag:writer",
+  "now": "Copywriter",
+  "next": "Editor-in-chief"
+ }
+]

@@ -1,0 +1,1708 @@
+{
+ "person:ricardo-vaz-gaspar": {
+  "received": 5,
+  "all_might": {
+   "personality": {
+    "tag:confident": 0.4,
+    "tag:adaptable": 0.4,
+    "tag:intelligent": 0.2
+   },
+   "power": {
+    "tag:composer": 0.4,
+    "tag:creator": 0.2,
+    "tag:solver": 0.2,
+    "tag:illustrator": 0.2
+   },
+   "character": {
+    "tag:collaboration": 0.8,
+    "tag:persistence": 0.2
+   }
+  }
+ },
+ "person:joana-peixoto": {
+  "received": 3,
+  "all_might": {
+   "personality": {
+    "tag:imaginative": 0.667,
+    "tag:practical": 0.333
+   },
+   "power": {
+    "tag:investigator": 0.333,
+    "tag:connector": 0.333,
+    "tag:planner": 0.333
+   },
+   "character": {
+    "tag:responsibility": 0.667,
+    "tag:integrity": 0.333
+   }
+  }
+ },
+ "person:diogo-valente": {
+  "received": 2,
+  "all_might": {
+   "personality": {
+    "tag:logic": 0.5,
+    "tag:optimistic": 0.5
+   },
+   "power": {
+    "tag:composer": 1.0
+   },
+   "character": {
+    "tag:freedom": 0.5,
+    "tag:collaboration": 0.5
+   }
+  }
+ },
+ "person:programa-aurora-2025": {
+  "received": 40,
+  "all_might": {
+   "personality": {
+    "tag:people-oriented": 0.575,
+    "tag:sensitive": 0.15,
+    "tag:confident": 0.15,
+    "tag:objective": 0.05,
+    "tag:adaptable": 0.05,
+    "tag:passionate": 0.025
+   },
+   "power": {
+    "tag:entrepreneur": 0.625,
+    "tag:analyzer": 0.15,
+    "tag:investigator": 0.05,
+    "tag:innovator": 0.05,
+    "tag:organizer": 0.025,
+    "tag:achiever": 0.025,
+    "tag:energizer": 0.025,
+    "tag:translator": 0.025,
+    "tag:moderator": 0.025
+   },
+   "character": {
+    "tag:discipline": 0.5,
+    "tag:solidarity": 0.2,
+    "tag:persistence": 0.175,
+    "tag:humility": 0.05,
+    "tag:maturity": 0.025,
+    "tag:tolerance": 0.025,
+    "tag:freedom": 0.025
+   }
+  }
+ },
+ "person:leandro-xavier": {
+  "received": 34,
+  "all_might": {
+   "personality": {
+    "tag:imaginative": 0.353,
+    "tag:intuitive": 0.235,
+    "tag:competitive": 0.118,
+    "tag:confident": 0.059,
+    "tag:sensitive": 0.059,
+    "tag:people-oriented": 0.059,
+    "tag:humorous": 0.029,
+    "tag:optimistic": 0.029,
+    "tag:objective": 0.029,
+    "tag:adaptable": 0.029
+   },
+   "power": {
+    "tag:creator": 0.5,
+    "tag:communicator": 0.294,
+    "tag:entrepreneur": 0.088,
+    "tag:illustrator": 0.029,
+    "tag:connector": 0.029,
+    "tag:developer": 0.029,
+    "tag:innovator": 0.029
+   },
+   "character": {
+    "tag:discipline": 0.353,
+    "tag:humility": 0.265,
+    "tag:persistence": 0.206,
+    "tag:freedom": 0.059,
+    "tag:responsibility": 0.029,
+    "tag:sincerity": 0.029,
+    "tag:collaboration": 0.029,
+    "tag:compassion": 0.029
+   }
+  }
+ },
+ "person:duarte-vaz-godinho": {
+  "received": 41,
+  "all_might": {
+   "personality": {
+    "tag:competitive": 0.439,
+    "tag:extroverted": 0.39,
+    "tag:imaginative": 0.073,
+    "tag:people-oriented": 0.024,
+    "tag:intuitive": 0.024,
+    "tag:intelligent": 0.024,
+    "tag:adaptable": 0.024
+   },
+   "power": {
+    "tag:conceptualizer": 0.341,
+    "tag:illustrator": 0.293,
+    "tag:entrepreneur": 0.22,
+    "tag:investigator": 0.049,
+    "tag:learner": 0.024,
+    "tag:influencer": 0.024,
+    "tag:achiever": 0.024,
+    "tag:composer": 0.024
+   },
+   "character": {
+    "tag:discipline": 0.415,
+    "tag:persistence": 0.317,
+    "tag:responsibility": 0.146,
+    "tag:courage": 0.049,
+    "tag:maturity": 0.024,
+    "tag:solidarity": 0.024,
+    "tag:humility": 0.024
+   }
+  }
+ },
+ "person:madalena-monteiro-meireles": {
+  "received": 9,
+  "all_might": {
+   "personality": {
+    "tag:optimistic": 0.333,
+    "tag:logic": 0.222,
+    "tag:people-oriented": 0.111,
+    "tag:wise": 0.111,
+    "tag:persuasive": 0.111,
+    "tag:intelligent": 0.111
+   },
+   "power": {
+    "tag:leader": 0.222,
+    "tag:influencer": 0.111,
+    "tag:analyzer": 0.111,
+    "tag:organizer": 0.111,
+    "tag:explorer": 0.111,
+    "tag:connector": 0.111,
+    "tag:writer": 0.111,
+    "tag:conceptualizer": 0.111
+   },
+   "character": {
+    "tag:freedom": 0.222,
+    "tag:tolerance": 0.222,
+    "tag:integrity": 0.222,
+    "tag:responsibility": 0.111,
+    "tag:collaboration": 0.111,
+    "tag:discipline": 0.111
+   }
+  }
+ },
+ "person:andre-reis": {
+  "received": 27,
+  "all_might": {
+   "personality": {
+    "tag:curious": 0.444,
+    "tag:imaginative": 0.259,
+    "tag:intelligent": 0.111,
+    "tag:persuasive": 0.074,
+    "tag:adaptable": 0.037,
+    "tag:wise": 0.037,
+    "tag:logic": 0.037
+   },
+   "power": {
+    "tag:solver": 0.37,
+    "tag:explorer": 0.259,
+    "tag:leader": 0.185,
+    "tag:influencer": 0.111,
+    "tag:analyzer": 0.037,
+    "tag:advisor": 0.037
+   },
+   "character": {
+    "tag:tolerance": 0.407,
+    "tag:maturity": 0.296,
+    "tag:generosity": 0.111,
+    "tag:compassion": 0.074,
+    "tag:discipline": 0.037,
+    "tag:courage": 0.037,
+    "tag:solidarity": 0.037
+   }
+  }
+ },
+ "person:xavier-tavares": {
+  "received": 28,
+  "all_might": {
+   "personality": {
+    "tag:curious": 0.321,
+    "tag:confident": 0.286,
+    "tag:extroverted": 0.143,
+    "tag:intelligent": 0.036,
+    "tag:adaptable": 0.036,
+    "tag:logic": 0.036,
+    "tag:people-oriented": 0.036,
+    "tag:sensitive": 0.036,
+    "tag:optimistic": 0.036,
+    "tag:passionate": 0.036
+   },
+   "power": {
+    "tag:translator": 0.429,
+    "tag:organizer": 0.393,
+    "tag:influencer": 0.036,
+    "tag:communicator": 0.036,
+    "tag:entrepreneur": 0.036,
+    "tag:learner": 0.036,
+    "tag:explorer": 0.036
+   },
+   "character": {
+    "tag:collaboration": 0.357,
+    "tag:generosity": 0.357,
+    "tag:maturity": 0.143,
+    "tag:humility": 0.071,
+    "tag:discipline": 0.036,
+    "tag:solidarity": 0.036
+   }
+  }
+ },
+ "person:caio-nogueira-vilaca": {
+  "received": 23,
+  "all_might": {
+   "personality": {
+    "tag:confident": 0.435,
+    "tag:sensitive": 0.304,
+    "tag:intelligent": 0.13,
+    "tag:intuitive": 0.043,
+    "tag:persuasive": 0.043,
+    "tag:adaptable": 0.043
+   },
+   "power": {
+    "tag:moderator": 0.304,
+    "tag:strategizer": 0.217,
+    "tag:energizer": 0.217,
+    "tag:influencer": 0.043,
+    "tag:solver": 0.043,
+    "tag:composer": 0.043,
+    "tag:advisor": 0.043,
+    "tag:investigator": 0.043,
+    "tag:creator": 0.043
+   },
+   "character": {
+    "tag:discipline": 0.391,
+    "tag:collaboration": 0.391,
+    "tag:responsibility": 0.087,
+    "tag:compassion": 0.043,
+    "tag:persistence": 0.043,
+    "tag:generosity": 0.043
+   }
+  }
+ },
+ "person:fabio-freitas-teles": {
+  "received": 14,
+  "all_might": {
+   "personality": {
+    "tag:extroverted": 0.714,
+    "tag:practical": 0.143,
+    "tag:confident": 0.143
+   },
+   "power": {
+    "tag:encourager": 0.5,
+    "tag:writer": 0.214,
+    "tag:moderator": 0.143,
+    "tag:explorer": 0.071,
+    "tag:solver": 0.071
+   },
+   "character": {
+    "tag:integrity": 0.357,
+    "tag:persistence": 0.286,
+    "tag:maturity": 0.214,
+    "tag:altruism": 0.071,
+    "tag:courage": 0.071
+   }
+  }
+ },
+ "person:sofia-campos-couto": {
+  "received": 28,
+  "all_might": {
+   "personality": {
+    "tag:adaptable": 0.321,
+    "tag:practical": 0.286,
+    "tag:logic": 0.179,
+    "tag:sensitive": 0.071,
+    "tag:curious": 0.036,
+    "tag:intelligent": 0.036,
+    "tag:wise": 0.036,
+    "tag:optimistic": 0.036
+   },
+   "power": {
+    "tag:achiever": 0.357,
+    "tag:influencer": 0.357,
+    "tag:communicator": 0.143,
+    "tag:organizer": 0.036,
+    "tag:innovator": 0.036,
+    "tag:entrepreneur": 0.036,
+    "tag:leader": 0.036
+   },
+   "character": {
+    "tag:tolerance": 0.357,
+    "tag:freedom": 0.25,
+    "tag:sincerity": 0.214,
+    "tag:generosity": 0.036,
+    "tag:compassion": 0.036,
+    "tag:altruism": 0.036,
+    "tag:humility": 0.036,
+    "tag:persistence": 0.036
+   }
+  }
+ },
+ "person:mariana-campos-neto": {
+  "received": 32,
+  "all_might": {
+   "personality": {
+    "tag:persuasive": 0.406,
+    "tag:competitive": 0.281,
+    "tag:curious": 0.219,
+    "tag:clever": 0.031,
+    "tag:intuitive": 0.031,
+    "tag:passionate": 0.031
+   },
+   "power": {
+    "tag:composer": 0.469,
+    "tag:organizer": 0.219,
+    "tag:influencer": 0.156,
+    "tag:planner": 0.031,
+    "tag:learner": 0.031,
+    "tag:connector": 0.031,
+    "tag:illustrator": 0.031,
+    "tag:solver": 0.031
+   },
+   "character": {
+    "tag:integrity": 0.375,
+    "tag:compassion": 0.281,
+    "tag:discipline": 0.125,
+    "tag:sincerity": 0.062,
+    "tag:courage": 0.062,
+    "tag:tolerance": 0.031,
+    "tag:humility": 0.031,
+    "tag:generosity": 0.031
+   }
+  }
+ },
+ "person:martim-reis-magalhaes": {
+  "received": 23,
+  "all_might": {
+   "personality": {
+    "tag:humorous": 0.478,
+    "tag:intuitive": 0.217,
+    "tag:optimistic": 0.174,
+    "tag:clever": 0.043,
+    "tag:people-oriented": 0.043,
+    "tag:persuasive": 0.043
+   },
+   "power": {
+    "tag:organizer": 0.435,
+    "tag:moderator": 0.217,
+    "tag:entertainer": 0.217,
+    "tag:developer": 0.043,
+    "tag:conceptualizer": 0.043,
+    "tag:entrepreneur": 0.043
+   },
+   "character": {
+    "tag:humility": 0.565,
+    "tag:integrity": 0.261,
+    "tag:tolerance": 0.13,
+    "tag:solidarity": 0.043
+   }
+  }
+ },
+ "person:goncalo-brandao-medeiros": {
+  "received": 18,
+  "all_might": {
+   "personality": {
+    "tag:wise": 0.333,
+    "tag:imaginative": 0.278,
+    "tag:adaptable": 0.222,
+    "tag:people-oriented": 0.056,
+    "tag:intuitive": 0.056,
+    "tag:confident": 0.056
+   },
+   "power": {
+    "tag:analyzer": 0.444,
+    "tag:planner": 0.222,
+    "tag:moderator": 0.167,
+    "tag:innovator": 0.056,
+    "tag:communicator": 0.056,
+    "tag:entrepreneur": 0.056
+   },
+   "character": {
+    "tag:altruism": 0.5,
+    "tag:courage": 0.167,
+    "tag:collaboration": 0.167,
+    "tag:freedom": 0.056,
+    "tag:tolerance": 0.056,
+    "tag:compassion": 0.056
+   }
+  }
+ },
+ "person:ines-esteves": {
+  "received": 24,
+  "all_might": {
+   "personality": {
+    "tag:humorous": 0.333,
+    "tag:sensitive": 0.25,
+    "tag:curious": 0.208,
+    "tag:logic": 0.083,
+    "tag:extroverted": 0.042,
+    "tag:objective": 0.042,
+    "tag:people-oriented": 0.042
+   },
+   "power": {
+    "tag:solver": 0.458,
+    "tag:leader": 0.333,
+    "tag:explorer": 0.083,
+    "tag:influencer": 0.042,
+    "tag:planner": 0.042,
+    "tag:writer": 0.042
+   },
+   "character": {
+    "tag:courage": 0.417,
+    "tag:humility": 0.208,
+    "tag:sincerity": 0.208,
+    "tag:freedom": 0.042,
+    "tag:responsibility": 0.042,
+    "tag:solidarity": 0.042,
+    "tag:discipline": 0.042
+   }
+  }
+ },
+ "person:isabel-medeiros-rebelo": {
+  "received": 29,
+  "all_might": {
+   "personality": {
+    "tag:passionate": 0.483,
+    "tag:people-oriented": 0.241,
+    "tag:clever": 0.138,
+    "tag:optimistic": 0.034,
+    "tag:intuitive": 0.034,
+    "tag:imaginative": 0.034,
+    "tag:wise": 0.034
+   },
+   "power": {
+    "tag:organizer": 0.345,
+    "tag:moderator": 0.276,
+    "tag:communicator": 0.172,
+    "tag:solver": 0.069,
+    "tag:developer": 0.034,
+    "tag:translator": 0.034,
+    "tag:conceptualizer": 0.034,
+    "tag:energizer": 0.034
+   },
+   "character": {
+    "tag:altruism": 0.483,
+    "tag:generosity": 0.207,
+    "tag:persistence": 0.069,
+    "tag:responsibility": 0.069,
+    "tag:humility": 0.069,
+    "tag:integrity": 0.034,
+    "tag:discipline": 0.034,
+    "tag:freedom": 0.034
+   }
+  }
+ },
+ "person:vasco-seixas": {
+  "received": 25,
+  "all_might": {
+   "personality": {
+    "tag:passionate": 0.4,
+    "tag:extroverted": 0.32,
+    "tag:intelligent": 0.12,
+    "tag:objective": 0.04,
+    "tag:curious": 0.04,
+    "tag:humorous": 0.04,
+    "tag:intuitive": 0.04
+   },
+   "power": {
+    "tag:creator": 0.32,
+    "tag:illustrator": 0.32,
+    "tag:analyzer": 0.16,
+    "tag:advisor": 0.12,
+    "tag:strategizer": 0.04,
+    "tag:innovator": 0.04
+   },
+   "character": {
+    "tag:humility": 0.44,
+    "tag:sincerity": 0.28,
+    "tag:integrity": 0.2,
+    "tag:altruism": 0.04,
+    "tag:generosity": 0.04
+   }
+  }
+ },
+ "person:oscar-brandao-serrano": {
+  "received": 18,
+  "all_might": {
+   "personality": {
+    "tag:imaginative": 0.333,
+    "tag:passionate": 0.333,
+    "tag:extroverted": 0.111,
+    "tag:curious": 0.056,
+    "tag:confident": 0.056,
+    "tag:competitive": 0.056,
+    "tag:logic": 0.056
+   },
+   "power": {
+    "tag:influencer": 0.5,
+    "tag:connector": 0.167,
+    "tag:entrepreneur": 0.167,
+    "tag:analyzer": 0.056,
+    "tag:strategizer": 0.056,
+    "tag:communicator": 0.056
+   },
+   "character": {
+    "tag:tolerance": 0.667,
+    "tag:compassion": 0.111,
+    "tag:courage": 0.056,
+    "tag:altruism": 0.056,
+    "tag:collaboration": 0.056,
+    "tag:freedom": 0.056
+   }
+  }
+ },
+ "person:afonso-lobo-nogueira": {
+  "received": 25,
+  "all_might": {
+   "personality": {
+    "tag:persuasive": 0.32,
+    "tag:sensitive": 0.28,
+    "tag:curious": 0.2,
+    "tag:confident": 0.04,
+    "tag:humorous": 0.04,
+    "tag:adaptable": 0.04,
+    "tag:intuitive": 0.04,
+    "tag:extroverted": 0.04
+   },
+   "power": {
+    "tag:connector": 0.44,
+    "tag:advisor": 0.2,
+    "tag:encourager": 0.16,
+    "tag:illustrator": 0.08,
+    "tag:investigator": 0.04,
+    "tag:entertainer": 0.04,
+    "tag:leader": 0.04
+   },
+   "character": {
+    "tag:maturity": 0.56,
+    "tag:responsibility": 0.24,
+    "tag:integrity": 0.16,
+    "tag:collaboration": 0.04
+   }
+  }
+ },
+ "person:rita-carvalhal": {
+  "received": 22,
+  "all_might": {
+   "personality": {
+    "tag:extroverted": 0.5,
+    "tag:clever": 0.227,
+    "tag:passionate": 0.091,
+    "tag:wise": 0.045,
+    "tag:practical": 0.045,
+    "tag:imaginative": 0.045,
+    "tag:confident": 0.045
+   },
+   "power": {
+    "tag:analyzer": 0.5,
+    "tag:learner": 0.227,
+    "tag:conceptualizer": 0.182,
+    "tag:developer": 0.045,
+    "tag:creator": 0.045
+   },
+   "character": {
+    "tag:persistence": 0.318,
+    "tag:collaboration": 0.318,
+    "tag:courage": 0.182,
+    "tag:solidarity": 0.045,
+    "tag:integrity": 0.045,
+    "tag:responsibility": 0.045,
+    "tag:compassion": 0.045
+   }
+  }
+ },
+ "person:mafalda-pestana": {
+  "received": 22,
+  "all_might": {
+   "personality": {
+    "tag:passionate": 0.455,
+    "tag:practical": 0.318,
+    "tag:logic": 0.182,
+    "tag:sensitive": 0.045
+   },
+   "power": {
+    "tag:developer": 0.409,
+    "tag:connector": 0.182,
+    "tag:organizer": 0.091,
+    "tag:leader": 0.091,
+    "tag:encourager": 0.045,
+    "tag:planner": 0.045,
+    "tag:illustrator": 0.045,
+    "tag:influencer": 0.045,
+    "tag:communicator": 0.045
+   },
+   "character": {
+    "tag:freedom": 0.364,
+    "tag:responsibility": 0.273,
+    "tag:courage": 0.182,
+    "tag:persistence": 0.045,
+    "tag:tolerance": 0.045,
+    "tag:solidarity": 0.045,
+    "tag:altruism": 0.045
+   }
+  }
+ },
+ "person:margarida-barros-couto": {
+  "received": 19,
+  "all_might": {
+   "personality": {
+    "tag:people-oriented": 0.368,
+    "tag:adaptable": 0.316,
+    "tag:confident": 0.158,
+    "tag:sensitive": 0.105,
+    "tag:competitive": 0.053
+   },
+   "power": {
+    "tag:investigator": 0.316,
+    "tag:analyzer": 0.263,
+    "tag:connector": 0.158,
+    "tag:explorer": 0.053,
+    "tag:encourager": 0.053,
+    "tag:planner": 0.053,
+    "tag:composer": 0.053,
+    "tag:entrepreneur": 0.053
+   },
+   "character": {
+    "tag:integrity": 0.684,
+    "tag:discipline": 0.211,
+    "tag:compassion": 0.105
+   }
+  }
+ },
+ "person:vera-machado-godinho": {
+  "received": 11,
+  "all_might": {
+   "personality": {
+    "tag:sensitive": 0.455,
+    "tag:passionate": 0.182,
+    "tag:intuitive": 0.091,
+    "tag:practical": 0.091,
+    "tag:competitive": 0.091,
+    "tag:intelligent": 0.091
+   },
+   "power": {
+    "tag:writer": 0.364,
+    "tag:achiever": 0.273,
+    "tag:translator": 0.182,
+    "tag:solver": 0.091,
+    "tag:influencer": 0.091
+   },
+   "character": {
+    "tag:integrity": 0.455,
+    "tag:discipline": 0.273,
+    "tag:maturity": 0.091,
+    "tag:altruism": 0.091,
+    "tag:persistence": 0.091
+   }
+  }
+ },
+ "person:fernando-morais": {
+  "received": 23,
+  "all_might": {
+   "personality": {
+    "tag:intelligent": 0.348,
+    "tag:intuitive": 0.217,
+    "tag:practical": 0.174,
+    "tag:clever": 0.043,
+    "tag:imaginative": 0.043,
+    "tag:optimistic": 0.043,
+    "tag:humorous": 0.043,
+    "tag:objective": 0.043,
+    "tag:confident": 0.043
+   },
+   "power": {
+    "tag:energizer": 0.435,
+    "tag:planner": 0.391,
+    "tag:connector": 0.087,
+    "tag:learner": 0.043,
+    "tag:explorer": 0.043
+   },
+   "character": {
+    "tag:persistence": 0.435,
+    "tag:discipline": 0.261,
+    "tag:tolerance": 0.217,
+    "tag:generosity": 0.043,
+    "tag:sincerity": 0.043
+   }
+  }
+ },
+ "person:rodrigo-barros-faria": {
+  "received": 26,
+  "all_might": {
+   "personality": {
+    "tag:intelligent": 0.462,
+    "tag:adaptable": 0.231,
+    "tag:clever": 0.154,
+    "tag:optimistic": 0.038,
+    "tag:competitive": 0.038,
+    "tag:passionate": 0.038,
+    "tag:people-oriented": 0.038
+   },
+   "power": {
+    "tag:energizer": 0.308,
+    "tag:strategizer": 0.269,
+    "tag:composer": 0.192,
+    "tag:translator": 0.038,
+    "tag:influencer": 0.038,
+    "tag:organizer": 0.038,
+    "tag:developer": 0.038,
+    "tag:leader": 0.038,
+    "tag:entrepreneur": 0.038
+   },
+   "character": {
+    "tag:persistence": 0.385,
+    "tag:compassion": 0.269,
+    "tag:discipline": 0.192,
+    "tag:courage": 0.038,
+    "tag:responsibility": 0.038,
+    "tag:tolerance": 0.038,
+    "tag:humility": 0.038
+   }
+  }
+ },
+ "person:teresa-lima-magalhaes": {
+  "received": 8,
+  "all_might": {
+   "personality": {
+    "tag:curious": 0.5,
+    "tag:sensitive": 0.25,
+    "tag:imaginative": 0.125,
+    "tag:clever": 0.125
+   },
+   "power": {
+    "tag:writer": 0.375,
+    "tag:entertainer": 0.375,
+    "tag:leader": 0.25
+   },
+   "character": {
+    "tag:compassion": 0.25,
+    "tag:altruism": 0.25,
+    "tag:generosity": 0.125,
+    "tag:tolerance": 0.125,
+    "tag:responsibility": 0.125,
+    "tag:integrity": 0.125
+   }
+  }
+ },
+ "person:yara-lacerda": {
+  "received": 4,
+  "all_might": {
+   "personality": {
+    "tag:imaginative": 0.5,
+    "tag:people-oriented": 0.25,
+    "tag:objective": 0.25
+   },
+   "power": {
+    "tag:strategizer": 0.5,
+    "tag:entertainer": 0.25,
+    "tag:explorer": 0.25
+   },
+   "character": {
+    "tag:compassion": 0.5,
+    "tag:responsibility": 0.25,
+    "tag:maturity": 0.25
+   }
+  }
+ },
+ "person:henrique-couto-barros": {
+  "received": 27,
+  "all_might": {
+   "personality": {
+    "tag:passionate": 0.519,
+    "tag:adaptable": 0.185,
+    "tag:extroverted": 0.111,
+    "tag:persuasive": 0.037,
+    "tag:practical": 0.037,
+    "tag:intuitive": 0.037,
+    "tag:logic": 0.037,
+    "tag:objective": 0.037
+   },
+   "power": {
+    "tag:solver": 0.519,
+    "tag:energizer": 0.259,
+    "tag:translator": 0.148,
+    "tag:investigator": 0.037,
+    "tag:planner": 0.037
+   },
+   "character": {
+    "tag:tolerance": 0.444,
+    "tag:generosity": 0.407,
+    "tag:sincerity": 0.074,
+    "tag:collaboration": 0.037,
+    "tag:humility": 0.037
+   }
+  }
+ },
+ "person:bruno-brandao": {
+  "received": 9,
+  "all_might": {
+   "personality": {
+    "tag:persuasive": 0.444,
+    "tag:imaginative": 0.222,
+    "tag:humorous": 0.222,
+    "tag:extroverted": 0.111
+   },
+   "power": {
+    "tag:illustrator": 0.444,
+    "tag:writer": 0.333,
+    "tag:organizer": 0.111,
+    "tag:entertainer": 0.111
+   },
+   "character": {
+    "tag:solidarity": 0.556,
+    "tag:discipline": 0.444
+   }
+  }
+ },
+ "person:bianca-gaspar-matos": {
+  "received": 26,
+  "all_might": {
+   "personality": {
+    "tag:competitive": 0.385,
+    "tag:intelligent": 0.346,
+    "tag:extroverted": 0.077,
+    "tag:persuasive": 0.038,
+    "tag:objective": 0.038,
+    "tag:wise": 0.038,
+    "tag:optimistic": 0.038,
+    "tag:intuitive": 0.038
+   },
+   "power": {
+    "tag:moderator": 0.423,
+    "tag:entrepreneur": 0.269,
+    "tag:innovator": 0.154,
+    "tag:strategizer": 0.038,
+    "tag:communicator": 0.038,
+    "tag:learner": 0.038,
+    "tag:solver": 0.038
+   },
+   "character": {
+    "tag:persistence": 0.538,
+    "tag:solidarity": 0.192,
+    "tag:integrity": 0.115,
+    "tag:courage": 0.077,
+    "tag:responsibility": 0.038,
+    "tag:altruism": 0.038
+   }
+  }
+ },
+ "person:beatriz-machado-leal": {
+  "received": 29,
+  "all_might": {
+   "personality": {
+    "tag:clever": 0.448,
+    "tag:confident": 0.31,
+    "tag:competitive": 0.069,
+    "tag:wise": 0.034,
+    "tag:imaginative": 0.034,
+    "tag:practical": 0.034,
+    "tag:passionate": 0.034,
+    "tag:optimistic": 0.034
+   },
+   "power": {
+    "tag:entertainer": 0.379,
+    "tag:solver": 0.345,
+    "tag:translator": 0.172,
+    "tag:advisor": 0.034,
+    "tag:composer": 0.034,
+    "tag:leader": 0.034
+   },
+   "character": {
+    "tag:freedom": 0.379,
+    "tag:maturity": 0.345,
+    "tag:generosity": 0.172,
+    "tag:persistence": 0.069,
+    "tag:courage": 0.034
+   }
+  }
+ },
+ "person:dinis-serrano-pestana": {
+  "received": 32,
+  "all_might": {
+   "personality": {
+    "tag:passionate": 0.438,
+    "tag:practical": 0.219,
+    "tag:adaptable": 0.156,
+    "tag:objective": 0.031,
+    "tag:logic": 0.031,
+    "tag:curious": 0.031,
+    "tag:people-oriented": 0.031,
+    "tag:persuasive": 0.031,
+    "tag:sensitive": 0.031
+   },
+   "power": {
+    "tag:translator": 0.531,
+    "tag:investigator": 0.156,
+    "tag:organizer": 0.125,
+    "tag:explorer": 0.031,
+    "tag:entertainer": 0.031,
+    "tag:energizer": 0.031,
+    "tag:encourager": 0.031,
+    "tag:innovator": 0.031,
+    "tag:conceptualizer": 0.031
+   },
+   "character": {
+    "tag:tolerance": 0.438,
+    "tag:responsibility": 0.312,
+    "tag:discipline": 0.094,
+    "tag:solidarity": 0.094,
+    "tag:compassion": 0.031,
+    "tag:maturity": 0.031
+   }
+  }
+ },
+ "person:leonor-campos": {
+  "received": 23,
+  "all_might": {
+   "personality": {
+    "tag:logic": 0.348,
+    "tag:confident": 0.348,
+    "tag:intuitive": 0.13,
+    "tag:intelligent": 0.043,
+    "tag:extroverted": 0.043,
+    "tag:people-oriented": 0.043,
+    "tag:humorous": 0.043
+   },
+   "power": {
+    "tag:innovator": 0.348,
+    "tag:encourager": 0.304,
+    "tag:organizer": 0.174,
+    "tag:energizer": 0.043,
+    "tag:composer": 0.043,
+    "tag:influencer": 0.043,
+    "tag:moderator": 0.043
+   },
+   "character": {
+    "tag:generosity": 0.391,
+    "tag:freedom": 0.348,
+    "tag:tolerance": 0.174,
+    "tag:humility": 0.043,
+    "tag:courage": 0.043
+   }
+  }
+ },
+ "person:luisa-godinho-seixas": {
+  "received": 6,
+  "all_might": {
+   "personality": {
+    "tag:extroverted": 0.667,
+    "tag:intuitive": 0.167,
+    "tag:confident": 0.167
+   },
+   "power": {
+    "tag:achiever": 0.333,
+    "tag:investigator": 0.167,
+    "tag:connector": 0.167,
+    "tag:illustrator": 0.167,
+    "tag:writer": 0.167
+   },
+   "character": {
+    "tag:discipline": 0.5,
+    "tag:persistence": 0.167,
+    "tag:altruism": 0.167,
+    "tag:tolerance": 0.167
+   }
+  }
+ },
+ "person:salvador-gaspar-paiva": {
+  "received": 7,
+  "all_might": {
+   "personality": {
+    "tag:practical": 0.571,
+    "tag:persuasive": 0.286,
+    "tag:humorous": 0.143
+   },
+   "power": {
+    "tag:translator": 0.571,
+    "tag:conceptualizer": 0.286,
+    "tag:solver": 0.143
+   },
+   "character": {
+    "tag:persistence": 0.429,
+    "tag:discipline": 0.286,
+    "tag:generosity": 0.286
+   }
+  }
+ },
+ "person:manuel-damasceno-peixoto": {
+  "received": 16,
+  "all_might": {
+   "personality": {
+    "tag:imaginative": 0.438,
+    "tag:intuitive": 0.25,
+    "tag:wise": 0.188,
+    "tag:logic": 0.062,
+    "tag:objective": 0.062
+   },
+   "power": {
+    "tag:translator": 0.562,
+    "tag:connector": 0.188,
+    "tag:composer": 0.125,
+    "tag:advisor": 0.062,
+    "tag:leader": 0.062
+   },
+   "character": {
+    "tag:altruism": 0.5,
+    "tag:tolerance": 0.25,
+    "tag:humility": 0.125,
+    "tag:discipline": 0.062,
+    "tag:maturity": 0.062
+   }
+  }
+ },
+ "person:telmo-valadares-carvalhal": {
+  "received": 14,
+  "all_might": {
+   "personality": {
+    "tag:optimistic": 0.5,
+    "tag:wise": 0.143,
+    "tag:persuasive": 0.143,
+    "tag:imaginative": 0.071,
+    "tag:passionate": 0.071,
+    "tag:clever": 0.071
+   },
+   "power": {
+    "tag:creator": 0.5,
+    "tag:composer": 0.286,
+    "tag:moderator": 0.214
+   },
+   "character": {
+    "tag:responsibility": 0.5,
+    "tag:altruism": 0.286,
+    "tag:sincerity": 0.143,
+    "tag:maturity": 0.071
+   }
+  }
+ },
+ "person:diana-vaz-seixas": {
+  "received": 9,
+  "all_might": {
+   "personality": {
+    "tag:people-oriented": 0.556,
+    "tag:practical": 0.333,
+    "tag:sensitive": 0.111
+   },
+   "power": {
+    "tag:investigator": 0.444,
+    "tag:communicator": 0.333,
+    "tag:creator": 0.222
+   },
+   "character": {
+    "tag:compassion": 0.333,
+    "tag:humility": 0.333,
+    "tag:sincerity": 0.111,
+    "tag:altruism": 0.111,
+    "tag:courage": 0.111
+   }
+  }
+ },
+ "person:constanca-pacheco-peixoto": {
+  "received": 7,
+  "all_might": {
+   "personality": {
+    "tag:passionate": 0.429,
+    "tag:practical": 0.286,
+    "tag:optimistic": 0.143,
+    "tag:people-oriented": 0.143
+   },
+   "power": {
+    "tag:conceptualizer": 0.429,
+    "tag:solver": 0.286,
+    "tag:influencer": 0.286
+   },
+   "character": {
+    "tag:humility": 0.571,
+    "tag:discipline": 0.286,
+    "tag:sincerity": 0.143
+   }
+  }
+ },
+ "person:matilde-tavares": {
+  "received": 18,
+  "all_might": {
+   "personality": {
+    "tag:intelligent": 0.5,
+    "tag:people-oriented": 0.222,
+    "tag:competitive": 0.056,
+    "tag:clever": 0.056,
+    "tag:imaginative": 0.056,
+    "tag:extroverted": 0.056,
+    "tag:intuitive": 0.056
+   },
+   "power": {
+    "tag:creator": 0.333,
+    "tag:planner": 0.333,
+    "tag:encourager": 0.111,
+    "tag:communicator": 0.056,
+    "tag:learner": 0.056,
+    "tag:connector": 0.056,
+    "tag:energizer": 0.056
+   },
+   "character": {
+    "tag:discipline": 0.389,
+    "tag:freedom": 0.333,
+    "tag:solidarity": 0.167,
+    "tag:persistence": 0.056,
+    "tag:collaboration": 0.056
+   }
+  }
+ },
+ "person:rui-fontes": {
+  "received": 17,
+  "all_might": {
+   "personality": {
+    "tag:competitive": 0.353,
+    "tag:humorous": 0.294,
+    "tag:passionate": 0.118,
+    "tag:practical": 0.059,
+    "tag:wise": 0.059,
+    "tag:people-oriented": 0.059,
+    "tag:optimistic": 0.059
+   },
+   "power": {
+    "tag:investigator": 0.412,
+    "tag:energizer": 0.353,
+    "tag:explorer": 0.235
+   },
+   "character": {
+    "tag:humility": 0.588,
+    "tag:altruism": 0.176,
+    "tag:generosity": 0.118,
+    "tag:compassion": 0.059,
+    "tag:persistence": 0.059
+   }
+  }
+ },
+ "person:vicente-pestana": {
+  "received": 10,
+  "all_might": {
+   "personality": {
+    "tag:optimistic": 0.4,
+    "tag:wise": 0.2,
+    "tag:persuasive": 0.2,
+    "tag:people-oriented": 0.1,
+    "tag:clever": 0.1
+   },
+   "power": {
+    "tag:entertainer": 0.4,
+    "tag:achiever": 0.3,
+    "tag:solver": 0.1,
+    "tag:encourager": 0.1,
+    "tag:translator": 0.1
+   },
+   "character": {
+    "tag:sincerity": 0.5,
+    "tag:generosity": 0.4,
+    "tag:courage": 0.1
+   }
+  }
+ },
+ "person:paulo-valadares": {
+  "received": 13,
+  "all_might": {
+   "personality": {
+    "tag:imaginative": 0.538,
+    "tag:intelligent": 0.231,
+    "tag:passionate": 0.154,
+    "tag:logic": 0.077
+   },
+   "power": {
+    "tag:influencer": 0.615,
+    "tag:achiever": 0.308,
+    "tag:entrepreneur": 0.077
+   },
+   "character": {
+    "tag:freedom": 0.385,
+    "tag:solidarity": 0.231,
+    "tag:tolerance": 0.077,
+    "tag:integrity": 0.077,
+    "tag:compassion": 0.077,
+    "tag:altruism": 0.077,
+    "tag:persistence": 0.077
+   }
+  }
+ },
+ "person:tomas-meireles": {
+  "received": 12,
+  "all_might": {
+   "personality": {
+    "tag:adaptable": 0.25,
+    "tag:optimistic": 0.25,
+    "tag:wise": 0.25,
+    "tag:sensitive": 0.083,
+    "tag:extroverted": 0.083,
+    "tag:practical": 0.083
+   },
+   "power": {
+    "tag:explorer": 0.333,
+    "tag:moderator": 0.333,
+    "tag:analyzer": 0.25,
+    "tag:influencer": 0.083
+   },
+   "character": {
+    "tag:humility": 0.333,
+    "tag:compassion": 0.25,
+    "tag:persistence": 0.167,
+    "tag:solidarity": 0.083,
+    "tag:integrity": 0.083,
+    "tag:maturity": 0.083
+   }
+  }
+ },
+ "person:andreia-lacerda-serrano": {
+  "received": 9,
+  "all_might": {
+   "personality": {
+    "tag:intelligent": 0.444,
+    "tag:optimistic": 0.333,
+    "tag:passionate": 0.222
+   },
+   "power": {
+    "tag:writer": 0.222,
+    "tag:developer": 0.222,
+    "tag:analyzer": 0.222,
+    "tag:illustrator": 0.111,
+    "tag:translator": 0.111,
+    "tag:solver": 0.111
+   },
+   "character": {
+    "tag:humility": 0.556,
+    "tag:responsibility": 0.222,
+    "tag:altruism": 0.111,
+    "tag:tolerance": 0.111
+   }
+  }
+ },
+ "person:patricia-neto-sampaio": {
+  "received": 6,
+  "all_might": {
+   "personality": {
+    "tag:clever": 0.5,
+    "tag:persuasive": 0.167,
+    "tag:imaginative": 0.167,
+    "tag:curious": 0.167
+   },
+   "power": {
+    "tag:connector": 0.833,
+    "tag:leader": 0.167
+   },
+   "character": {
+    "tag:maturity": 0.5,
+    "tag:compassion": 0.333,
+    "tag:courage": 0.167
+   }
+  }
+ },
+ "person:gustavo-campos-pacheco": {
+  "received": 8,
+  "all_might": {
+   "personality": {
+    "tag:objective": 0.5,
+    "tag:extroverted": 0.25,
+    "tag:logic": 0.125,
+    "tag:humorous": 0.125
+   },
+   "power": {
+    "tag:strategizer": 0.5,
+    "tag:conceptualizer": 0.25,
+    "tag:writer": 0.25
+   },
+   "character": {
+    "tag:collaboration": 0.375,
+    "tag:maturity": 0.25,
+    "tag:discipline": 0.125,
+    "tag:integrity": 0.125,
+    "tag:responsibility": 0.125
+   }
+  }
+ },
+ "person:simao-faria": {
+  "received": 11,
+  "all_might": {
+   "personality": {
+    "tag:humorous": 0.364,
+    "tag:imaginative": 0.273,
+    "tag:competitive": 0.182,
+    "tag:people-oriented": 0.091,
+    "tag:optimistic": 0.091
+   },
+   "power": {
+    "tag:communicator": 0.364,
+    "tag:strategizer": 0.273,
+    "tag:planner": 0.182,
+    "tag:analyzer": 0.091,
+    "tag:explorer": 0.091
+   },
+   "character": {
+    "tag:discipline": 0.455,
+    "tag:solidarity": 0.364,
+    "tag:collaboration": 0.091,
+    "tag:persistence": 0.091
+   }
+  }
+ },
+ "person:jorge-valadares-monteiro": {
+  "received": 8,
+  "all_might": {
+   "personality": {
+    "tag:objective": 0.625,
+    "tag:sensitive": 0.25,
+    "tag:passionate": 0.125
+   },
+   "power": {
+    "tag:innovator": 0.5,
+    "tag:analyzer": 0.25,
+    "tag:moderator": 0.125,
+    "tag:planner": 0.125
+   },
+   "character": {
+    "tag:freedom": 0.5,
+    "tag:altruism": 0.25,
+    "tag:humility": 0.125,
+    "tag:generosity": 0.125
+   }
+  }
+ },
+ "person:sergio-peixoto-pestana": {
+  "received": 6,
+  "all_might": {
+   "personality": {
+    "tag:curious": 0.5,
+    "tag:people-oriented": 0.333,
+    "tag:persuasive": 0.167
+   },
+   "power": {
+    "tag:conceptualizer": 0.833,
+    "tag:innovator": 0.167
+   },
+   "character": {
+    "tag:persistence": 0.667,
+    "tag:discipline": 0.167,
+    "tag:maturity": 0.167
+   }
+  }
+ },
+ "person:rafael-seixas": {
+  "received": 7,
+  "all_might": {
+   "personality": {
+    "tag:wise": 0.429,
+    "tag:logic": 0.286,
+    "tag:clever": 0.143,
+    "tag:intelligent": 0.143
+   },
+   "power": {
+    "tag:creator": 0.429,
+    "tag:learner": 0.143,
+    "tag:analyzer": 0.143,
+    "tag:writer": 0.143,
+    "tag:planner": 0.143
+   },
+   "character": {
+    "tag:humility": 0.429,
+    "tag:discipline": 0.286,
+    "tag:integrity": 0.143,
+    "tag:courage": 0.143
+   }
+  }
+ },
+ "person:sonia-medeiros": {
+  "received": 23,
+  "all_might": {
+   "personality": {
+    "tag:logic": 0.435,
+    "tag:extroverted": 0.304,
+    "tag:imaginative": 0.13,
+    "tag:persuasive": 0.087,
+    "tag:passionate": 0.043
+   },
+   "power": {
+    "tag:connector": 0.348,
+    "tag:translator": 0.261,
+    "tag:entertainer": 0.261,
+    "tag:illustrator": 0.043,
+    "tag:learner": 0.043,
+    "tag:conceptualizer": 0.043
+   },
+   "character": {
+    "tag:discipline": 0.391,
+    "tag:freedom": 0.217,
+    "tag:courage": 0.087,
+    "tag:tolerance": 0.087,
+    "tag:humility": 0.043,
+    "tag:collaboration": 0.043,
+    "tag:responsibility": 0.043,
+    "tag:generosity": 0.043,
+    "tag:solidarity": 0.043
+   }
+  }
+ },
+ "person:raquel-damasceno": {
+  "received": 8,
+  "all_might": {
+   "personality": {
+    "tag:persuasive": 0.25,
+    "tag:imaginative": 0.25,
+    "tag:intuitive": 0.125,
+    "tag:passionate": 0.125,
+    "tag:practical": 0.125,
+    "tag:adaptable": 0.125
+   },
+   "power": {
+    "tag:investigator": 0.25,
+    "tag:creator": 0.25,
+    "tag:strategizer": 0.25,
+    "tag:influencer": 0.125,
+    "tag:encourager": 0.125
+   },
+   "character": {
+    "tag:humility": 0.375,
+    "tag:responsibility": 0.375,
+    "tag:courage": 0.125,
+    "tag:persistence": 0.125
+   }
+  }
+ },
+ "person:filipa-pacheco": {
+  "received": 22,
+  "all_might": {
+   "personality": {
+    "tag:imaginative": 0.5,
+    "tag:intuitive": 0.227,
+    "tag:objective": 0.136,
+    "tag:persuasive": 0.091,
+    "tag:extroverted": 0.045
+   },
+   "power": {
+    "tag:influencer": 0.364,
+    "tag:innovator": 0.273,
+    "tag:investigator": 0.136,
+    "tag:learner": 0.091,
+    "tag:entertainer": 0.045,
+    "tag:organizer": 0.045,
+    "tag:creator": 0.045
+   },
+   "character": {
+    "tag:freedom": 0.318,
+    "tag:generosity": 0.273,
+    "tag:responsibility": 0.136,
+    "tag:persistence": 0.091,
+    "tag:humility": 0.045,
+    "tag:integrity": 0.045,
+    "tag:courage": 0.045,
+    "tag:collaboration": 0.045
+   }
+  }
+ },
+ "person:claudia-machado": {
+  "received": 11,
+  "all_might": {
+   "personality": {
+    "tag:humorous": 0.273,
+    "tag:confident": 0.273,
+    "tag:curious": 0.182,
+    "tag:logic": 0.182,
+    "tag:passionate": 0.091
+   },
+   "power": {
+    "tag:communicator": 0.455,
+    "tag:solver": 0.364,
+    "tag:investigator": 0.182
+   },
+   "character": {
+    "tag:sincerity": 0.636,
+    "tag:compassion": 0.182,
+    "tag:freedom": 0.091,
+    "tag:solidarity": 0.091
+   }
+  }
+ },
+ "person:lourenco-serrano": {
+  "received": 9,
+  "all_might": {
+   "personality": {
+    "tag:confident": 0.444,
+    "tag:intuitive": 0.444,
+    "tag:logic": 0.111
+   },
+   "power": {
+    "tag:entertainer": 0.444,
+    "tag:creator": 0.222,
+    "tag:encourager": 0.222,
+    "tag:innovator": 0.111
+   },
+   "character": {
+    "tag:compassion": 0.667,
+    "tag:sincerity": 0.111,
+    "tag:discipline": 0.111,
+    "tag:altruism": 0.111
+   }
+  }
+ },
+ "person:clara-seixas": {
+  "received": 17,
+  "all_might": {
+   "personality": {
+    "tag:persuasive": 0.294,
+    "tag:curious": 0.294,
+    "tag:confident": 0.118,
+    "tag:competitive": 0.118,
+    "tag:logic": 0.059,
+    "tag:adaptable": 0.059,
+    "tag:optimistic": 0.059
+   },
+   "power": {
+    "tag:encourager": 0.353,
+    "tag:achiever": 0.353,
+    "tag:leader": 0.176,
+    "tag:analyzer": 0.059,
+    "tag:entrepreneur": 0.059
+   },
+   "character": {
+    "tag:humility": 0.471,
+    "tag:tolerance": 0.412,
+    "tag:solidarity": 0.118
+   }
+  }
+ },
+ "person:hugo-carvalhal": {
+  "received": 7,
+  "all_might": {
+   "personality": {
+    "tag:optimistic": 0.571,
+    "tag:persuasive": 0.286,
+    "tag:competitive": 0.143
+   },
+   "power": {
+    "tag:leader": 0.571,
+    "tag:strategizer": 0.143,
+    "tag:analyzer": 0.143,
+    "tag:organizer": 0.143
+   },
+   "character": {
+    "tag:solidarity": 0.429,
+    "tag:compassion": 0.286,
+    "tag:sincerity": 0.143,
+    "tag:persistence": 0.143
+   }
+  }
+ },
+ "person:catarina-neto-seixas": {
+  "received": 6,
+  "all_might": {
+   "personality": {
+    "tag:optimistic": 0.5,
+    "tag:imaginative": 0.333,
+    "tag:practical": 0.167
+   },
+   "power": {
+    "tag:encourager": 0.333,
+    "tag:illustrator": 0.333,
+    "tag:developer": 0.167,
+    "tag:leader": 0.167
+   },
+   "character": {
+    "tag:generosity": 0.333,
+    "tag:discipline": 0.333,
+    "tag:freedom": 0.167,
+    "tag:maturity": 0.167
+   }
+  }
+ },
+ "person:lucia-lobo": {
+  "received": 43,
+  "all_might": {
+   "personality": {
+    "tag:competitive": 0.488,
+    "tag:imaginative": 0.256,
+    "tag:extroverted": 0.209,
+    "tag:logic": 0.023,
+    "tag:intuitive": 0.023
+   },
+   "power": {
+    "tag:conceptualizer": 0.465,
+    "tag:investigator": 0.233,
+    "tag:analyzer": 0.186,
+    "tag:writer": 0.047,
+    "tag:composer": 0.023,
+    "tag:connector": 0.023,
+    "tag:communicator": 0.023
+   },
+   "character": {
+    "tag:compassion": 0.465,
+    "tag:generosity": 0.186,
+    "tag:altruism": 0.186,
+    "tag:maturity": 0.047,
+    "tag:collaboration": 0.047,
+    "tag:solidarity": 0.047,
+    "tag:integrity": 0.023
+   }
+  }
+ },
+ "person:rodrigo-tavares-magalhaes": {
+  "received": 34,
+  "all_might": {
+   "personality": {
+    "tag:intuitive": 0.471,
+    "tag:people-oriented": 0.235,
+    "tag:competitive": 0.088,
+    "tag:intelligent": 0.059,
+    "tag:humorous": 0.029,
+    "tag:adaptable": 0.029,
+    "tag:sensitive": 0.029,
+    "tag:passionate": 0.029,
+    "tag:optimistic": 0.029
+   },
+   "power": {
+    "tag:organizer": 0.382,
+    "tag:creator": 0.353,
+    "tag:developer": 0.118,
+    "tag:writer": 0.059,
+    "tag:composer": 0.029,
+    "tag:learner": 0.029,
+    "tag:illustrator": 0.029
+   },
+   "character": {
+    "tag:sincerity": 0.353,
+    "tag:persistence": 0.324,
+    "tag:tolerance": 0.147,
+    "tag:altruism": 0.029,
+    "tag:courage": 0.029,
+    "tag:integrity": 0.029,
+    "tag:maturity": 0.029,
+    "tag:humility": 0.029,
+    "tag:generosity": 0.029
+   }
+  }
+ },
+ "person:sonia-campos": {
+  "received": 17,
+  "all_might": {
+   "personality": {
+    "tag:intelligent": 0.471,
+    "tag:curious": 0.235,
+    "tag:competitive": 0.176,
+    "tag:logic": 0.059,
+    "tag:passionate": 0.059
+   },
+   "power": {
+    "tag:advisor": 0.412,
+    "tag:conceptualizer": 0.235,
+    "tag:translator": 0.118,
+    "tag:analyzer": 0.059,
+    "tag:composer": 0.059,
+    "tag:strategizer": 0.059,
+    "tag:communicator": 0.059
+   },
+   "character": {
+    "tag:discipline": 0.529,
+    "tag:maturity": 0.235,
+    "tag:responsibility": 0.176,
+    "tag:freedom": 0.059
+   }
+  }
+ }
+}
