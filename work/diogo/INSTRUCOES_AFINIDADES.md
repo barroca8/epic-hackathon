@@ -85,7 +85,11 @@ Os pesos são calculados como **contagem da palavra / total de palavras nessa di
 
 Os valores estão entre 0 e 1 e somam 1 em cada dimensão com dados. São pesos de palavras; a afinidade entre duas pessoas será calculada pelo teu motor. Uma dimensão vazia (`{}`) significa ausência de dados.
 
-Os campos adicionais sem informação ficam como listas vazias no JSON e células vazias no Excel. O exportador não infere interesses, competências ou formação. Os atributos simulados do seed mantêm essa natureza, conforme o contrato de Francisco.
+No modo normal, os campos adicionais sem informação ficam como listas vazias no JSON e células vazias no Excel. Nesse modo o exportador não infere interesses, competências ou formação. Os atributos simulados do seed mantêm essa natureza, conforme o contrato de Francisco.
+
+### Preenchimento fictício para a demo
+
+A variante `--demo` preenche os campos adicionais vazios com valores fictícios coerentes e variados. A coluna `campos_simulados` e o objeto `_demo` identificam os campos gerados. Há interesses, cursos e competências repetidos entre pessoas para testar afinidades. Os nomes, IDs, palavras MighT, ligações e pesos existentes mantêm-se. Os links fictícios usam `example.com`.
 
 ## Como ler o Excel
 
@@ -100,13 +104,15 @@ Na folha `Participantes`, `all_personalidade`, `all_poder` e `all_caracter` são
 **A publicação é uma fotografia dos dados no momento da execução. Novas respostas no backend não atualizam automaticamente o Excel nem os triplos `PROFILE`.** Para os atualizar, executar a partir da raiz do repositório:
 
 ```powershell
-node work/diogo/export_profiles.mjs
+node work/diogo/export_profiles.mjs --demo
 node work/diogo/publish_profiles.mjs
 ```
 
 1. O primeiro comando lê `participantes`, `ligacoes` e `triples`, com paginação, e recria `profiles.xlsx` e `profiles.json`.
 2. O segundo publica apenas perfis novos ou alterados e confirma a publicação por GET. Repetir com os mesmos dados não acrescenta duplicados.
 3. Voltar a executar `carregarPerfis()` na demo para ler os dados republicados. Para disponibilizar também o Excel atualizado no GitHub, fazer commit e push dos ficheiros gerados.
+
+Para uma exportação apenas com os dados do backend, retirar `--demo`; nessa variante, os campos que ainda não existem no backend voltam a ficar vazios.
 
 Requisitos do exportador: Node.js 22+ e a biblioteca de Excel do runtime Codex. Neste PC é detetada automaticamente; noutro ambiente, definir `ARTIFACT_NODE_MODULES` para a respetiva pasta `node_modules`. A chave pública é lida do `work/francisco/graph.js`; também pode ser fornecida em `SUPABASE_ANON_KEY`.
 

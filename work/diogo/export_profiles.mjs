@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { preencherCamposDemo } from './demo_profiles.mjs';
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
 const FRANCISCO = path.resolve(HERE, '../francisco');
@@ -16,7 +17,7 @@ export const HEADERS = [
   'id', 'nome', 'grupo', 'self_tags', 'mights_recebidos', 'mights_enviados',
   'self_personalidade', 'self_poder', 'self_caracter',
   ...Object.keys(EXTRA_FIELDS), 'circulos', 'mights_aceites',
-  'all_personalidade', 'all_poder', 'all_caracter',
+  'all_personalidade', 'all_poder', 'all_caracter', 'campos_simulados',
 ];
 
 export async function lerEndpoint(base, key, view, filter = {}, fetcher = fetch) {
@@ -94,14 +95,18 @@ export function montarPerfis({ participantes, ligacoes, triples = [], tags = [] 
     }
   }
   const profiles = Object.fromEntries(people);
-  const rows = [...people.values()].map(p => [
+  return { profiles, rows: linhasPerfis(profiles, labels), weights };
+}
+
+export function linhasPerfis(profiles, labels = new Map()) {
+  return Object.values(profiles).map(p => [
     p.id, p.nome, p.grupo ?? null, p.self_tags.join('; '), p.mights_recebidos, p.mights_enviados,
     ...DIMENSIONS.map(d => p.self_might[d].map(t => labels.get(t) ?? t).join('; ') || null),
     ...Object.keys(EXTRA_FIELDS).map(k => p[k].join('; ') || null),
     p.circulos.join('; '), p.mights_aceites,
     ...DIMENSIONS.map(d => Object.keys(p.all_might[d]).length ? JSON.stringify(p.all_might[d]) : null),
+    p._demo?.campos?.join('; ') || null,
   ]);
-  return { profiles, rows, weights };
 }
 
 async function artifactTool() {
@@ -147,6 +152,10 @@ export async function escreverExcel(data, ligacoes, output, previewDir = null) {
   const p = sheet('Participantes', HEADERS, data.rows, 'PerfisParticipantes');
   p.getRange(`D1:D${data.rows.length + 1}`).format.columnWidth = 46;
   for (const col of ['T', 'U', 'V']) p.getRange(`${col}1:${col}${data.rows.length + 1}`).format.columnWidth = 48;
+  p.getRange(`J2:R${data.rows.length + 1}`).format.wrapText = true;
+  p.getRange(`J2:R${data.rows.length + 1}`).format.rowHeight = 72;
+  for (const col of ['J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'W']) p.getRange(`${col}1:${col}${data.rows.length + 1}`).format.columnWidth = 38;
+  p.getRange(`W2:W${data.rows.length + 1}`).format.wrapText = true;
   const linkHeaders = ['id', 'remetente', 'destinatario', 'circulo', 'tags', 'estado', 'created_at'];
   sheet('Ligações', linkHeaders, ligacoes.map(link => linkHeaders.map(k => Array.isArray(link[k]) ? link[k].join('; ') : link[k] ?? null)), 'LigacoesMight');
   const w = sheet('Pesos MighT', ['id', 'nome', 'dimensao', 'tag_id', 'tag_pt', 'contagem', 'peso'], data.weights, 'PesosMight');
@@ -157,7 +166,7 @@ export async function escreverExcel(data, ligacoes, output, previewDir = null) {
   wb.recalculate();
   if (previewDir) {
     await fs.mkdir(previewDir, { recursive: true });
-    for (const [name, range] of [['Participantes', 'A1:I7'], ['Pesos MighT', 'A1:G7']]) {
+    for (const [name, range] of [['Participantes', 'J1:Q5'], ['Pesos MighT', 'A1:G7']]) {
       const blob = await wb.render({ sheetName: name, range, scale: 1, format: 'png' });
       await fs.writeFile(path.join(previewDir, name + '.png'), new Uint8Array(await blob.arrayBuffer()));
     }
@@ -174,7 +183,7 @@ export async function conexao() {
   return { base, key };
 }
 
-export async function exportar({ output = HERE, previewDir = null } = {}) {
+export async function exportar({ output = HERE, previewDir = null, demo = false } = {}) {
   const { base, key } = await conexao();
   const [participantes, ligacoes, triples, tags] = await Promise.all([
     lerEndpoint(base, key, 'participantes'), lerEndpoint(base, key, 'ligacoes'), lerEndpoint(base, key, 'triples'),
@@ -182,6 +191,10 @@ export async function exportar({ output = HERE, previewDir = null } = {}) {
   ]);
   if (!participantes.length) throw new Error('Endpoint participantes vazio; o ficheiro existente não foi alterado.');
   const data = montarPerfis({ participantes, ligacoes, triples, tags });
+  if (demo) {
+    data.profiles = preencherCamposDemo(data.profiles);
+    data.rows = linhasPerfis(data.profiles, new Map(tags.map(t => [t.id, t.pt])));
+  }
   await fs.mkdir(output, { recursive: true });
   const stagedXlsx = path.join(output, 'profiles.tmp.xlsx');
   const stagedJson = path.join(output, 'profiles.tmp.json');
@@ -193,5 +206,5 @@ export async function exportar({ output = HERE, previewDir = null } = {}) {
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  exportar({ previewDir: process.env.PROFILES_PREVIEW_DIR }).then(result => console.log(JSON.stringify(result))).catch(error => { console.error(error.message); process.exitCode = 1; });
+  exportar({ previewDir: process.env.PROFILES_PREVIEW_DIR, demo: process.argv.includes('--demo') }).then(result => console.log(JSON.stringify(result))).catch(error => { console.error(error.message); process.exitCode = 1; });
 }

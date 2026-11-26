@@ -9,7 +9,7 @@
       "tag:integrity"
     ],
     "mights_recebidos": 25,
-    "mights_enviados": 27,
+    "mights_enviados": 28,
     "self_might": {
       "personality": [
         "tag:persuasive"
@@ -21,14 +21,36 @@
         "tag:integrity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Gestão"
+    ],
+    "instituicao": [
+      "Nova SBE"
+    ],
+    "interesses": [
+      "Inovação",
+      "Gestão de projetos",
+      "Empreendedorismo"
+    ],
+    "competencias": [
+      "skill:excel",
+      "skill:leadership",
+      "skill:project-management",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:project-manager"
+    ],
+    "empresas": [
+      "company:demo-circular-future"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/afonso-lobo-nogueira"
+    ],
     "circulos": [
       "Colegas",
       "Amigos",
@@ -64,6 +86,20 @@
         "tag:integrity": 0.16,
         "tag:collaboration": 0.04
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:andre-reis": {
@@ -76,7 +112,7 @@
       "tag:solidarity"
     ],
     "mights_recebidos": 27,
-    "mights_enviados": 16,
+    "mights_enviados": 17,
     "self_might": {
       "personality": [
         "tag:curious"
@@ -88,14 +124,36 @@
         "tag:solidarity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Universidade do Minho"
+    ],
+    "interesses": [
+      "Desenvolvimento web",
+      "Inteligência artificial",
+      "Análise de dados"
+    ],
+    "competencias": [
+      "skill:data-analysis",
+      "skill:python",
+      "skill:sql",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:data-analyst"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/andre-reis"
+    ],
     "circulos": [
       "Colegas",
       "Escola",
@@ -131,6 +189,20 @@
         "tag:discipline": 0.037037037037037035,
         "tag:solidarity": 0.037037037037037035
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:andreia-lacerda-serrano": {
@@ -143,7 +215,7 @@
       "tag:persistence"
     ],
     "mights_recebidos": 9,
-    "mights_enviados": 13,
+    "mights_enviados": 14,
     "self_might": {
       "personality": [
         "tag:intelligent"
@@ -155,14 +227,36 @@
         "tag:persistence"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Criatividade",
+      "Comunicação",
+      "Análise de dados",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:user-research",
+      "skill:marketing"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:growth-specialist"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/andreia-lacerda-serrano"
+    ],
     "circulos": [
       "Clientes",
       "Colegas",
@@ -190,6 +284,20 @@
         "tag:altruism": 0.1111111111111111,
         "tag:tolerance": 0.1111111111111111
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:beatriz-machado-leal": {
@@ -214,14 +322,37 @@
         "tag:freedom"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Desenvolvimento de pessoas",
+      "Trabalho em equipa",
+      "Educação",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:leadership",
+      "skill:communication",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-people-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/beatriz-machado-leal"
+    ],
     "circulos": [
       "Colegas",
       "Amigos",
@@ -256,6 +387,20 @@
         "tag:persistence": 0.06896551724137931,
         "tag:courage": 0.034482758620689655
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:bianca-gaspar-matos": {
@@ -280,14 +425,37 @@
         "tag:solidarity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Universidade do Minho"
+    ],
+    "interesses": [
+      "Análise de dados",
+      "Robótica",
+      "Inteligência artificial",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:sql",
+      "skill:python",
+      "skill:data-analysis",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:software-engineer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/bianca-gaspar-matos"
+    ],
     "circulos": [
       "Colegas",
       "Amigos",
@@ -324,6 +492,20 @@
         "tag:altruism": 0.038461538461538464,
         "tag:responsibility": 0.038461538461538464
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:bruno-brandao": {
@@ -348,14 +530,37 @@
         "tag:solidarity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Inteligência artificial",
+      "Análise de dados",
+      "Robótica",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:data-analysis",
+      "skill:web-development",
+      "skill:python",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:data-analyst"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/bruno-brandao"
+    ],
     "circulos": [
       "Colegas",
       "Clientes",
@@ -380,6 +585,20 @@
         "tag:solidarity": 0.5555555555555556,
         "tag:discipline": 0.4444444444444444
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:caio-nogueira-vilaca": {
@@ -404,14 +623,36 @@
         "tag:generosity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Mecânica"
+    ],
+    "instituicao": [
+      "FEUP"
+    ],
+    "interesses": [
+      "Robótica",
+      "Hidrogénio",
+      "Energias renováveis",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:simulation",
+      "skill:python",
+      "skill:cad"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:energy-engineer"
+    ],
+    "empresas": [
+      "company:demo-eco-motion"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/caio-nogueira-vilaca"
+    ],
     "circulos": [
       "Colegas",
       "Família",
@@ -449,6 +690,20 @@
         "tag:generosity": 0.043478260869565216,
         "tag:persistence": 0.043478260869565216
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:catarina-neto-seixas": {
@@ -473,14 +728,37 @@
         "tag:discipline"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Faculdade de Belas-Artes da Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Inovação",
+      "Criatividade",
+      "Design de produto",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:prototyping",
+      "skill:user-research",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:product-designer"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/catarina-neto-seixas"
+    ],
     "circulos": [
       "Clientes",
       "Colegas"
@@ -504,6 +782,20 @@
         "tag:freedom": 0.16666666666666666,
         "tag:maturity": 0.16666666666666666
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:clara-seixas": {
@@ -528,14 +820,37 @@
         "tag:humility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "IPAM"
+    ],
+    "interesses": [
+      "Análise de dados",
+      "Empreendedorismo",
+      "Criatividade",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:user-research",
+      "skill:marketing",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:growth-specialist"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/clara-seixas"
+    ],
     "circulos": [
       "Colegas",
       "Clientes",
@@ -564,6 +879,20 @@
         "tag:tolerance": 0.4117647058823529,
         "tag:solidarity": 0.11764705882352941
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:claudia-machado": {
@@ -588,14 +917,36 @@
         "tag:compassion"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Análise de dados",
+      "Comunicação",
+      "Empreendedorismo",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:communication",
+      "skill:marketing"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/claudia-machado"
+    ],
     "circulos": [
       "Colegas",
       "Amigos",
@@ -621,6 +972,20 @@
         "tag:freedom": 0.09090909090909091,
         "tag:solidarity": 0.09090909090909091
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:constanca-pacheco-peixoto": {
@@ -645,14 +1010,37 @@
         "tag:humility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Análise de dados",
+      "Desenvolvimento web",
+      "Robótica",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:web-development",
+      "skill:data-analysis",
+      "skill:sql",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:software-engineer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/constanca-pacheco-peixoto"
+    ],
     "circulos": [
       "Colegas"
     ],
@@ -674,6 +1062,20 @@
         "tag:discipline": 0.2857142857142857,
         "tag:sincerity": 0.14285714285714285
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:diana-vaz-seixas": {
@@ -698,14 +1100,37 @@
         "tag:compassion"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Educação",
+      "Comunicação",
+      "Trabalho em equipa",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:leadership",
+      "skill:user-research",
+      "skill:people-development",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-aprender-mais"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/diana-vaz-seixas"
+    ],
     "circulos": [
       "Escola",
       "Colegas",
@@ -730,6 +1155,20 @@
         "tag:courage": 0.1111111111111111,
         "tag:sincerity": 0.1111111111111111
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:dinis-serrano-pestana": {
@@ -754,14 +1193,37 @@
         "tag:maturity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "IPAM"
+    ],
+    "interesses": [
+      "Criatividade",
+      "Análise de dados",
+      "Comunicação",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:marketing",
+      "skill:communication",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/dinis-serrano-pestana"
+    ],
     "circulos": [
       "Colegas",
       "Amigos",
@@ -802,6 +1264,20 @@
         "tag:compassion": 0.03125,
         "tag:maturity": 0.03125
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:diogo-valente": {
@@ -826,14 +1302,36 @@
         "tag:freedom"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Comunicação",
+      "Educação",
+      "Desenvolvimento de pessoas",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:leadership",
+      "skill:people-development",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-aprender-mais"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/diogo-valente"
+    ],
     "circulos": [
       "Colegas"
     ],
@@ -850,6 +1348,20 @@
         "tag:collaboration": 0.5,
         "tag:freedom": 0.5
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:duarte-vaz-godinho": {
@@ -874,14 +1386,37 @@
         "tag:discipline"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Design de produto",
+      "Experiência do utilizador",
+      "Inovação",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:user-research",
+      "skill:ux-design",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:ux-designer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/duarte-vaz-godinho"
+    ],
     "circulos": [
       "Escola",
       "Colegas",
@@ -919,6 +1454,20 @@
         "tag:maturity": 0.024390243902439025,
         "tag:solidarity": 0.024390243902439025
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:fabio-freitas-teles": {
@@ -943,14 +1492,37 @@
         "tag:tolerance"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade do Porto"
+    ],
+    "interesses": [
+      "Educação",
+      "Comunicação",
+      "Desenvolvimento de pessoas",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:leadership",
+      "skill:people-development",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-aprender-mais"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/fabio-freitas-teles"
+    ],
     "circulos": [
       "Escola",
       "Clientes",
@@ -979,6 +1551,20 @@
         "tag:altruism": 0.07142857142857142,
         "tag:courage": 0.07142857142857142
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:fernando-morais": {
@@ -1003,14 +1589,35 @@
         "tag:tolerance"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "ESAD"
+    ],
+    "interesses": [
+      "Inovação",
+      "Experiência do utilizador",
+      "Criatividade"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:ux-design",
+      "skill:user-research"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:product-designer"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/fernando-morais"
+    ],
     "circulos": [
       "Colegas",
       "Amigos",
@@ -1045,6 +1652,20 @@
         "tag:generosity": 0.043478260869565216,
         "tag:sincerity": 0.043478260869565216
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:filipa-pacheco": {
@@ -1069,14 +1690,37 @@
         "tag:freedom"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade do Porto"
+    ],
+    "interesses": [
+      "Comunicação",
+      "Educação",
+      "Trabalho em equipa",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:people-development",
+      "skill:communication",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-people-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/filipa-pacheco"
+    ],
     "circulos": [
       "Colegas",
       "Escola",
@@ -1112,6 +1756,20 @@
         "tag:humility": 0.045454545454545456,
         "tag:integrity": 0.045454545454545456
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:goncalo-brandao-medeiros": {
@@ -1136,14 +1794,37 @@
         "tag:courage"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia do Ambiente"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Economia circular",
+      "Energias renováveis",
+      "Sustentabilidade",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:excel",
+      "skill:project-management",
+      "skill:data-analysis",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:environmental-engineer"
+    ],
+    "empresas": [
+      "company:demo-eco-motion"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/goncalo-brandao-medeiros"
+    ],
     "circulos": [
       "Colegas",
       "Família",
@@ -1178,6 +1859,20 @@
         "tag:freedom": 0.05555555555555555,
         "tag:tolerance": 0.05555555555555555
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:gustavo-campos-pacheco": {
@@ -1202,14 +1897,37 @@
         "tag:maturity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Mecânica"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Hidrogénio",
+      "Energias renováveis",
+      "Robótica",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:cad",
+      "skill:simulation",
+      "skill:python",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Aprender novas competências",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:mechanical-engineer"
+    ],
+    "empresas": [
+      "company:demo-helio-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/gustavo-campos-pacheco"
+    ],
     "circulos": [
       "Amigos",
       "Colegas",
@@ -1235,6 +1953,20 @@
         "tag:integrity": 0.125,
         "tag:responsibility": 0.125
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:henrique-couto-barros": {
@@ -1259,14 +1991,37 @@
         "tag:tolerance"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Criatividade",
+      "Empreendedorismo",
+      "Comunicação",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:data-analysis",
+      "skill:user-research",
+      "skill:marketing",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/henrique-couto-barros"
+    ],
     "circulos": [
       "Colegas",
       "Clientes",
@@ -1300,6 +2055,20 @@
         "tag:collaboration": 0.037037037037037035,
         "tag:humility": 0.037037037037037035
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:hugo-carvalhal": {
@@ -1324,14 +2093,37 @@
         "tag:compassion"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Eletrotécnica"
+    ],
+    "instituicao": [
+      "FEUP"
+    ],
+    "interesses": [
+      "Automação",
+      "Robótica",
+      "Inteligência artificial",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:project-management",
+      "skill:automation",
+      "skill:electronics",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:electrical-engineer"
+    ],
+    "empresas": [
+      "company:demo-robotica-nova"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/hugo-carvalhal"
+    ],
     "circulos": [
       "Amigos",
       "Colegas"
@@ -1355,6 +2147,20 @@
         "tag:persistence": 0.14285714285714285,
         "tag:sincerity": 0.14285714285714285
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:ines-esteves": {
@@ -1379,14 +2185,36 @@
         "tag:sincerity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Análise de dados",
+      "Empreendedorismo",
+      "Comunicação",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:marketing",
+      "skill:communication",
+      "skill:data-analysis"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/ines-esteves"
+    ],
     "circulos": [
       "Escola",
       "Colegas",
@@ -1423,6 +2251,20 @@
         "tag:responsibility": 0.041666666666666664,
         "tag:solidarity": 0.041666666666666664
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:isabel-medeiros-rebelo": {
@@ -1447,14 +2289,35 @@
         "tag:altruism"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Gestão"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Inovação",
+      "Gestão de projetos",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:project-management",
+      "skill:leadership"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:business-analyst"
+    ],
+    "empresas": [
+      "company:demo-circular-future"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/isabel-medeiros-rebelo"
+    ],
     "circulos": [
       "Colegas",
       "Clientes",
@@ -1492,6 +2355,20 @@
         "tag:freedom": 0.034482758620689655,
         "tag:integrity": 0.034482758620689655
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:joana-peixoto": {
@@ -1516,14 +2393,36 @@
         "tag:compassion"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Mecânica"
+    ],
+    "instituicao": [
+      "FEUP"
+    ],
+    "interesses": [
+      "Energias renováveis",
+      "Robótica",
+      "Mobilidade sustentável",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:simulation",
+      "skill:python",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:mechanical-engineer"
+    ],
+    "empresas": [
+      "company:demo-eco-motion"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/joana-peixoto"
+    ],
     "circulos": [
       "Colegas"
     ],
@@ -1542,6 +2441,20 @@
         "tag:responsibility": 0.6666666666666666,
         "tag:integrity": 0.3333333333333333
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:jorge-valadares-monteiro": {
@@ -1566,14 +2479,36 @@
         "tag:solidarity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Análise de dados",
+      "Inteligência artificial",
+      "Desenvolvimento web",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:python",
+      "skill:web-development",
+      "skill:sql"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:software-engineer"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/jorge-valadares-monteiro"
+    ],
     "circulos": [
       "Colegas",
       "Clientes"
@@ -1597,6 +2532,20 @@
         "tag:generosity": 0.125,
         "tag:humility": 0.125
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:leandro-xavier": {
@@ -1621,14 +2570,36 @@
         "tag:responsibility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia do Ambiente"
+    ],
+    "instituicao": [
+      "FEUP"
+    ],
+    "interesses": [
+      "Economia circular",
+      "Hidrogénio",
+      "Energias renováveis",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:project-management",
+      "skill:data-analysis",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Aprender novas competências",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:environmental-engineer"
+    ],
+    "empresas": [
+      "company:demo-eco-motion"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/leandro-xavier"
+    ],
     "circulos": [
       "Comunidade",
       "Colegas",
@@ -1670,6 +2641,20 @@
         "tag:responsibility": 0.029411764705882353,
         "tag:sincerity": 0.029411764705882353
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:leonor-campos": {
@@ -1694,14 +2679,37 @@
         "tag:generosity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Eletrotécnica"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Robótica",
+      "Energias renováveis",
+      "Inteligência artificial",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:python",
+      "skill:electronics",
+      "skill:automation",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:automation-engineer"
+    ],
+    "empresas": [
+      "company:demo-helio-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/leonor-campos"
+    ],
     "circulos": [
       "Colegas",
       "Família"
@@ -1733,6 +2741,20 @@
         "tag:courage": 0.043478260869565216,
         "tag:humility": 0.043478260869565216
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:lourenco-serrano": {
@@ -1757,14 +2779,37 @@
         "tag:altruism"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Comunicação",
+      "Educação",
+      "Trabalho em equipa",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:leadership",
+      "skill:people-development",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-people-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/lourenco-serrano"
+    ],
     "circulos": [
       "Colegas",
       "Família",
@@ -1791,6 +2836,20 @@
         "tag:discipline": 0.1111111111111111,
         "tag:sincerity": 0.1111111111111111
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:lucia-lobo": {
@@ -1815,14 +2874,37 @@
         "tag:generosity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia do Ambiente"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Hidrogénio",
+      "Energias renováveis",
+      "Sustentabilidade",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:excel",
+      "skill:project-management",
+      "skill:data-analysis",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:environmental-engineer"
+    ],
+    "empresas": [
+      "company:demo-circular-future"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/lucia-lobo"
+    ],
     "circulos": [
       "Clientes",
       "Colegas",
@@ -1858,6 +2940,20 @@
         "tag:solidarity": 0.046511627906976744,
         "tag:integrity": 0.023255813953488372
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:luisa-godinho-seixas": {
@@ -1882,14 +2978,36 @@
         "tag:tolerance"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Gestão"
+    ],
+    "instituicao": [
+      "ISEG"
+    ],
+    "interesses": [
+      "Sustentabilidade",
+      "Inovação",
+      "Gestão de projetos",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:project-management",
+      "skill:excel",
+      "skill:leadership"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:project-manager"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/luisa-godinho-seixas"
+    ],
     "circulos": [
       "Colegas"
     ],
@@ -1913,6 +3031,20 @@
         "tag:persistence": 0.16666666666666666,
         "tag:tolerance": 0.16666666666666666
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:madalena-monteiro-meireles": {
@@ -1937,14 +3069,37 @@
         "tag:responsibility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Design de produto",
+      "Criatividade",
+      "Experiência do utilizador",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:prototyping",
+      "skill:communication",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:product-designer"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/madalena-monteiro-meireles"
+    ],
     "circulos": [
       "Colegas",
       "Família"
@@ -1977,6 +3132,20 @@
         "tag:discipline": 0.1111111111111111,
         "tag:responsibility": 0.1111111111111111
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:mafalda-pestana": {
@@ -2001,14 +3170,37 @@
         "tag:responsibility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Faculdade de Belas-Artes da Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Inovação",
+      "Design de produto",
+      "Experiência do utilizador",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:prototyping",
+      "skill:communication",
+      "skill:user-research",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:product-designer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/mafalda-pestana"
+    ],
     "circulos": [
       "Colegas",
       "Família",
@@ -2043,6 +3235,20 @@
         "tag:solidarity": 0.045454545454545456,
         "tag:tolerance": 0.045454545454545456
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:manuel-damasceno-peixoto": {
@@ -2067,14 +3273,37 @@
         "tag:courage"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "ESAD"
+    ],
+    "interesses": [
+      "Criatividade",
+      "Inovação",
+      "Experiência do utilizador",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:prototyping",
+      "skill:user-research",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:ux-designer"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/manuel-damasceno-peixoto"
+    ],
     "circulos": [
       "Colegas",
       "Amigos",
@@ -2104,6 +3333,20 @@
         "tag:discipline": 0.0625,
         "tag:maturity": 0.0625
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:margarida-barros-couto": {
@@ -2128,14 +3371,36 @@
         "tag:discipline"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia do Ambiente"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Economia circular",
+      "Sustentabilidade",
+      "Hidrogénio",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:environmental-assessment",
+      "skill:data-analysis",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Aprender novas competências",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:sustainability-analyst"
+    ],
+    "empresas": [
+      "company:demo-circular-future"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/margarida-barros-couto"
+    ],
     "circulos": [
       "Colegas",
       "Família",
@@ -2167,6 +3432,20 @@
         "tag:discipline": 0.21052631578947367,
         "tag:compassion": 0.10526315789473684
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:mariana-campos-neto": {
@@ -2191,14 +3470,37 @@
         "tag:sincerity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Desenvolvimento de pessoas",
+      "Comunicação",
+      "Educação",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:people-development",
+      "skill:leadership",
+      "skill:communication",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-aprender-mais"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/mariana-campos-neto"
+    ],
     "circulos": [
       "Clientes",
       "Amigos",
@@ -2237,6 +3539,20 @@
         "tag:humility": 0.03125,
         "tag:tolerance": 0.03125
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:martim-reis-magalhaes": {
@@ -2261,14 +3577,37 @@
         "tag:humility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Eletrotécnica"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Energias renováveis",
+      "Inteligência artificial",
+      "Robótica",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:electronics",
+      "skill:project-management",
+      "skill:automation",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:electrical-engineer"
+    ],
+    "empresas": [
+      "company:demo-helio-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/martim-reis-magalhaes"
+    ],
     "circulos": [
       "Comunidade",
       "Amigos",
@@ -2301,6 +3640,20 @@
         "tag:tolerance": 0.13043478260869565,
         "tag:solidarity": 0.043478260869565216
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:matilde-tavares": {
@@ -2325,14 +3678,36 @@
         "tag:discipline"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Trabalho em equipa",
+      "Educação",
+      "Desenvolvimento de pessoas"
+    ],
+    "competencias": [
+      "skill:leadership",
+      "skill:communication",
+      "skill:people-development",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-aprender-mais"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/matilde-tavares"
+    ],
     "circulos": [
       "Clientes",
       "Colegas",
@@ -2367,6 +3742,20 @@
         "tag:collaboration": 0.05555555555555555,
         "tag:persistence": 0.05555555555555555
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:oscar-brandao-serrano": {
@@ -2391,14 +3780,37 @@
         "tag:compassion"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Universidade do Minho"
+    ],
+    "interesses": [
+      "Desenvolvimento web",
+      "Análise de dados",
+      "Inteligência artificial",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:web-development",
+      "skill:data-analysis",
+      "skill:python",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:software-engineer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/oscar-brandao-serrano"
+    ],
     "circulos": [
       "Colegas",
       "Escola",
@@ -2434,6 +3846,20 @@
         "tag:courage": 0.05555555555555555,
         "tag:freedom": 0.05555555555555555
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:patricia-neto-sampaio": {
@@ -2458,14 +3884,37 @@
         "tag:compassion"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Comunicação",
+      "Trabalho em equipa",
+      "Educação",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:leadership",
+      "skill:user-research",
+      "skill:people-development",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-people-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/patricia-neto-sampaio"
+    ],
     "circulos": [
       "Colegas",
       "Escola"
@@ -2487,6 +3936,20 @@
         "tag:compassion": 0.3333333333333333,
         "tag:courage": 0.16666666666666666
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:paulo-valadares": {
@@ -2511,14 +3974,37 @@
         "tag:integrity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Empreendedorismo",
+      "Criatividade",
+      "Comunicação",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:data-analysis",
+      "skill:communication",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:growth-specialist"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/paulo-valadares"
+    ],
     "circulos": [
       "Clientes",
       "Colegas",
@@ -2548,6 +4034,20 @@
         "tag:persistence": 0.07692307692307693,
         "tag:tolerance": 0.07692307692307693
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:programa-aurora-2025": {
@@ -2572,14 +4072,36 @@
         "tag:persistence"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Eletrotécnica"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Robótica",
+      "Automação",
+      "Energias renováveis",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:project-management",
+      "skill:python",
+      "skill:automation"
+    ],
+    "objetivos": [
+      "Aprender novas competências",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:automation-engineer"
+    ],
+    "empresas": [
+      "company:demo-helio-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/programa-aurora-2025"
+    ],
     "circulos": [
       "Família",
       "Colegas",
@@ -2618,6 +4140,20 @@
         "tag:maturity": 0.025,
         "tag:tolerance": 0.025
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:rafael-seixas": {
@@ -2642,14 +4178,37 @@
         "tag:humility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade do Porto"
+    ],
+    "interesses": [
+      "Comunicação",
+      "Desenvolvimento de pessoas",
+      "Educação",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:leadership",
+      "skill:people-development",
+      "skill:user-research",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Aprender novas competências",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-people-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/rafael-seixas"
+    ],
     "circulos": [
       "Comunidade",
       "Colegas",
@@ -2677,6 +4236,20 @@
         "tag:courage": 0.14285714285714285,
         "tag:integrity": 0.14285714285714285
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:raquel-damasceno": {
@@ -2701,14 +4274,36 @@
         "tag:humility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Desenvolvimento web",
+      "Inteligência artificial",
+      "Análise de dados"
+    ],
+    "competencias": [
+      "skill:sql",
+      "skill:python",
+      "skill:web-development",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:software-engineer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/raquel-damasceno"
+    ],
     "circulos": [
       "Comunidade",
       "Colegas",
@@ -2737,6 +4332,20 @@
         "tag:courage": 0.125,
         "tag:persistence": 0.125
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:ricardo-vaz-gaspar": {
@@ -2761,14 +4370,37 @@
         "tag:collaboration"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Mecânica"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Robótica",
+      "Energias renováveis",
+      "Mobilidade sustentável",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:cad",
+      "skill:python",
+      "skill:simulation",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:energy-engineer"
+    ],
+    "empresas": [
+      "company:demo-helio-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/ricardo-vaz-gaspar"
+    ],
     "circulos": [
       "Colegas",
       "Família"
@@ -2790,6 +4422,20 @@
         "tag:collaboration": 0.8,
         "tag:persistence": 0.2
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:rita-carvalhal": {
@@ -2814,14 +4460,36 @@
         "tag:collaboration"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Análise de dados",
+      "Criatividade",
+      "Empreendedorismo",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:data-analysis",
+      "skill:marketing",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:community-specialist"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/rita-carvalhal"
+    ],
     "circulos": [
       "Colegas",
       "Clientes",
@@ -2856,6 +4524,20 @@
         "tag:responsibility": 0.045454545454545456,
         "tag:solidarity": 0.045454545454545456
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:rodrigo-barros-faria": {
@@ -2880,14 +4562,36 @@
         "tag:persistence"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Eletrotécnica"
+    ],
+    "instituicao": [
+      "FEUP"
+    ],
+    "interesses": [
+      "Energias renováveis",
+      "Automação",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:electronics",
+      "skill:project-management",
+      "skill:automation",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:automation-engineer"
+    ],
+    "empresas": [
+      "company:demo-helio-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/rodrigo-barros-faria"
+    ],
     "circulos": [
       "Colegas",
       "Escola",
@@ -2926,6 +4630,20 @@
         "tag:responsibility": 0.038461538461538464,
         "tag:tolerance": 0.038461538461538464
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:rodrigo-tavares-magalhaes": {
@@ -2950,14 +4668,37 @@
         "tag:sincerity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Experiência do utilizador",
+      "Design de produto",
+      "Criatividade",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:ux-design",
+      "skill:prototyping",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:ux-designer"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/rodrigo-tavares-magalhaes"
+    ],
     "circulos": [
       "Colegas",
       "Família",
@@ -2999,6 +4740,20 @@
         "tag:integrity": 0.029411764705882353,
         "tag:maturity": 0.029411764705882353
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:rui-fontes": {
@@ -3023,14 +4778,36 @@
         "tag:altruism"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Faculdade de Belas-Artes da Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Criatividade",
+      "Design de produto",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:communication",
+      "skill:ux-design",
+      "skill:prototyping",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:product-designer"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/rui-fontes"
+    ],
     "circulos": [
       "Colegas",
       "Família",
@@ -3060,6 +4837,20 @@
         "tag:compassion": 0.058823529411764705,
         "tag:persistence": 0.058823529411764705
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:salvador-gaspar-paiva": {
@@ -3084,14 +4875,37 @@
         "tag:sincerity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Faculdade de Belas-Artes da Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Inovação",
+      "Design de produto",
+      "Experiência do utilizador",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:prototyping",
+      "skill:communication",
+      "skill:user-research",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:ux-designer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/salvador-gaspar-paiva"
+    ],
     "circulos": [
       "Colegas",
       "Clientes",
@@ -3114,6 +4928,20 @@
         "tag:discipline": 0.2857142857142857,
         "tag:generosity": 0.2857142857142857
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:sergio-peixoto-pestana": {
@@ -3138,14 +4966,37 @@
         "tag:maturity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia do Ambiente"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Energias renováveis",
+      "Sustentabilidade",
+      "Economia circular",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:project-management",
+      "skill:environmental-assessment",
+      "skill:data-analysis",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:sustainability-analyst"
+    ],
+    "empresas": [
+      "company:demo-eco-motion"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/sergio-peixoto-pestana"
+    ],
     "circulos": [
       "Colegas",
       "Clientes"
@@ -3166,6 +5017,20 @@
         "tag:discipline": 0.16666666666666666,
         "tag:maturity": 0.16666666666666666
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:simao-faria": {
@@ -3190,14 +5055,37 @@
         "tag:freedom"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Eletrotécnica"
+    ],
+    "instituicao": [
+      "FEUP"
+    ],
+    "interesses": [
+      "Robótica",
+      "Energias renováveis",
+      "Automação",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:automation",
+      "skill:electronics",
+      "skill:python",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Aprender novas competências",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:electrical-engineer"
+    ],
+    "empresas": [
+      "company:demo-robotica-nova"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/simao-faria"
+    ],
     "circulos": [
       "Comunidade",
       "Amigos",
@@ -3225,6 +5113,20 @@
         "tag:collaboration": 0.09090909090909091,
         "tag:persistence": 0.09090909090909091
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:sofia-campos-couto": {
@@ -3249,14 +5151,37 @@
         "tag:collaboration"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Robótica",
+      "Inteligência artificial",
+      "Desenvolvimento web",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:sql",
+      "skill:web-development",
+      "skill:python",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:data-analyst"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/sofia-campos-couto"
+    ],
     "circulos": [
       "Comunidade",
       "Colegas",
@@ -3296,6 +5221,20 @@
         "tag:humility": 0.03571428571428571,
         "tag:persistence": 0.03571428571428571
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:sonia-campos": {
@@ -3320,14 +5259,37 @@
         "tag:responsibility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Comunicação",
+      "Criatividade",
+      "Análise de dados",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:marketing",
+      "skill:data-analysis",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Aprender novas competências",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:growth-specialist"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/sonia-campos"
+    ],
     "circulos": [
       "Colegas",
       "Comunidade",
@@ -3358,6 +5320,20 @@
         "tag:responsibility": 0.17647058823529413,
         "tag:freedom": 0.058823529411764705
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:sonia-medeiros": {
@@ -3382,14 +5358,37 @@
         "tag:collaboration"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Marketing"
+    ],
+    "instituicao": [
+      "IPAM"
+    ],
+    "interesses": [
+      "Criatividade",
+      "Comunicação",
+      "Empreendedorismo",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:data-analysis",
+      "skill:communication",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:growth-specialist"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/sonia-medeiros"
+    ],
     "circulos": [
       "Clientes",
       "Colegas",
@@ -3426,6 +5425,20 @@
         "tag:responsibility": 0.043478260869565216,
         "tag:solidarity": 0.043478260869565216
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:telmo-valadares-carvalhal": {
@@ -3450,14 +5463,37 @@
         "tag:sincerity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "ISCTE"
+    ],
+    "interesses": [
+      "Trabalho em equipa",
+      "Comunicação",
+      "Educação",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:user-research",
+      "skill:communication",
+      "skill:people-development",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-people-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/telmo-valadares-carvalhal"
+    ],
     "circulos": [
       "Colegas",
       "Comunidade",
@@ -3484,6 +5520,20 @@
         "tag:sincerity": 0.14285714285714285,
         "tag:maturity": 0.07142857142857142
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:teresa-lima-magalhaes": {
@@ -3508,14 +5558,37 @@
         "tag:courage"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia do Ambiente"
+    ],
+    "instituicao": [
+      "FEUP"
+    ],
+    "interesses": [
+      "Sustentabilidade",
+      "Economia circular",
+      "Hidrogénio",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:project-management",
+      "skill:data-analysis",
+      "skill:environmental-assessment",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:sustainability-analyst"
+    ],
+    "empresas": [
+      "company:demo-circular-future"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/teresa-lima-magalhaes"
+    ],
     "circulos": [
       "Colegas"
     ],
@@ -3540,6 +5613,20 @@
         "tag:responsibility": 0.125,
         "tag:tolerance": 0.125
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:tomas-meireles": {
@@ -3564,14 +5651,37 @@
         "tag:solidarity"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia Informática"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Inteligência artificial",
+      "Robótica",
+      "Análise de dados",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:data-analysis",
+      "skill:web-development",
+      "skill:python",
+      "skill:communication"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:software-engineer"
+    ],
+    "empresas": [
+      "company:demo-data-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/tomas-meireles"
+    ],
     "circulos": [
       "Comunidade",
       "Colegas",
@@ -3604,6 +5714,20 @@
         "tag:maturity": 0.08333333333333333,
         "tag:solidarity": 0.08333333333333333
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:vasco-seixas": {
@@ -3628,14 +5752,37 @@
         "tag:humility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Experiência do utilizador",
+      "Criatividade",
+      "Design de produto",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:ux-design",
+      "skill:communication",
+      "skill:prototyping",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:product-designer"
+    ],
+    "empresas": [
+      "company:demo-studio-norte"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/vasco-seixas"
+    ],
     "circulos": [
       "Clientes",
       "Colegas",
@@ -3670,6 +5817,20 @@
         "tag:altruism": 0.04,
         "tag:generosity": 0.04
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:vera-machado-godinho": {
@@ -3694,14 +5855,36 @@
         "tag:compassion"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Gestão"
+    ],
+    "instituicao": [
+      "Nova SBE"
+    ],
+    "interesses": [
+      "Sustentabilidade",
+      "Inovação",
+      "Gestão de projetos",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:excel",
+      "skill:leadership",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Encontrar mentoria",
+      "Partilhar conhecimento"
+    ],
+    "funcoes": [
+      "role:business-analyst"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/vera-machado-godinho"
+    ],
     "circulos": [
       "Colegas",
       "Clientes",
@@ -3731,6 +5914,20 @@
         "tag:maturity": 0.09090909090909091,
         "tag:persistence": 0.09090909090909091
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:vicente-pestana": {
@@ -3755,14 +5952,37 @@
         "tag:humility"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Design de Comunicação"
+    ],
+    "instituicao": [
+      "Faculdade de Belas-Artes da Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Design de produto",
+      "Experiência do utilizador",
+      "Inovação",
+      "Sustentabilidade"
+    ],
+    "competencias": [
+      "skill:ux-design",
+      "skill:prototyping",
+      "skill:user-research",
+      "skill:project-management"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Aprender novas competências"
+    ],
+    "funcoes": [
+      "role:ux-designer"
+    ],
+    "empresas": [
+      "company:demo-nova-digital"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/vicente-pestana"
+    ],
     "circulos": [
       "Colegas",
       "Escola"
@@ -3788,6 +6008,20 @@
         "tag:generosity": 0.4,
         "tag:courage": 0.1
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:xavier-tavares": {
@@ -3812,14 +6046,37 @@
         "tag:altruism"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Psicologia"
+    ],
+    "instituicao": [
+      "Universidade de Lisboa"
+    ],
+    "interesses": [
+      "Educação",
+      "Desenvolvimento de pessoas",
+      "Comunicação",
+      "Inovação"
+    ],
+    "competencias": [
+      "skill:people-development",
+      "skill:leadership",
+      "skill:user-research",
+      "skill:excel"
+    ],
+    "objetivos": [
+      "Explorar novas carreiras",
+      "Encontrar pessoas para um projeto"
+    ],
+    "funcoes": [
+      "role:people-talent-specialist"
+    ],
+    "empresas": [
+      "company:demo-people-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/xavier-tavares"
+    ],
     "circulos": [
       "Escola",
       "Colegas",
@@ -3858,6 +6115,20 @@
         "tag:discipline": 0.03571428571428571,
         "tag:solidarity": 0.03571428571428571
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   },
   "person:yara-lacerda": {
@@ -3882,14 +6153,36 @@
         "tag:tolerance"
       ]
     },
-    "curso": [],
-    "instituicao": [],
-    "interesses": [],
-    "competencias": [],
-    "objetivos": [],
-    "funcoes": [],
-    "empresas": [],
-    "linkedin_url": [],
+    "curso": [
+      "Engenharia do Ambiente"
+    ],
+    "instituicao": [
+      "Universidade de Aveiro"
+    ],
+    "interesses": [
+      "Energias renováveis",
+      "Economia circular",
+      "Hidrogénio",
+      "Inteligência artificial"
+    ],
+    "competencias": [
+      "skill:project-management",
+      "skill:excel",
+      "skill:environmental-assessment"
+    ],
+    "objetivos": [
+      "Partilhar conhecimento",
+      "Explorar novas carreiras"
+    ],
+    "funcoes": [
+      "role:environmental-engineer"
+    ],
+    "empresas": [
+      "company:demo-eco-motion"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/yara-lacerda"
+    ],
     "circulos": [
       "Colegas"
     ],
@@ -3910,6 +6203,105 @@
         "tag:maturity": 0.25,
         "tag:responsibility": 0.25
       }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
+    }
+  },
+  "person:zzteste-integracao-n2jx": {
+    "id": "person:zzteste-integracao-n2jx",
+    "nome": "Zzteste Integracao",
+    "grupo": null,
+    "self_tags": [
+      "tag:curious",
+      "tag:leader",
+      "tag:courage"
+    ],
+    "mights_recebidos": 3,
+    "mights_enviados": 0,
+    "self_might": {
+      "personality": [
+        "tag:curious"
+      ],
+      "power": [
+        "tag:leader"
+      ],
+      "character": [
+        "tag:courage"
+      ]
+    },
+    "curso": [
+      "Engenharia Mecânica"
+    ],
+    "instituicao": [
+      "Instituto Superior Técnico"
+    ],
+    "interesses": [
+      "Robótica",
+      "Mobilidade sustentável",
+      "Hidrogénio",
+      "Trabalho em equipa"
+    ],
+    "competencias": [
+      "skill:simulation",
+      "skill:project-management",
+      "skill:cad",
+      "skill:python"
+    ],
+    "objetivos": [
+      "Encontrar pessoas para um projeto",
+      "Encontrar mentoria"
+    ],
+    "funcoes": [
+      "role:mechanical-engineer"
+    ],
+    "empresas": [
+      "company:demo-helio-lab"
+    ],
+    "linkedin_url": [
+      "https://example.com/linkedin-demo/zzteste-integracao-n2jx"
+    ],
+    "circulos": [
+      "Família",
+      "Amigos",
+      "Colegas"
+    ],
+    "mights_aceites": 3,
+    "all_might": {
+      "personality": {
+        "tag:curious": 1
+      },
+      "power": {
+        "tag:creator": 1
+      },
+      "character": {
+        "tag:collaboration": 1
+      }
+    },
+    "_demo": {
+      "tipo": "dados_ficticios",
+      "seed": 20261126,
+      "campos": [
+        "curso",
+        "instituicao",
+        "interesses",
+        "competencias",
+        "objetivos",
+        "funcoes",
+        "empresas",
+        "linkedin_url"
+      ]
     }
   }
 }
