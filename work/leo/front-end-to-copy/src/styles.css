@@ -60,7 +60,7 @@ span.chip.character { background: var(--character); border-color: transparent; }
 .fig.lg { height: 250px; }
 .fig.md { height: 170px; }
 .fig.sm { height: 100px; }
-.pedestal { background: radial-gradient(ellipse at 50% 92%, #1fb5d455, transparent 55%); }
+.pedestal { background: radial-gradient(ellipse 45% 16% at 50% 92%, #1fb5d466, transparent 100%); }
 .pulse { animation: pulse .9s infinite alternate; }
 @keyframes pulse { to { transform: scale(1.07); opacity: .6; } }
 
