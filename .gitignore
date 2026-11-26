@@ -8,3 +8,6 @@ cache/
 .streamlit/secrets.toml
 .DS_Store
 .claude/settings.local.json
+
+first-task/second-task/*.zip
+.DS_Store
