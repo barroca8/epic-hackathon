@@ -34,6 +34,19 @@ cd epic-hackathon
 
 Then create `notes/<your-name>.md` and `work/<your-name>/`, and open the folder in Claude Code.
 
+## Quick chat
+
+Discord server "Epic Hackathon": https://discord.gg/p7uJNTctn (link valid until 2026-12-26).
+Open it in the browser; no install needed.
+
+| What | Where |
+|---|---|
+| Quick questions, links, screenshots, "I pushed X" | Discord, `#general` |
+| Code, findings, numbers, anything a Claude must read | This repo |
+| Large data files (over about 10 MB) | This repo, or a shared Drive folder |
+
+The Claudes cannot read Discord. Anything that matters ends up in the repo.
+
 ## Roles
 
 | Role | Owns | Person |
