@@ -4,16 +4,20 @@ Everyone writes and reads triples in this one shape. Change requests go to Franc
 
 ## Triple
 
-```json
-{
-  "subject": "person:ana",
-  "predicate": "HAS_SKILL",
-  "object": "skill:python",
-  "weight": 1,
-  "circle": null,
-  "source": "cv"
-}
+Use `work/francisco/graph.js` (tested end to end against the live table):
+
+```js
+import * as graph from "./graph.js";
+const me = await graph.createPerson("Ana", ["tag:curious", "tag:leader", "tag:courage"]); // step 1
+const people = await graph.listPeople();                                                  // [{id, name}]
+await graph.sendMight(me, people[0].id, "Amigos", ["tag:wise", "tag:planner", "tag:integrity"]); // step 2
+await graph.answerMight(me, giverId, true);                                               // step 3
+const p = await graph.getProfile(me, "Colegas"); // circle optional
+// p = { name, self, pending:[{from,circle,tags}], received, unlocked (3 accepted), circles, allMight }
+graph.onChange((row) => {});                     // live: fires on every new triple
 ```
+
+"Pede MighT" (step 2B) needs no backend: share a link with `?give=<person id>`.
 
 - IDs are `type:slug`, lowercase, no accents, hyphens for spaces: `person:ana-silva`, `tag:curiosa`.
 - `weight`: number, default 1. `circle`: only on `GAVE_MIGHT`. `source`: `self`, `might`, `cv`, `seed`.
@@ -26,9 +30,11 @@ Everyone writes and reads triples in this one shape. Change requests go to Franc
 
 | Predicate | Subject → object | Written by |
 |---|---|---|
+| `NAME`, `GROUP` | person → text | App step 1, seed |
 | `SELF_TAG` | person → tag | App, step 1 |
-| `GAVE_MIGHT` | person → person (`circle` set; the 3 tags go in as `RECEIVED_TAG`) | App, step 2 |
-| `RECEIVED_TAG` | person → tag (`weight` = count) | App, step 2 |
+| `GAVE_MIGHT` | giver → receiver (`circle` set) | App, step 2 |
+| `RECEIVED_TAG` | receiver → tag, one row per tag (`circle` set, `source` = giver id) | App, step 2 |
+| `ACCEPTED_MIGHT`, `REFUSED_MIGHT` | receiver → giver | App, step 3 |
 | `TAG_DIMENSION` | tag → `personality` / `power` / `character` | Seed |
 | `HAS_SKILL` | person → skill | Vasco (CV) |
 | `HELD_ROLE` | person → role | Vasco (CV) |
@@ -57,7 +63,7 @@ Afinidade (Vasco): read `profiles.json` or the table, write `AFINIDADE` triples.
 
 ## Live table (Supabase)
 
-Table `triples`, same columns as the triple shape, loaded with `triples.json` (2,427 rows).
+Table `triples`, same columns as the triple shape, loaded with `triples.json` (5,980 rows).
 Anyone can read and insert; nobody can update or delete. Realtime is on.
 
 ```js

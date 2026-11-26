@@ -91,8 +91,11 @@ for p in people:
 T = lambda s, p, o, w=1, c=None, src="seed": {"subject": s, "predicate": p, "object": o, "weight": w, "circle": c, "source": src}
 triples = [T(t["id"], "TAG_DIMENSION", t["dimension"]) for t in tags]
 triples += [T(p["id"], "SELF_TAG", t, src="self") for p in people for t in p["self_tags"]]
-triples += [T(m["from"], "GAVE_MIGHT", m["to"], c=m["circle"], src="might") for m in mights]
-triples += [T(pid, "RECEIVED_TAG", t, n, src="might") for pid, c in counts.items() for t, n in c.items()]
+triples += [T(p["id"], "NAME", p["name"]) for p in people] + [T(p["id"], "GROUP", p["group"]) for p in people]
+for m in mights:  # one MighT = GAVE_MIGHT + 3 RECEIVED_TAG (source = giver) + the receiver's answer
+    triples.append(T(m["from"], "GAVE_MIGHT", m["to"], c=m["circle"], src="might"))
+    triples += [T(m["to"], "RECEIVED_TAG", t, c=m["circle"], src=m["from"]) for t in m["tags"]]
+    triples.append(T(m["to"], "ACCEPTED_MIGHT", m["from"], src="might"))
 roles = [{"tag": f"tag:{k}", "now": v[0], "next": v[1]} for k, v in ROLES.items()]
 triples += [T(r["tag"], "TAG_SUGGESTS_ROLE", f"role:{slug(x)}") for r in roles for x in (r["now"], r["next"])]
 
