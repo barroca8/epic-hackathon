@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
+<title>MighT — Abertura e equipa</title>
+<style>
+:root {
+  --accent: #753065;
+  --bg: #ffffff;
+  --surface: #f3f7fb;
+  --border: #dbe5ef;
+  --text: #1c1e28;
+  --muted: #55607a;
+  --line: #a9c6de;
+  --font: "Mona Sans", "Segoe UI", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { height: 100%; overflow: hidden; }
+body { background: var(--bg); color: var(--text); font-family: var(--font); }
+button { font: inherit; color: inherit; cursor: pointer; }
+[hidden] { display: none !important; }
+
+#viewport { position: fixed; inset: 0; touch-action: pan-y; }
+#stage { position: absolute; left: 50%; top: 50%; width: 1280px; height: 720px; transform: translate(-50%, -50%) scale(var(--scale, 1)); }
+
+.slide {
+  position: absolute; left: 0; top: 0; width: 1280px; height: 720px;
+  display: flex; flex-direction: column; padding: 44px 72px;
+  background: var(--bg); color: var(--text); overflow: hidden;
+  opacity: 0; visibility: hidden; transition: opacity .35s, visibility .35s;
+}
+.slide.active { opacity: 1; visibility: visible; }
+
+.step { transition: opacity .4s, transform .4s, visibility .4s; }
+.step:not(.shown) { opacity: 0; visibility: hidden; transform: translateY(14px); }
+
+.notes { display: none; }
+
+h1 { font-size: 96px; line-height: 1.1; }
+h2 { font-size: 46px; line-height: 1.15; border-left: 8px solid var(--accent); padding-left: 20px; }
+h3 { font-size: 22px; }
+p { font-size: 18px; line-height: 1.45; }
+.sub { font-size: 22px; padding-left: 28px; color: var(--muted); }
+
+.pill { margin-top: 16px; padding: 10px 24px; border-radius: 10px; background: var(--accent); color: #fff; font-weight: 600; text-transform: uppercase; }
+.figure { display: grid; place-items: center; border: 2px dashed rgba(255, 255, 255, .7); background: linear-gradient(#225cc0, #0b2559); color: #fff; font-size: 16px; }
+
+.slide.cover { display: grid; grid-template-columns: 1fr 480px; grid-template-rows: auto 1fr auto auto auto 1fr auto; column-gap: 56px; justify-items: start; padding: 56px 0 56px 72px; }
+.cover > * { grid-column: 1; }
+.cover .logo { grid-row: 1; height: 44px; }
+.cover .sub { grid-row: 3; padding: 0; }
+.cover h1 { grid-row: 4; }
+.cover .pill { grid-row: 5; }
+.cover .figure { grid-area: 1 / 2 / -1; justify-self: stretch; margin: -56px 0; border: 0; background: linear-gradient(#d1eaff, #023460); font-size: 20px; }
+.traits { grid-row: 7; display: grid; grid-template-columns: repeat(3, 180px); padding: 18px 0; border: 1px solid var(--border); border-radius: 12px; text-align: center; font-weight: 600; }
+.traits span + span { border-left: 1px solid var(--border); }
+
+.split { flex: 1; display: grid; grid-template-rows: auto 1fr; gap: 28px; margin-top: 36px; }
+.menu { list-style: none; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.menu li { display: flex; flex-direction: column; align-items: flex-start; gap: 20px; padding: 18px 0 22px; border-top: 4px solid var(--accent); }
+.menu h3 { text-transform: uppercase; }
+.menu p { color: var(--muted); }
+.dot { display: grid; place-items: center; width: 44px; height: 44px; border-radius: 50%; background: var(--accent); color: #fff; font-weight: 700; }
+.split .figure { border-color: var(--line); border-radius: 18px; background: var(--surface); color: var(--muted); }
+
+.cards { flex: 1; display: grid; grid-template-rows: repeat(3, 1fr); gap: 18px; margin-top: 36px; }
+.card { display: grid; grid-template-columns: 220px 220px 1fr; align-items: center; gap: 32px; padding: 16px; border-radius: 18px; background: var(--surface); }
+.card .figure { align-self: stretch; border-radius: 14px; }
+.card p { padding-left: 32px; border-left: 1px solid var(--line); }
+
+.groups { flex: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin: 40px 0 20px; }
+.group { display: flex; flex-direction: column; align-items: flex-start; gap: 28px; padding: 30px; border-radius: 18px; background: var(--surface); }
+.group strong { padding: 8px 18px; border-radius: 8px; color: #fff; }
+.chips { display: flex; flex-direction: column; align-self: stretch; gap: 12px; }
+.chips span { padding: 10px 18px; border-radius: 8px; }
+.green strong { background: #3d9061; } .green .chips span { background: #dbf2e5; }
+.blue strong { background: #0a5aa9; } .blue .chips span { background: #a7cdf3; }
+.orange strong { background: #e88f3d; } .orange .chips span { background: #ffe5c7; }
+
+#ink { position: absolute; inset: 0; z-index: 3; width: 1280px; height: 720px; pointer-events: none; touch-action: none; }
+.drawing #ink { pointer-events: auto; cursor: crosshair; }
+#laser { position: fixed; width: 18px; height: 18px; margin: -9px 0 0 -9px; border-radius: 50%; background: #ff2d2d; box-shadow: 0 0 14px 6px rgba(255, 45, 45, .6); pointer-events: none; z-index: 30; left: -50px; top: -50px; }
+.pointing #viewport, .pointing #viewport * { cursor: none !important; }
+#progress { position: fixed; left: 0; bottom: 0; height: 4px; background: var(--accent); transition: width .35s; z-index: 10; }
+
+#toolbar { position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%); display: flex; align-items: center; gap: 4px; padding: 6px 8px; background: #fff; border: 1px solid var(--border); box-shadow: 0 6px 24px rgba(0, 0, 0, .1); border-radius: 999px; z-index: 20; white-space: nowrap; transition: opacity .3s; }
+#toolbar button { border: 0; background: none; border-radius: 999px; padding: 7px 13px; font-size: 14px; }
+#toolbar button:hover { background: var(--surface); }
+#toolbar button.on { background: var(--accent); color: #fff; }
+#count { min-width: 60px; text-align: center; font-size: 14px; font-variant-numeric: tabular-nums; }
+.idle #toolbar:not(:hover) { opacity: 0; pointer-events: none; }
+.idle:not(.drawing) #viewport { cursor: none; }
+
+.overlay { position: fixed; inset: 0; z-index: 40; }
+#black { background: #000; }
+#overview { background: var(--bg); overflow: auto; padding: 40px; display: grid; grid-template-columns: repeat(auto-fit, 320px); gap: 24px; justify-content: center; align-content: center; }
+.thumb { position: relative; width: 320px; height: 180px; border-radius: 8px; overflow: hidden; outline: 1px solid var(--border); cursor: pointer; }
+.thumb:hover, .thumb.current { outline: 3px solid var(--accent); }
+.thumb .slide { transform: scale(.25); transform-origin: 0 0; pointer-events: none; }
+.thumb b { position: absolute; right: 8px; bottom: 8px; z-index: 1; padding: 2px 9px; border-radius: 6px; background: #000a; color: #fff; font-size: 12px; }
+#help { display: grid; place-items: center; background: rgba(0, 0, 0, .35); }
+#help div { display: grid; grid-template-columns: auto auto; gap: 10px 40px; background: var(--bg); border-radius: 16px; padding: 32px 40px; font-size: 16px; max-height: 90vh; overflow: auto; }
+kbd { font-family: inherit; font-weight: 700; }
+#toast { position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 50; padding: 10px 20px; border-radius: 10px; background: #222733; color: #fff; font-size: 15px; }
+
+#presenter { position: fixed; inset: 0; display: grid; grid-template: "current side" 1fr "bar bar" auto / 3fr 2fr; gap: 20px; padding: 20px; background: var(--bg); }
+#presenter .area-current { grid-area: current; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+#presenter .area-side { grid-area: side; display: flex; flex-direction: column; gap: 10px; min-height: 0; min-width: 0; }
+#presenter .label { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.preview { position: relative; width: 100%; aspect-ratio: 16 / 9; overflow: hidden; border: 1px solid var(--border); border-radius: 10px; }
+.preview .slide { transform-origin: 0 0; pointer-events: none; }
+.preview.small { width: 70%; }
+.preview .end { display: grid; place-items: center; height: 100%; color: var(--muted); }
+#p-notes { flex: 1; min-height: 80px; overflow: auto; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 18px; font-size: 20px; line-height: 1.55; white-space: pre-line; }
+#presenter footer { grid-area: bar; display: flex; align-items: center; gap: 14px; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+#presenter footer button { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 10px 20px; }
+#p-timer { font-size: 36px; font-weight: 700; }
+#p-status { margin-left: auto; color: var(--muted); }
+
+@page { size: 1280px 720px; margin: 0; }
+@media print {
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; transition: none !important; }
+  html, body { height: auto; overflow: visible; }
+  #viewport { position: static; }
+  #stage { position: static; width: 1280px; height: auto; transform: none; }
+  .slide { position: relative; opacity: 1; visibility: visible; break-after: page; }
+  .step:not(.shown) { opacity: 1; visibility: visible; transform: none; }
+  #ink, #laser, #progress, #toolbar, #toast, .overlay { display: none !important; }
+}
+
+/* Adaptação do modelo fornecido. Sem dependências externas. */
+.wordmark { font-size: 38px; font-weight: 800; letter-spacing: -2px; }
+.wordmark span { color: var(--accent); }
+.cover h1 { font-size: 68px; letter-spacing: -3px; line-height: 1.08; }
+.cover .pill { text-transform: none; font-size: 22px; }
+.cover .figure { display: flex; flex-direction: column; justify-content: center; align-items: stretch; gap: 32px; padding: 55px; background: linear-gradient(160deg,#e7f4ff,#b4d1e8); color:var(--text); }
+.source { border-top: 3px solid var(--accent); padding-top: 18px; }
+.source strong { display:block; font-size:34px; margin-bottom:8px; }
+.source p { font-size:26px; line-height:1.3; color:#35475f; }
+.traits { font-size:18px; }
+.compare { display:grid; grid-template-columns:1fr 1fr; gap:26px; flex:1; margin-top:36px; }
+.compare article { border-radius:18px; background:var(--surface); padding:34px; display:flex; flex-direction:column; justify-content:center; gap:22px; }
+.compare .now { background:#f5eef3; border:2px solid #d8bdd0; }
+.eyebrow { text-transform:uppercase; font-size:18px; font-weight:700; letter-spacing:2px; color:var(--muted); }
+.compare h3 { font-size:52px; line-height:1.12; letter-spacing:-1.5px; }
+.compare p { font-size:25px; }
+.compare .now h3 { color:var(--accent); font-size:43px; }
+.compare .detail { font-size:21px; color:var(--muted); }
+.menu.three { grid-template-columns:repeat(3,1fr); }
+.menu.three h3 { font-size:27px; text-transform:none; margin-bottom:10px; }
+.menu.three p { font-size:22px; max-width:280px; }
+.shared { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:12px; background:var(--surface); border:1px solid var(--border); border-radius:18px; text-align:center; }
+.shared strong { font-size:42px; letter-spacing:-1px; }
+.shared p { font-size:25px; color:var(--muted); }
+.team { display:grid; grid-template-columns:repeat(3,1fr); grid-template-rows:repeat(2,1fr); gap:20px; margin-top:38px; flex:1; margin-bottom:12px; }
+.person { background:var(--surface); border-radius:18px; padding:28px; display:flex; flex-direction:column; justify-content:center; border-top:4px solid var(--accent); }
+.person h3 { font-size:30px; margin-bottom:14px; }
+.person p { font-size:23px; color:var(--muted); line-height:1.4; }
+.priorities { margin-bottom:20px; gap:22px; }
+.priorities .group { gap:22px; padding:28px; }
+.priorities h3 { font-size:29px; color:var(--accent); }
+.priorities p { font-size:24px; line-height:1.45; }
+.decision { padding:23px 28px; border-left:6px solid var(--accent); background:#f5eef3; font-size:25px; border-radius:0 12px 12px 0; margin-bottom:20px; }
+.decision strong { color:var(--accent); }
+@media (prefers-reduced-motion:reduce) { *,*::before,*::after { transition:none !important; animation:none !important; } }
+@media (max-width:700px) { #toolbar { max-width:96vw; overflow-x:auto; } #toolbar button { padding:7px 9px; } }
+
+.try { display:grid; grid-template-columns:1fr 440px; align-items:center; gap:56px; flex:1; margin-top:36px; }
+.try a { display:inline-block; font-size:34px; font-weight:800; color:var(--accent); overflow-wrap:anywhere; }
+.try p { font-size:28px; color:var(--muted); margin-bottom:20px; }
+.qr { padding:12px; border:2px solid var(--border); border-radius:18px; }
+.qr svg { display:block; width:100%; height:auto; }
+</style>
+</head>
+<body>
+
+<main id="viewport">
+<div id="stage">
+
+
+  <section class="slide cover" aria-label="MighT: um só perfil">
+    <div class="logo wordmark">Migh<span>T</span></div>
+    <p class="sub">A nossa versão do MighT</p>
+    <h1>O teu percurso.<br>Por inteiro.</h1>
+    <span class="pill">Um só perfil</span>
+    <div class="figure">
+      <div class="source"><strong>CV</strong><p>O que fizeste</p></div>
+      <div class="source"><strong>GitHub</strong><p>O que construíste</p></div>
+      <div class="source"><strong>MighT</strong><p>Como os outros<br>te veem</p></div>
+    </div>
+    <div class="traits"><span>Opinião</span><span>Experiência</span><span>Projetos</span></div>
+    <aside class="notes">0:00–0:15 · 15 segundos
+O CV diz o que fizeste. O GitHub mostra o que construíste. O MighT mostra como os outros te veem. A nossa versão junta estas três perspetivas num só perfil.</aside>
+  </section>
+
+  <section class="slide" aria-label="Antes e agora">
+    <h2>Do raio-X a um perfil completo</h2>
+    <div class="compare">
+      <article>
+        <span class="eyebrow">Antes</span>
+        <h3>3 palavras<br>+ LinkedIn</h3>
+        <p>Um raio-X de como os outros te veem</p>
+        <p class="detail">Sem provas do teu percurso</p>
+      </article>
+      <article class="now">
+        <span class="eyebrow">A nossa versão</span>
+        <h3>Opinião<br>+ experiência<br>+ o que constróis</h3>
+        <p>Tudo no mesmo perfil</p>
+      </article>
+    </div>
+    <aside class="notes">0:15–0:30 · 15 segundos
+Antes, o MighT era um raio-X: três palavras e uma ligação ao LinkedIn, sem provas. Mantivemos essa perspetiva e juntámos-lhe a experiência do CV e aquilo que a pessoa constrói no GitHub.</aside>
+  </section>
+
+  <section class="slide" aria-label="Como nos organizámos">
+    <h2>Começámos por perceber o caso</h2>
+    <p class="sub">Só depois dividimos o trabalho</p>
+    <div class="split">
+      <ul class="menu three">
+        <li><span class="dot">1</span><div><h3>Ler em conjunto</h3><p>Todos lemos o caso.</p></div></li>
+        <li><span class="dot">2</span><div><h3>Trocar ideias</h3><p>Discutimos até todos perceberem.</p></div></li>
+        <li><span class="dot">3</span><div><h3>Dividir tarefas</h3><p>Cada um ficou com a área que conhecia melhor.</p></div></li>
+      </ul>
+      <div class="shared"><strong>Uma visão comum</strong><p>O mesmo problema. O mesmo objetivo.</p></div>
+    </div>
+    <aside class="notes">0:30–0:55 · 25 segundos
+Antes de começar a desenvolver, lemos todos o caso e trocámos ideias até todos perceberem o problema e a proposta. Só depois dividimos as tarefas. A ideia foi termos uma visão comum e aproveitar o conhecimento de cada pessoa, mantendo o mesmo objetivo para o produto.</aside>
+  </section>
+
+  <section class="slide" aria-label="Divisão por conhecimento">
+    <h2>Dividimos por conhecimento</h2>
+    <p class="sub">Uma responsabilidade clara para cada pessoa</p>
+    <div class="team">
+      <article class="person"><h3>Leo</h3><p>Front-end</p></article>
+      <article class="person"><h3>Diogo</h3><p>Dados</p></article>
+      <article class="person"><h3>Francisco</h3><p>Backend<br>Avatar IA</p></article>
+      <article class="person"><h3>Guilherme</h3><p>GitHub<br>LinkedIn</p></article>
+      <article class="person"><h3>Vasco</h3><p>CV<br>Knowledge graph</p></article>
+      <article class="person"><h3>Mariana</h3><p>Pitch</p></article>
+    </div>
+    <aside class="notes">0:55–1:20 · 25 segundos
+O Leo ficou com o front-end, o Diogo com os dados e o Francisco com o backend e o avatar de IA. O Guilherme tratou do GitHub e do LinkedIn, o Vasco do CV e do knowledge graph, e a Mariana do pitch. Dividimos por conhecimento, com uma responsabilidade clara para cada pessoa.</aside>
+  </section>
+
+  <section class="slide" aria-label="Prioridades da equipa">
+    <h2>Garantir a jornada foi a prioridade</h2>
+    <p class="sub">As prioridades que guiaram o trabalho</p>
+    <div class="groups priorities">
+      <article class="group"><span class="dot">1</span><h3>Foco</h3><p>Concentrar o esforço nas funcionalidades essenciais.</p></article>
+      <article class="group"><span class="dot">2</span><h3>Integração</h3><p>Ligar o trabalho de cada área num único perfil.</p></article>
+      <article class="group"><span class="dot">3</span><h3>Jornada</h3><p>Garantir o percurso do primeiro MighT ao perfil completo.</p></article>
+    </div>
+    <div class="decision"><strong>Talent Debt</strong> ficou fora desta versão para garantir a jornada.</div>
+    <aside class="notes">1:20–1:45 · 25 segundos
+O foco foi garantir uma jornada completa. Para isso, priorizámos o essencial e a ligação entre as várias partes do produto. Fizemos também uma escolha de âmbito: cortámos o Talent Debt para concentrar o esforço nessa jornada. E é essa experiência que vamos mostrar agora.
+
+Aos 1:45, mudar para a aplicação e iniciar a demo ao vivo.</aside>
+  </section>
+
+  <section class="slide" aria-label="Experimenta o MighT">
+    <h2>Experimenta tu</h2>
+    <p class="sub">Lê o código QR com o telemóvel</p>
+    <div class="try">
+      <div><p>Ou abre no browser:</p><a href="https://might-epic-hack-2026.vercel.app" target="_blank" rel="noopener">might-epic-hack-2026.vercel.app</a></div>
+      <div class="qr" role="img" aria-label="Código QR para https://might-epic-hack-2026.vercel.app"><svg viewBox="0 0 370 370" class="segno"><g transform="scale(10)"><path fill="#fff" d="M0 0h37v37h-37z"/><path class="qrline" stroke="#1c1e28" d="M4 4.5h7m2 0h2m2 0h2m3 0h1m3 0h7m-29 1h1m5 0h1m1 0h2m2 0h1m4 0h2m1 0h1m1 0h1m5 0h1m-29 1h1m1 0h3m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m2 0h1m2 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m1 0h2m1 0h1m1 0h1m1 0h4m1 0h1m1 0h1m1 0h3m1 0h1m-29 1h1m1 0h3m1 0h1m4 0h2m1 0h1m2 0h4m1 0h1m1 0h3m1 0h1m-29 1h1m5 0h1m5 0h1m7 0h1m1 0h1m5 0h1m-29 1h7m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h1m1 0h7m-21 1h4m4 0h1m-17 1h1m5 0h1m1 0h1m1 0h2m1 0h2m2 0h2m2 0h2m2 0h3m-27 1h2m1 0h1m3 0h2m1 0h2m2 0h1m3 0h1m1 0h1m1 0h2m1 0h2m-28 1h4m1 0h2m1 0h1m1 0h3m2 0h4m5 0h1m-25 1h3m1 0h1m3 0h1m2 0h1m4 0h1m1 0h1m6 0h1m-26 1h1m5 0h2m5 0h4m1 0h1m1 0h4m4 0h1m-29 1h1m1 0h1m2 0h1m1 0h1m3 0h1m3 0h2m2 0h2m1 0h3m2 0h2m-27 1h1m3 0h2m1 0h1m1 0h2m2 0h2m1 0h1m1 0h1m1 0h2m1 0h2m-27 1h2m8 0h3m1 0h3m1 0h1m2 0h4m1 0h1m1 0h1m-28 1h1m1 0h2m1 0h2m1 0h1m5 0h1m1 0h3m5 0h2m-27 1h1m3 0h1m2 0h3m1 0h1m1 0h1m1 0h2m2 0h1m2 0h3m1 0h3m-29 1h2m4 0h1m2 0h3m3 0h2m1 0h2m2 0h1m1 0h2m2 0h1m-29 1h1m1 0h2m1 0h1m1 0h2m1 0h2m1 0h1m1 0h1m2 0h2m1 0h1m-22 1h1m2 0h7m2 0h1m1 0h5m1 0h5m1 0h3m-21 1h1m3 0h1m1 0h2m4 0h1m3 0h2m-26 1h7m4 0h2m2 0h3m1 0h2m1 0h1m1 0h3m-27 1h1m5 0h1m7 0h1m1 0h1m1 0h3m3 0h1m2 0h2m-29 1h1m1 0h3m1 0h1m4 0h1m1 0h4m1 0h8m2 0h1m-29 1h1m1 0h3m1 0h1m3 0h1m3 0h6m1 0h1m3 0h2m1 0h1m-29 1h1m1 0h3m1 0h1m2 0h1m1 0h1m2 0h2m1 0h1m2 0h1m1 0h6m-28 1h1m5 0h1m2 0h5m1 0h1m2 0h1m3 0h5m1 0h1m-29 1h7m1 0h2m4 0h4m1 0h1m1 0h1m1 0h1m2 0h1"/></g></svg></div>
+    </div>
+    <aside class="notes">Slide final. Convidar o público a ler o código QR e experimentar a aplicação.</aside>
+  </section>
+
+  <canvas id="ink" width="2560" height="1440"></canvas>
+</div>
+</main>
+
+<div id="progress"></div>
+<div id="laser" hidden></div>
+
+<nav id="toolbar">
+  <button data-action="prev" title="Previous (Left arrow)">‹</button>
+  <span id="count"></span>
+  <button data-action="next" title="Next (Right arrow)">›</button>
+  <button data-action="overview" title="Overview (O)">Visão geral</button>
+  <button data-action="draw" title="Draw (D)">Desenhar</button>
+  <button data-action="laser" title="Laser pointer (L)">Laser</button>
+  <button data-action="presenter" title="Presenter view (P)">Apresentador</button>
+  <button data-action="fullscreen" title="Fullscreen (F)">Ecrã inteiro</button>
+  <button data-action="help" title="Shortcuts (H)">?</button>
+</nav>
+
+<div id="overview" class="overlay" hidden></div>
+<div id="black" class="overlay" hidden></div>
+<div id="help" class="overlay" hidden>
+  <div>
+    <kbd>→ ↓ Space PageDown</kbd><span>Passo ou slide seguinte</span>
+    <kbd>← ↑ Backspace PageUp</kbd><span>Passo ou slide anterior</span>
+    <kbd>Number then Enter</kbd><span>Ir para o slide</span>
+    <kbd>Home / End</kbd><span>Primeiro ou último slide</span>
+    <kbd>F</kbd><span>Fullscreen</span>
+    <kbd>P</kbd><span>Vista do apresentador com notas e cronómetro</span>
+    <kbd>O</kbd><span>Visão geral dos slides</span>
+    <kbd>D / C</kbd><span>Desenhar / apagar desenho</span>
+    <kbd>L</kbd><span>Ponteiro laser</span>
+    <kbd>B or .</kbd><span>Ecrã preto</span>
+    <kbd>Ctrl + P</kbd><span>Guardar como PDF</span>
+    <kbd>Esc</kbd><span>Fechar painéis e ferramentas</span>
+  </div>
+</div>
+<div id="toast" hidden></div>
+
+<script>
+const $ = (selector, root = document) => root.querySelector(selector);
+const $$ = (selector, root = document) => [...root.querySelectorAll(selector)];
+
+const body = document.body;
+const stage = $('#stage');
+const slides = $$('.slide', stage);
+const stepsOf = (i) => $$('.step', slides[i]).length;
+const clamp = (value, min, max) => Math.min(Math.max(value, min), max);
+const isPresenter = new URLSearchParams(location.search).has('presenter');
+const DECK = 'might-pitch-abertura';
+
+let index = clamp((parseInt(location.hash.slice(1), 10) || 1) - 1, 0, slides.length - 1);
+let step = 0;
+
+function cloneSlide(i, shown) {
+  const copy = slides[i].cloneNode(true);
+  copy.classList.add('active');
+  $$('.step', copy).forEach((el, n) => el.classList.toggle('shown', n < shown));
+  return copy;
+}
+
+function startPresenter() {
+  body.innerHTML = `
+    <div id="presenter">
+      <div class="area-current">
+        <span class="label">Atual</span>
+        <div class="preview" id="p-current"></div>
+      </div>
+      <div class="area-side">
+        <span class="label">Seguinte</span>
+        <div class="preview small" id="p-next"></div>
+        <span class="label">Notas</span>
+        <div id="p-notes"></div>
+      </div>
+      <footer>
+        <span id="p-timer">00:00</span>
+        <button id="p-pause">Pausar</button>
+        <button id="p-reset">Reiniciar</button>
+        <button data-cmd="prev">‹ Anterior</button>
+        <button data-cmd="next">Seguinte ›</button>
+        <button data-cmd="black">Ecrã preto</button>
+        <span id="p-status">Abre esta vista a partir dos slides com a tecla P.</span>
+      </footer>
+    </div>`;
+  document.title = 'Vista do apresentador';
+
+  const send = (message) => window.opener && window.opener.postMessage({ deck: DECK, ...message }, '*');
+  let current = { index, step };
+  let elapsed = 0;
+  let last = Date.now();
+  let running = true;
+  let heard = 0;
+
+  const fit = () => $$('.preview').forEach((box) => {
+    const slide = $('.slide', box);
+    if (slide) slide.style.transform = `scale(${box.clientWidth / 1280})`;
+  });
+
+  const draw = () => {
+    const { index: i, step: s } = current;
+    $('#p-current').replaceChildren(cloneSlide(i, s));
+    let upcoming;
+    if (s < stepsOf(i)) upcoming = cloneSlide(i, s + 1);
+    else if (i < slides.length - 1) upcoming = cloneSlide(i + 1, 0);
+    else upcoming = Object.assign(document.createElement('div'), { className: 'end', textContent: 'Iniciar a demo ao vivo' });
+    $('#p-next').replaceChildren(upcoming);
+    $('#p-notes').textContent = $('.notes', slides[i])?.textContent.trim() || 'Sem notas para este slide.';
+    fit();
+  };
+
+  addEventListener('message', (event) => {
+    if (event.source !== window.opener || event.data?.deck !== DECK || event.data.type !== 'state') return;
+    const { index: i, step: s } = event.data;
+    const changed = i !== current.index || s !== current.step;
+    current = { index: i, step: s };
+    heard = Date.now();
+    if (changed) draw();
+  });
+
+  setInterval(() => {
+    const now = Date.now();
+    if (running) elapsed += now - last;
+    last = now;
+    const total = Math.floor(elapsed / 1000);
+    $('#p-timer').textContent = [Math.floor(total / 60), total % 60].map((n) => String(n).padStart(2, '0')).join(':');
+    $('#p-status').textContent = now - heard < 2000
+      ? `Slide ${current.index + 1} de ${slides.length}`
+      : 'Abre esta vista a partir dos slides com a tecla P.';
+    send({ type: 'hello' });
+  }, 500);
+
+  $('#p-pause').onclick = (e) => { running = !running; e.target.textContent = running ? 'Pausar' : 'Retomar'; };
+  $('#p-reset').onclick = () => { elapsed = 0; };
+  $$('[data-cmd]').forEach((button) => button.addEventListener('click', () => {
+    send({ type: 'command', command: button.dataset.cmd });
+    button.blur();
+  }));
+
+  const keys = { ArrowRight: 'next', ArrowDown: 'next', PageDown: 'next', ' ': 'next', Enter: 'next', ArrowLeft: 'prev', ArrowUp: 'prev', PageUp: 'prev', Backspace: 'prev', Home: 'first', End: 'last', b: 'black', B: 'black', '.': 'black' };
+  addEventListener('keydown', (e) => {
+    if (e.ctrlKey || e.metaKey || e.altKey || !keys[e.key]) return;
+    e.preventDefault();
+    send({ type: 'command', command: keys[e.key] });
+  });
+
+  addEventListener('resize', fit);
+  draw();
+  send({ type: 'hello' });
+}
+
+function startDeck() {
+  const ink = $('#ink');
+  const pen = ink.getContext('2d');
+  const overview = $('#overview');
+  const strokes = slides.map(() => []);
+  let presenterWindow = null;
+  let stroke = null;
+  let typed = '';
+  let typedTimer, idleTimer, toastTimer;
+
+  const fit = () => stage.style.setProperty('--scale', Math.min(innerWidth / 1280, innerHeight / 720));
+
+  const redraw = () => {
+    pen.setTransform(2, 0, 0, 2, 0, 0);
+    pen.clearRect(0, 0, 1280, 720);
+    pen.lineWidth = 5;
+    pen.lineCap = pen.lineJoin = 'round';
+    pen.strokeStyle = '#e53935';
+    strokes[index].forEach((points) => {
+      pen.beginPath();
+      pen.moveTo(...points[0]);
+      points.forEach((point) => pen.lineTo(...point));
+      pen.stroke();
+    });
+  };
+
+  const sync = () => presenterWindow && !presenterWindow.closed &&
+    presenterWindow.postMessage({ deck: DECK, type: 'state', index, step }, '*');
+
+  const render = () => {
+    slides.forEach((slide, i) => slide.classList.toggle('active', i === index));
+    $$('.step', slides[index]).forEach((el, n) => el.classList.toggle('shown', n < step));
+    $('#count').textContent = `${index + 1} / ${slides.length}`;
+    $('#progress').style.width = `${((index + 1) / slides.length) * 100}%`;
+    $$('.thumb', overview).forEach((thumb, i) => thumb.classList.toggle('current', i === index));
+    try { history.replaceState(null, '', '#' + (index + 1)); } catch {}
+    redraw();
+    sync();
+  };
+
+  const go = (target, targetStep = 0) => {
+    target = clamp(target, 0, slides.length - 1);
+    if (target !== index) $$('.open', slides[index]).forEach((el) => el.classList.remove('open'));
+    index = target;
+    step = targetStep;
+    render();
+  };
+
+  const toast = (text) => {
+    $('#toast').textContent = text;
+    $('#toast').hidden = false;
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => { $('#toast').hidden = true; }, 3500);
+  };
+
+  const mark = (action, on) => $(`[data-action="${action}"]`).classList.toggle('on', on);
+
+  const setDraw = (on) => {
+    body.classList.toggle('drawing', on);
+    mark('draw', on);
+    if (on) setLaser(false);
+  };
+
+  const setLaser = (on) => {
+    body.classList.toggle('pointing', on);
+    $('#laser').hidden = !on;
+    mark('laser', on);
+    if (on) setDraw(false);
+  };
+
+  const toggleOverview = (open = overview.hidden) => {
+    overview.hidden = !open;
+    if (!open) return overview.replaceChildren();
+    overview.replaceChildren(...slides.map((_, i) => {
+      const thumb = document.createElement('div');
+      thumb.className = 'thumb';
+      thumb.classList.toggle('current', i === index);
+      const number = Object.assign(document.createElement('b'), { textContent: i + 1 });
+      const copy = cloneSlide(i, stepsOf(i));
+      copy.inert = true;
+      thumb.append(copy, number);
+      thumb.addEventListener('click', () => { toggleOverview(false); go(i); });
+      return thumb;
+    }));
+  };
+
+  const actions = {
+    next: () => (step < stepsOf(index) ? go(index, step + 1) : index < slides.length - 1 && go(index + 1)),
+    prev: () => (step > 0 ? go(index, step - 1) : index > 0 && go(index - 1, stepsOf(index - 1))),
+    first: () => go(0),
+    last: () => go(slides.length - 1),
+    overview: () => toggleOverview(),
+    draw: () => setDraw(!body.classList.contains('drawing')),
+    clear: () => { strokes[index] = []; redraw(); },
+    laser: () => setLaser(!body.classList.contains('pointing')),
+    black: () => { $('#black').hidden = !$('#black').hidden; },
+    help: () => { $('#help').hidden = !$('#help').hidden; },
+    fullscreen: () => (document.fullscreenElement ? document.exitFullscreen() : document.documentElement.requestFullscreen().catch(() => toast('Fullscreen is not available'))),
+    presenter: () => {
+      presenterWindow = window.open(location.href.split(/[?#]/)[0] + '?presenter#' + (index + 1), 'might-presenter', 'width=1200,height=750');
+      if (!presenterWindow) toast('Allow pop-ups for this page to open the presenter view');
+    },
+    escape: () => {
+      $('#help').hidden = true;
+      $('#black').hidden = true;
+      $$('.open', stage).forEach((el) => el.classList.remove('open'));
+      toggleOverview(false);
+      setDraw(false);
+      setLaser(false);
+    },
+  };
+
+  const keys = {
+    ArrowRight: 'next', ArrowDown: 'next', PageDown: 'next', ' ': 'next', Enter: 'next',
+    ArrowLeft: 'prev', ArrowUp: 'prev', PageUp: 'prev', Backspace: 'prev',
+    Home: 'first', End: 'last', Escape: 'escape',
+    o: 'overview', d: 'draw', c: 'clear', l: 'laser', b: 'black', '.': 'black',
+    h: 'help', '?': 'help', f: 'fullscreen', p: 'presenter',
+  };
+
+  addEventListener('keydown', (e) => {
+    if (e.ctrlKey || e.metaKey || e.altKey) return;
+    if (e.target.closest('button') && (e.key === ' ' || e.key === 'Enter')) return;
+
+    if (/^\d$/.test(e.key)) {
+      typed += e.key;
+      toast('Go to slide ' + typed);
+      clearTimeout(typedTimer);
+      typedTimer = setTimeout(() => { typed = ''; }, 2000);
+      return;
+    }
+    if (e.key === 'Enter' && typed) {
+      go(Number(typed) - 1);
+      typed = '';
+      return;
+    }
+
+    let action = keys[e.key.length === 1 ? e.key.toLowerCase() : e.key];
+    if (!action) return;
+    e.preventDefault();
+    if (e.key === ' ' && e.shiftKey) action = 'prev';
+    if (!$('#black').hidden && action !== 'black') return actions.black();
+    if (!overview.hidden && e.key === 'Enter') return toggleOverview(false);
+    actions[action]();
+  });
+
+  document.addEventListener('click', (e) => {
+    const button = e.target.closest('button');
+    if (button && e.detail) button.blur();
+  });
+
+  $('#toolbar').addEventListener('click', (e) => {
+    const button = e.target.closest('[data-action]');
+    if (button) actions[button.dataset.action]();
+  });
+
+  stage.addEventListener('click', (e) => {
+    const toggle = e.target.closest('[data-toggle]');
+    if (toggle) return toggle.classList.toggle('open');
+    if (body.classList.contains('drawing') || e.target.closest('a') || String(getSelection())) return;
+    actions.next();
+  });
+
+  $('#black').addEventListener('click', actions.black);
+  $('#help').addEventListener('click', actions.help);
+
+  const position = (e) => {
+    const box = ink.getBoundingClientRect();
+    return [((e.clientX - box.left) / box.width) * 1280, ((e.clientY - box.top) / box.height) * 720];
+  };
+  ink.addEventListener('pointerdown', (e) => {
+    ink.setPointerCapture(e.pointerId);
+    stroke = [position(e)];
+    strokes[index].push(stroke);
+    redraw();
+  });
+  ink.addEventListener('pointermove', (e) => {
+    if (!stroke) return;
+    stroke.push(position(e));
+    redraw();
+  });
+  ['pointerup', 'pointercancel'].forEach((type) => ink.addEventListener(type, () => { stroke = null; }));
+
+  const wake = () => {
+    body.classList.remove('idle');
+    clearTimeout(idleTimer);
+    idleTimer = setTimeout(() => body.classList.add('idle'), 2500);
+  };
+  addEventListener('pointermove', (e) => {
+    $('#laser').style.left = e.clientX + 'px';
+    $('#laser').style.top = e.clientY + 'px';
+    wake();
+  });
+  addEventListener('pointerdown', wake);
+
+  let touch = null;
+  stage.addEventListener('touchstart', (e) => {
+    touch = body.classList.contains('drawing') || e.target.closest('button') ? null : e.changedTouches[0];
+  }, { passive: true });
+  stage.addEventListener('touchend', (e) => {
+    if (!touch) return;
+    const dx = e.changedTouches[0].clientX - touch.clientX;
+    const dy = e.changedTouches[0].clientY - touch.clientY;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy)) actions[dx < 0 ? 'next' : 'prev']();
+    touch = null;
+  });
+
+  addEventListener('message', (e) => {
+    if (!e.source || e.data?.deck !== DECK) return;
+    if (e.data.type === 'hello') {
+      presenterWindow = e.source;
+      sync();
+    }
+    if (e.data.type === 'command' && e.source === presenterWindow) actions[e.data.command]?.();
+  });
+
+  addEventListener('hashchange', () => go((parseInt(location.hash.slice(1), 10) || 1) - 1));
+  addEventListener('resize', fit);
+
+  fit();
+  render();
+  wake();
+}
+
+if (isPresenter) startPresenter();
+else startDeck();
+</script>
+</body>
+</html>
